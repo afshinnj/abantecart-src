@@ -14,7 +14,7 @@
 <?php } ?>
 
 <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>stylesheet/stylesheet.css" />
-
+<link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>stylesheet/bootstrap-rtl.css" />
 <?php foreach ($styles as $style) { ?>
 <link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>"
       media="<?php echo $style['media']; ?>"/>

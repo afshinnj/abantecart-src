@@ -130,13 +130,13 @@ h1,h2,h3,h4,h5 {
    width: 240px;
    position: absolute;
    top: 0;
-   left: 0;
+   right: 0;
    z-index: 100;
 }
 
 /***** content panel for all pages *****/
 .mainpanel {
-   margin-left: 240px;
+   margin-right: 240px;
    background: #e4e7ea;
 }
 /***** content panel for no columns mode (no authentication) *****/
@@ -178,12 +178,12 @@ h1,h2,h3,h4,h5 {
 }
 
 .menutoggle {
-   float: left;
    width: 50px;
    height: 50px;
    font-size: 22px;
    cursor: pointer;
-   float: left;
+   float: right;
+   padding-right: 15px;
    border-right: 1px solid #eee;
    -moz-transition: all 0.2s ease-out 0s;
    -webkit-transition: all 0.2s ease-out 0s;
@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5 {
 
 #global_search_chosen {
    width: 260px;
-   float: left;
+   float: right;
    border: 0;
    border-right: 1px solid #eee;
    -moz-border-radius: 0;
@@ -225,7 +225,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .header-right {
-   float: right;
+   float: left;
 }
 
 .headermenu {
@@ -884,7 +884,7 @@ h1,h2,h3,h4,h5 {
 .pageheader .ant-wrapper {
 	position: absolute;
 	top: 5px;
-	right: 25px;
+	left: 25px;
 	max-width: 400px;
 	max-height: 55px;
 	font-size: 12px !important;
@@ -1495,7 +1495,7 @@ p {
 }
 
 .leftpanel-collapsed .headerbar {
-   margin-left: -50px;
+   margin-right: -50px;
 }
 
 .leftpanel-collapsed .leftpanel {
@@ -1613,7 +1613,7 @@ p {
 }
 
 .leftpanel-collapsed .mainpanel {
-   margin-left: 50px;
+   margin-right: 50px;
 }
 
 .leftpanel-collapsed .side_summary {

@@ -61,61 +61,43 @@
 		<div class="header-right">
 			<ul class="headermenu">
 				<?php echo $this->getHookVar('headermenu_left'); ?>
-				<li class="hidden-xs">
-					<?php if ($config_voicecontrol) { ?>
-						<div class="btn-group" id="voice_start">
-							<a data-toggle="modal" href="#voiceModal" id="start_button" class="btn btn-default tp-icon"
-							   onclick="startButton(event)"
-							   title="Click on the microphone icon and begin speaking for as long as you like.">
-								<i class="fa fa-microphone fa-lg"></i>
-							</a>
-						</div>
-					<?php } else { ?>
-						<div class="btn-group" id="voice_disabled">
-							<a href="<?php echo $voicecontrol_setting_url; ?>"
-							   class="btn btn-default tp-icon activate_setting"
-							   title="Click on the microphone to enable this setting.">
-								<i class="grey_out fa fa-microphone-slash fa-lg"></i>
-							</a>
-						</div>
-					<?php } ?>
+                                <li>
+					<button id="right_side_view" class="btn btn-default tp-icon chat-icon">
+						<i class="fa fa-folder fa-lg"></i>
+					</button>
 				</li>
-
-				<?php if ($ant) { ?>
-					<li>
-						<div class="btn-group ant_window">
-							<button class="btn btn-default dropdown-toggle tp-icon" data-toggle="dropdown">
-								<i class="fa fa-comments fa-lg"></i>
-								<?php if ($ant_viewed <= 0) { ?>
-								<span class="badge"><i class="fa fa-bell"></i></span>
-								<?php } ?>
-							</button>
-							<div class="dropdown-menu dropdown-menu-head ant-menu-head pull-right">
-								<h5 class="title"><?php echo $text_abc_notification; ?></h5>
-								<ul class="dropdown-list gen-list">
-									<li>
-										<?php echo $ant; ?>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</li>
-				<?php } ?>
-				<li>
-					<div class="btn-group new_messages">
-						<a href="" class="btn btn-default dropdown-toggle tp-icon"
-						   data-toggle="dropdown">
-							<i class="fa fa-envelope fa-lg"></i>
-								<span class="badge"></span>
+				<li class="hidden-xs">
+					<div class="btn-group">
+						<a onClick="window.open('<?php echo $store; ?>');" class="btn btn-default tp-icon"
+						   data-toggle="dropdown" title="<?php echo $text_front; ?>">
+							<i class="fa fa-external-link fa-lg"></i>
 						</a>
+					</div>
+				</li>
+				<li>
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							<img src="<?php echo $avatar; ?>" alt="<?php echo $username; ?>"/>
+							<span class="hidden-xs"><?php echo $username; ?></span>
+							<span class="caret"></span>
+						</button>
 
 						<div class="dropdown-menu dropdown-menu-head pull-right">
-							<h5 class="title"></h5>
-							<ul class="dropdown-list gen-list"></ul>
+							<h5 class="title">
+								<?php echo $last_login; ?>
+								<a href="<?php echo $account_edit; ?>"><i class="fa fa-gears"></i></a>
+							</h5>
+							<ul class="dropdown-list gen-list">
+								<li><a href="<?php echo $account_edit; ?>"><i
+												class="fa fa-edit"></i> <?php echo $text_edit_details; ?></a></li>
+								<li><a href="<?php echo $logout; ?>"><i
+												class="fa fa-unlock"></i><?php echo $text_logout; ?></a></li>
+							</ul>
 						</div>
 					</div>
 				</li>
-				<?php
+
+                                <?php
 				 if ($languages) {
 				 	$cur_lang;
 				 	foreach ($languages as $language) {
@@ -165,42 +147,72 @@
 						</div>
 					</li>
 				<?php } ?>
+                                
 				<li>
-					<div class="btn-group">
-						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							<img src="<?php echo $avatar; ?>" alt="<?php echo $username; ?>"/>
-							<span class="hidden-xs"><?php echo $username; ?></span>
-							<span class="caret"></span>
-						</button>
+					<div class="btn-group new_messages">
+						<a href="" class="btn btn-default dropdown-toggle tp-icon"
+						   data-toggle="dropdown">
+							<i class="fa fa-envelope fa-lg"></i>
+								<span class="badge"></span>
+						</a>
 
 						<div class="dropdown-menu dropdown-menu-head pull-right">
-							<h5 class="title">
-								<?php echo $last_login; ?>
-								<a href="<?php echo $account_edit; ?>"><i class="fa fa-gears"></i></a>
-							</h5>
-							<ul class="dropdown-list gen-list">
-								<li><a href="<?php echo $account_edit; ?>"><i
-												class="fa fa-edit"></i> <?php echo $text_edit_details; ?></a></li>
-								<li><a href="<?php echo $logout; ?>"><i
-												class="fa fa-unlock"></i><?php echo $text_logout; ?></a></li>
-							</ul>
+							<h5 class="title"></h5>
+							<ul class="dropdown-list gen-list"></ul>
 						</div>
 					</div>
 				</li>
+                                
+                                <?php if ($ant) { ?>
+					<li>
+						<div class="btn-group ant_window">
+							<button class="btn btn-default dropdown-toggle tp-icon" data-toggle="dropdown">
+								<i class="fa fa-comments fa-lg"></i>
+								<?php if ($ant_viewed <= 0) { ?>
+								<span class="badge"><i class="fa fa-bell"></i></span>
+								<?php } ?>
+							</button>
+							<div class="dropdown-menu dropdown-menu-head ant-menu-head pull-right">
+								<h5 class="title"><?php echo $text_abc_notification; ?></h5>
+								<ul class="dropdown-list gen-list">
+									<li>
+										<?php echo $ant; ?>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				<?php } ?>
+                                   
 				<li class="hidden-xs">
-					<div class="btn-group">
-						<a onClick="window.open('<?php echo $store; ?>');" class="btn btn-default tp-icon"
-						   data-toggle="dropdown" title="<?php echo $text_front; ?>">
-							<i class="fa fa-external-link fa-lg"></i>
-						</a>
-					</div>
+					<?php if ($config_voicecontrol) { ?>
+						<div class="btn-group" id="voice_start">
+							<a data-toggle="modal" href="#voiceModal" id="start_button" class="btn btn-default tp-icon"
+							   onclick="startButton(event)"
+							   title="Click on the microphone icon and begin speaking for as long as you like.">
+								<i class="fa fa-microphone fa-lg"></i>
+							</a>
+						</div>
+					<?php } else { ?>
+						<div class="btn-group" id="voice_disabled">
+							<a href="<?php echo $voicecontrol_setting_url; ?>"
+							   class="btn btn-default tp-icon activate_setting"
+							   title="Click on the microphone to enable this setting.">
+								<i class="grey_out fa fa-microphone-slash fa-lg"></i>
+							</a>
+						</div>
+					<?php } ?>
 				</li>
+
+
+                                
+
+
+
+
+                                
 				<?php echo $this->getHookVar('headermenu_right'); ?>
-				<li>
-					<button id="right_side_view" class="btn btn-default tp-icon chat-icon">
-						<i class="fa fa-folder fa-lg"></i>
-					</button>
-				</li>
+	
 			</ul>
 		</div>
 		<!-- header-right -->
