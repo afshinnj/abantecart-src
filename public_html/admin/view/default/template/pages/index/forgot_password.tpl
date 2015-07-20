@@ -13,7 +13,7 @@
         <div class="loginuser">
             <img src="<?php echo $template_dir; ?>image/login.png" alt="<?php echo $text_login; ?>" />
         </div>
-        <div class="logged">
+        <div class="logged rtl">
             <h4><?php echo $heading_title; ?></h4>
             <small class="text-muted"><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></small>
         </div>

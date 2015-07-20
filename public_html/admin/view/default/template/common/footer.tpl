@@ -1,8 +1,8 @@
 		<div id="footer">
-		    <div class="col-md-4 footer_text flt_left">
-		      <p><?php echo $text_footer_left; ?></p>
-		    </div>
-		    <div class="col-md-5 help_links flt_right">
+                    
+                    <div class="col-md-3 version"><?php echo $text_footer; ?></div>
+                    
+		    <div class="col-md-5 help_links flt_left">
 		      <a href="" onclick="<?php echo $doc_menu['item_url']; ?> return false;">
 		      <?php echo $doc_menu['item_icon_code']; ?><?php echo $doc_menu_text; ?>
 		      </a>
@@ -13,7 +13,12 @@
 		      <?php echo $mp_menu['item_icon_code']; ?><?php echo $mp_menu_text; ?>
 		      </a>		      
 		    </div>
-		    <div class="col-md-3 version"><?php echo $text_footer; ?></div>
+                    
+		    <div class="col-md-4 footer_text flt_right">
+		      <p><?php echo $text_footer_left; ?></p>
+		    </div> 
+                    
+		    
 		</div>
 		<?php echo $this->getHookVar('footer_bottom'); ?>
 
