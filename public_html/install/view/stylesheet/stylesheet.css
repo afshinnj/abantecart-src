@@ -132,7 +132,8 @@ form .help-block{
 	margin-right: auto;
 }
 header {
-	margin: 10px 0 15px 20px;
+	margin: 10px 20px 20px 15px;
+        direction: rtl;
 }
 
 .main_content {
@@ -188,3 +189,4 @@ footer a {
 	border: 3px solid #F19013;
 	background: #F19013;
 }
+.rtl{direction: rtl}

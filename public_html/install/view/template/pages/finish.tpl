@@ -3,16 +3,16 @@
 	<div class="col-md-9">
 	<div class="panel panel-default">
 
-	<ul class="nav nav-tabs" role="tablist">
-	  <li class="disabled"><a href="#" onclick="return false;">1: License</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">2: Compatibility Validation</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">3: Configuration</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">4: Data Load</a></li>
-	  <li class="active"><a href="#" onclick="return false;">5: Finished</a></li>
-	</ul>
+            <ul class="nav nav-tabs rtl" role="tablist">
+                <li class="active"><a href="#">1: پروانه</a></li> <!--License-->
+                <li class="disabled"><a href="#" onclick="return false;">2: اعتبار سنجی سازگاری</a></li> <!--Compatibility Validation-->
+                <li class="disabled"><a href="#" onclick="return false;">3: پیکر بندی</a></li><!--Configuration-->
+                <li class="disabled"><a href="#" onclick="return false;">4: بارگیری داده</a></li><!--Data Load-->
+                <li class="disabled"><a href="#" onclick="return false;">5: پایان</a></li><!--Finished-->
+            </ul>
 
 	<div class="panel-heading">
-	<h2><i class="fa fa-flag-checkered fa-fw"></i> Installation Completed!</h2>
+	<h2><i class="fa fa-flag-checkered fa-fw"></i>  نصب با موفقیت به اتمام رسید! </h2>
 	</div>
 	
 	<div class="panel-body panel-body-nopadding">
@@ -46,11 +46,11 @@
 		<div class="container-fluid">
 	    <div class="snapshots col-md-6">
 		    <a href="../"><img src="<?php echo $template_dir; ?>image/storefront.png" alt="" width="250" style="border: none;" /></a><br />
-		    <a href="../">Your Online Shop</a>
+		    <a href="../">فروشگاه آنلاین شما</a>
 		</div>
 	    <div class="snapshots col-md-6">
 		    <a href="../<?php echo $admin_path ?>"><img src="<?php echo $template_dir; ?>image/admin.png" alt="" width="250" style="border: none;" /></a><br />
-		    <a href="../<?php echo $admin_path ?>">Login to your Control Panel</a>
+		    <a href="../<?php echo $admin_path ?>">ورود به کنترل پنل شما</a>
 		</div>
 		</div>
 
