@@ -305,7 +305,7 @@ h1,h2,h3,h4,h5 {
     border-right: 6px solid transparent;
     content: "";
     display: inline-block;
-    right: 17px;
+    left: 17px;
     position: absolute;
     top: -6px;
 }
@@ -361,7 +361,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .headermenu .tp-icon + .dropdown-menu:after {
-	right: 17px;
+	left: 17px;
 }
 
 .headermenu .chat-icon {
@@ -372,6 +372,7 @@ h1,h2,h3,h4,h5 {
    border: 1px solid #ddd;
    border-top: 0;
    padding: 0 10px;
+   text-align: right;
 }
 
 .headermenu .dropdown-menu-head li a {
@@ -923,7 +924,7 @@ h1,h2,h3,h4,h5 {
 .pageheader .breadcrumb-wrapper {
 	position: absolute;
 	top: 23px;
-	right: 25px;
+	left: 25px;
 	max-width: 400px;
 	white-space:nowrap;
 	overflow: hidden;
@@ -1677,12 +1678,12 @@ p {
 
 /***** Right Panel *****/
 .stats-view {
-   margin-right: 240px;
+   margin-left: 240px;
 }
 
 .stats-view .rightpanel {
    display: block;
-   right: 0;
+   left: 0;
 }
 
 .stats-relative-view {
@@ -2089,9 +2090,10 @@ p {
 	text-transform: uppercase;
 	font-size: 11px;
 	margin: 0;
+        text-align: right;
 }
 .dropdown-menu-head .title a {
-	float: right;	
+	float: left;	
 	color: #eeeeee;
 }
 

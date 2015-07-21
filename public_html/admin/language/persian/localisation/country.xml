@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[کشور]]></value>
+  </definition>
+  <definition>
+    <key>text_country</key>
+    <value><![CDATA[كشور]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما را تغییر می کشورها!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام كشور]]></value>
+  </definition>
+  <definition>
+    <key>column_iso_code_2</key>
+    <value><![CDATA[ISO كد (2)]]></value>
+  </definition>
+  <definition>
+    <key>column_iso_code_3</key>
+    <value><![CDATA[ISO كد (3)]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>column_status</key>
+    <value><![CDATA[وضعيت]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[وضعيت كشور:]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[نام كشور:]]></value>
+  </definition>
+  <definition>
+    <key>entry_iso_code_2</key>
+    <value><![CDATA[ISO كد (2):]]></value>
+  </definition>
+  <definition>
+    <key>entry_iso_code_3</key>
+    <value><![CDATA[ISO كد (3):]]></value>
+  </definition>
+  <definition>
+    <key>entry_address_format</key>
+    <value><![CDATA[فرمت ادرس:<br /><span class="help">
+نام = {نام}<br />
+نام خانوادگي = {نام خانوادگي}<br />
+شركت = {شركت}<br />
+ادرس 1 = {ادرس_1}<br />
+ادرس 2 = {ادرس_2}<br />
+شهر = {شهر}<br />
+كدپستي = {كدپستي}<br />
+منطقه = {منطقه}<br />
+كد منطقه = {منطقه_كد}<br />
+كشور = {كشور}</span>]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[هشدار: شما اجازه دسترسی به تغییر کشور ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[کشور نام باید بین 2 و 128 کاراکتر باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[هشدار: این کشور نمی تواند حذف شود آن را به عنوان در حال حاضر به عنوان کشور فروشگاه به طور پیش فرض اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[هشدار: این کشور نمی تواند حذف شود آن را به عنوان در حال حاضر به%s فروشگاه داده می شود!]]></value>
+  </definition>
+  <definition>
+    <key>error_address</key>
+    <value><![CDATA[هشدار: این کشور نمی تواند حذف شود آن را به عنوان در حال حاضر به%s مطالب کتاب آدرس اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_zone</key>
+    <value><![CDATA[هشدار: این کشور نمی تواند حذف شود آن را به عنوان در حال حاضر به مناطق%s بازدید کنندگان اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_zone_to_location</key>
+    <value><![CDATA[هشدار: این کشور نمی تواند حذف شود آن را به عنوان در حال حاضر به مناطق%s به مکان های اختصاص داده!]]></value>
+  </definition>
+</definitions>

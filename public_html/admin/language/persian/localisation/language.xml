@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[زبان]]></value>
+  </definition>
+  <definition>
+    <key>text_language</key>
+    <value><![CDATA[زبان]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما را تغییر می زبان!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام زبان]]></value>
+  </definition>
+  <definition>
+    <key>column_code</key>
+    <value><![CDATA[كد]]></value>
+  </definition>
+  <definition>
+    <key>column_sort_order</key>
+    <value><![CDATA[نوع سفارش]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[نام زبان:]]></value>
+  </definition>
+  <definition>
+    <key>entry_code</key>
+    <value><![CDATA[كد:<br /><span class="help">آیا تغییر کنید اگر این زبان پیش فرض شما است.</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_locale</key>
+    <value><![CDATA[محل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_image</key>
+    <value><![CDATA[تصوير:]]></value>
+  </definition>
+  <definition>
+    <key>entry_directory</key>
+    <value><![CDATA[فهرست راهنما:]]></value>
+  </definition>
+  <definition>
+    <key>entry_filename</key>
+    <value><![CDATA[نام فايل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[وضعيت:]]></value>
+  </definition>
+  <definition>
+    <key>entry_sort_order</key>
+    <value><![CDATA[نوع سفارش:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[هشدار: شما اجازه دسترسی به تغییر زبان ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[نام زبان باید بین 2 و 32 حرف باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_code</key>
+    <value><![CDATA[کد زبان حداقل باید 2 حرف!]]></value>
+  </definition>
+  <definition>
+    <key>error_locale</key>
+    <value><![CDATA[زبان مورد نیاز!]]></value>
+  </definition>
+  <definition>
+    <key>error_image</key>
+    <value><![CDATA[تصویر نام فایل باید بین 2 و 64 کاراکتر باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_directory</key>
+    <value><![CDATA[دایرکتوری مورد نیاز!]]></value>
+  </definition>
+  <definition>
+    <key>error_filename</key>
+    <value><![CDATA[نام فایل باید بین 2 و 64 کاراکتر باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[هشدار: این زبان را نمی توان حذف آن را به عنوان در حال حاضر به عنوان زبان پیش فرض فروشگاه اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_admin</key>
+    <value><![CDATA[هشدار: این زبان را نمی توان حذف آن را به عنوان در حال حاضر به عنوان زبان دولت اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[هشدار: این زبان را نمی توان حذف آن را به عنوان در حال حاضر به%s فروشگاه اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_order</key>
+    <value><![CDATA[هشدار: این زبان را نمی توان حذف آن را به عنوان در حال حاضر به%s سفارشات اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>language_edit_title</key>
+    <value><![CDATA[ويرايش جزئيات زبان]]></value>
+  </definition>
+  <definition>
+    <key>load_language_title</key>
+    <value><![CDATA[بارگزاری اطلاعات زبان گم شده]]></value>
+  </definition>
+  <definition>
+    <key>entry_language_selector</key>
+    <value><![CDATA[منبع زبان: ]]></value>
+  </definition>
+  <definition>
+    <key>entry_translate_method_selector</key>
+    <value><![CDATA[روش ترجمه متن: ]]></value>
+  </definition>
+  <definition>
+    <key>load_language_note</key>
+    <value><![CDATA[توجه: این عملیات ممکن است چند دقیقه به اجرا کنند. آیا نمی مرورگر نزدیک، ترک و یا تازه کردن صفحه!  ]]></value>
+  </definition>
+  <definition>
+    <key>create_language_note</key>
+    <value><![CDATA[توجه: ما توصیه می کنیم ایجاد زبان به عنوان یک فرمت. پسوند زبان های موجود را بررسی کنید. اگر شما هنوز هم می خواهید برای ایجاد زبان جدید دستی، شما نیاز به اضافه کردن زبان پرچم به 
+    
+    admin/language/[Language Directory]/flag.png and  storefront/language/[Language Directory]flag.png
+    
+   پس از زبان ایجاد می شود بار از دست رفته داده ها زبان برای ترجمه یا کپی محتوای متن از زبان مبدأ.  ]]></value>
+  </definition>
+  <definition>
+    <key>button_load_language</key>
+    <value><![CDATA[بارگيري]]></value>
+  </definition>
+</definitions>
+

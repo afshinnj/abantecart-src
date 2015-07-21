@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>text_subject</key>
+    <value><![CDATA[%s - حساب شما فعال شده است!]]></value>
+  </definition>
+  <definition>
+    <key>text_welcome</key>
+    <value><![CDATA[خوش آمدید و تشکر از شما برای ثبت نام در %s!]]></value>
+  </definition>
+  <definition>
+    <key>text_login</key>
+    <value><![CDATA[حساب کاربری شما در حال حاضر ایجاد شده است و شما می توانید در با استفاده از آدرس ایمیل و رمز عبور خود را با مراجعه به وب سایت ما و یا در URL زیر وارد سیستم شوید:]]></value>
+  </definition>
+  <definition>
+    <key>text_services</key>
+    <value><![CDATA[پس از ورود به سیستم، شما قادر به دسترسی به خدمات دیگر از جمله مرور سفارشات گذشته، فاکتورها چاپ و ویرایش اطلاعات حساب شما خواهد بود.]]></value>
+  </definition>
+  <definition>
+    <key>text_thanks</key>
+    <value><![CDATA[تشكر,]]></value>
+  </definition>
+</definitions>

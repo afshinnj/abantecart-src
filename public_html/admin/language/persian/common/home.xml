@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[داشبورد]]></value>
+  </definition>
+  <definition>
+    <key>text_overview</key>
+    <value><![CDATA[مشاهده سريع]]></value>
+  </definition>
+  <definition>
+    <key>text_statistics</key>
+    <value><![CDATA[امار]]></value>
+  </definition>
+  <definition>
+    <key>text_latest_10_orders</key>
+    <value><![CDATA[10 سفارش اخر]]></value>
+  </definition>
+  <definition>
+    <key>text_total_sale</key>
+    <value><![CDATA[جمع فروش:]]></value>
+  </definition>
+  <definition>
+    <key>text_total_sale_year</key>
+    <value><![CDATA[فروش يك ساله:]]></value>
+  </definition>
+  <definition>
+    <key>text_total_order</key>
+    <value><![CDATA[جمع سفارشات:]]></value>
+  </definition>
+  <definition>
+    <key>text_total_customer</key>
+    <value><![CDATA[تعداد مشتريان:]]></value>
+  </definition>
+  <definition>
+    <key>text_total_customer_approval</key>
+    <value><![CDATA[مشتریان در انتظار فعال:]]></value>
+  </definition>
+  <definition>
+    <key>text_total_product</key>
+    <value><![CDATA[تعداد محصولات:]]></value>
+  </definition>
+  <definition>
+    <key>text_total_review</key>
+    <value><![CDATA[تعداد نظرات:]]></value>
+  </definition>
+  <definition>
+    <key>text_total_review_approval</key>
+    <value><![CDATA[بررسي نظرات:]]></value>
+  </definition>
+  <definition>
+    <key>text_day</key>
+    <value><![CDATA[امروز]]></value>
+  </definition>
+  <definition>
+    <key>text_week</key>
+    <value><![CDATA[اين هفته]]></value>
+  </definition>
+  <definition>
+    <key>text_month</key>
+    <value><![CDATA[اين ماه]]></value>
+  </definition>
+  <definition>
+    <key>text_year</key>
+    <value><![CDATA[اين سال]]></value>
+  </definition>
+  <definition>
+    <key>text_order</key>
+    <value><![CDATA[جمع سفارشات]]></value>
+  </definition>
+  <definition>
+    <key>text_order_short</key>
+    <value><![CDATA[جمع سفارشات]]></value>
+  </definition>
+  <definition>
+    <key>text_customer</key>
+    <value><![CDATA[جمع مشتريان]]></value>
+  </definition>
+  <definition>
+    <key>column_order</key>
+    <value><![CDATA[ايدي سفارشات]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام مشتري]]></value>
+  </definition>
+  <definition>
+    <key>column_status</key>
+    <value><![CDATA[وضعيت]]></value>
+  </definition>
+  <definition>
+    <key>column_date_added</key>
+    <value><![CDATA[افزودن اطلاعات]]></value>
+  </definition>
+  <definition>
+    <key>column_total</key>
+    <value><![CDATA[مجموع]]></value>
+  </definition>
+  <definition>
+    <key>column_firstname</key>
+    <value><![CDATA[نام ]]></value>
+  </definition>
+  <definition>
+    <key>column_lastname</key>
+    <value><![CDATA[نام خانوادگي]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>entry_range</key>
+    <value><![CDATA[انتخاب محدوده:]]></value>
+  </definition>
+  <definition>
+    <key>orders_text_all</key>
+    <value><![CDATA[همه سفارشات]]></value>
+  </definition>
+  <definition>
+    <key>text_customer_all</key>
+    <value><![CDATA[همه مشتريان]]></value>
+  </definition>
+  <definition>
+    <key>text_latest_10_customers</key>
+    <value><![CDATA[اخرين نام]]></value>
+  </definition>
+  <definition>
+    <key>column_email</key>
+    <value><![CDATA[ايميل]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[مديريت قالب]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[قالب شما تغییر کرده اند: موفقیت!]]></value>
+  </definition>
+</definitions>

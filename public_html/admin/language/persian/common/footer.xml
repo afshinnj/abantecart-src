@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>text_footer_left</key>
+    <value><![CDATA[ AbanteCart یک علامت تجاری از Belavier بازرگانی LLC است<br /> کپی رایت و کپی. 2009 -%s را همه حقوق محفوظ می باشد ]]></value>
+  </definition>
+  <definition>
+    <key>text_footer</key>
+    <value><![CDATA[<a href="http://www.abantecart.com" target="_blank">AbanteCart</a> نسخه ]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[انتقال هزينه]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[انتقال هزينه]]></value>
+	</definition>
+	<definition>
+		<key>text_total</key>
+		<value><![CDATA[جمع موجودي]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[تغيير با موفقيت انجام شد !]]></value>
+	</definition>
+	<definition>
+		<key>entry_total</key>
+		<value><![CDATA[جمع موجودي:]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_palceholder</key>
+		<value><![CDATA[مقدار متن]]></value>
+	</definition>
+	<definition>
+		<key>entry_fee</key>
+		<value><![CDATA[پرداخت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment</key>
+		<value><![CDATA[پرداخت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_subtotal</key>
+		<value><![CDATA[زير مجموع:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[كلاس ماليات:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[وضعيت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[نوع سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>entry_calculation_order</key>
+		<value><![CDATA[محاسبه سفارشات:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به تغییر هزینه حمل مجموع ندارد!]]></value>
+	</definition>
+	<definition>
+		<key>error_number</key>
+		<value><![CDATA[هشدار: کل سفارش و دست زدن به هزینه باید اعداد است!]]></value>
+	</definition>
+</definitions>

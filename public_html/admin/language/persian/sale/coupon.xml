@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[كوپن]]></value>
+	</definition>
+	<definition>
+		<key>text_coupon</key>
+		<value><![CDATA[كوپن]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[موفقیت: شما را تغییر می کوپن!]]></value>
+	</definition>
+	<definition>
+		<key>text_percent</key>
+		<value><![CDATA[در صد]]></value>
+	</definition>
+	<definition>
+		<key>text_amount</key>
+		<value><![CDATA[مقدار ثابت]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[نام كوپن]]></value>
+	</definition>
+	<definition>
+		<key>column_code</key>
+		<value><![CDATA[كد]]></value>
+	</definition>
+	<definition>
+		<key>column_discount</key>
+		<value><![CDATA[تخفیف]]></value>
+	</definition>
+	<definition>
+		<key>column_date_start</key>
+		<value><![CDATA[تاريخ شروع]]></value>
+	</definition>
+	<definition>
+		<key>column_date_end</key>
+		<value><![CDATA[تاريخ پايان]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[وضعيت]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[اقدام]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[نام كوپن:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[توضيحات كوپن:]]></value>
+	</definition>
+	<definition>
+		<key>entry_code</key>
+		<value><![CDATA[كد:<br /><span class="help">کد مشتری وارد برای دریافت تخفیف</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_type</key>
+		<value><![CDATA[نوع:<br /><span class="help">درصد و یا مقدار ثابت</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_discount</key>
+		<value><![CDATA[تخفيف:]]></value>
+	</definition>
+	<definition>
+		<key>entry_logged</key>
+		<value>
+			<![CDATA[ورود به مشتری:<br /><span class="help">مشتری باید به سیستم وارد به استفاده از کوپن.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping</key>
+		<value><![CDATA[حمل رايگان:]]></value>
+	</definition>
+	<definition>
+		<key>entry_total</key>
+		<value>
+			<![CDATA[مقدار کل:<br /><span class="help">مقدار زیر کل که باید رسیده قبل از کوپن معتبر است.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_product</key>
+		<value><![CDATA[انتخاب محصولات:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_start</key>
+		<value><![CDATA[تاريخ شروع:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_end</key>
+		<value><![CDATA[تاريخ پايان:]]></value>
+	</definition>
+	<definition>
+		<key>entry_uses_total</key>
+		<value>
+		<![CDATA[استفاده پستها در طول کوپن:<br /><span class="help">حداکثر تعداد بار کوپن می تواند توسط هر مشتری استفاده می شود. خالی بگذارید برای نامحدود</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_uses_customer</key>
+		<value>
+			<![CDATA[با استفاده از هر مشتری:<br /><span class="help">حداکثر تعداد بار کوپن را می توان با یک مشتری استفاده می شود. خالی بگذارید برای نامحدود</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[وضعيت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_coupon_usage</key>
+		<value><![CDATA[مجموع کوپن طریقه استفاده:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به تغییر کوپن ندارد!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[نام کوپن باید بین 2 و 64 حرف باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_description</key>
+		<value><![CDATA[کوپن توضیحات باید بین 2 حرف باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_code</key>
+		<value><![CDATA[کد باید بین 2 و 10 حرف باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_date</key>
+		<value><![CDATA[لطفا محدوده تاریخ تنظیم!]]></value>
+	</definition>
+</definitions>

@@ -1271,8 +1271,8 @@ th {
 }
 .media-left,
 .media > .pull-left {
-  padding-left: 10px;
-  padding-right: initial;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 .media-list {
   padding-right: 0;

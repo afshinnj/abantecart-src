@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[وارد كردن & خارج كردن]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[وارد كردن]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[خارج كردن]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[فهرست]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[گزينه]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[فرمت فايل: ]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[نام فايل: ]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[بارگيري فايل]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[بارگيري]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[مجموع بارگيري: ]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[فايل براي وارد كردن:<br><span class="help">فرمت های پشتیبانی شده برای فایل های واردات: XML، CSV، TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[شماره محدوده از: ]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[به: ]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV/TXT حائل: ]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">همه زمینه خواهد شد در کوتیشن محصور شده است.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">همه زمینه ها باید در کوتیشن محصور شود.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[اجرای در حالت تست <br><span class="help">توصیه می شود برای اجرای واردات داده ها در حالت تست برای اولین بار به دیدن اگر هر گونه مسائل وجود دارد.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[فرمت فایل اشتباه!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[خطا در طول واردات فایل XML!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[خطا در طول واردات CSV / TXT فایل! لطفا رشته های حائل چک.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[اطلاعات خالی است و یا خراب است.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[دایرکتوری پشتیبان گیری نیاز به نوشتن برای صادرات CSV / TXT به کار می کنند.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[بروز رساني: ]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[ايجادكردن: ]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[خطاها: ]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[نمايش جزئيات]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[بدون مورد كودك]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[برخی از اشتباهات وجود دارد.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[تست اجرا به پایان رسید. مجموع نمایش داده شد SQL: ]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[مرتب سازي بر اساس: ]]></value>
+	</definition>
+</definitions>

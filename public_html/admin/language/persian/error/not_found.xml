@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[صفحه مورد نظر وجود ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>text_not_found</key>
+    <value><![CDATA[صفحه شما به دنبال پیدا نشد! لطفا با سرپرست خود تماس بگیرید اگر مشکل همچنان ادامه دارد.]]></value>
+  </definition>
+</definitions>

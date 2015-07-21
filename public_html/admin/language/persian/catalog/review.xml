@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[نظرات]]></value>
+	</definition>
+	<definition>
+		<key>text_review</key>
+		<value><![CDATA[نظر]]></value>
+	</definition>
+	<definition>
+		<key>insert_title</key>
+		<value><![CDATA[درج نظر]]></value>
+	</definition>
+	<definition>
+		<key>update_title</key>
+		<value><![CDATA[بروزرساني نظر]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[موفقیت: شما را تغییر می بررسی!]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[محصولات]]></value>
+	</definition>
+	<definition>
+		<key>column_author</key>
+		<value><![CDATA[نويسنده]]></value>
+	</definition>
+	<definition>
+		<key>column_rating</key>
+		<value><![CDATA[امتياز]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[وضعيت]]></value>
+	</definition>
+	<definition>
+		<key>column_date_added</key>
+		<value><![CDATA[افزودن تاريخ]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[اقدام]]></value>
+	</definition>
+	<definition>
+		<key>entry_product</key>
+		<value><![CDATA[محصولات:]]></value>
+	</definition>
+	<definition>
+		<key>entry_author</key>
+		<value><![CDATA[نويسنده:]]></value>
+	</definition>
+	<definition>
+		<key>entry_rating</key>
+		<value><![CDATA[امتياز:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[وضعيت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_text</key>
+		<value><![CDATA[متن:]]></value>
+	</definition>
+	<definition>
+		<key>entry_good</key>
+		<value><![CDATA[خوب]]></value>
+	</definition>
+	<definition>
+		<key>entry_bad</key>
+		<value><![CDATA[بد]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به تغییر بررسی ندارد!]]></value>
+	</definition>
+	<definition>
+		<key>error_product</key>
+		<value><![CDATA[مورد نیاز محصولات!]]></value>
+	</definition>
+	<definition>
+		<key>error_author</key>
+		<value><![CDATA[نویسنده باید بین 2 و 64 حرف باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_text</key>
+		<value><![CDATA[متن نظر باید بین 25 و 1000 کاراکتر باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_rating</key>
+		<value><![CDATA[امتیاز نقد مورد نیاز!]]></value>
+	</definition>
+	<definition>
+		<key>text_select_product</key>
+		<value><![CDATA[- انتخاب محصول -]]></value>
+	</definition>
+	<definition>
+		<key>text_select_category</key>
+		<value><![CDATA[- انتخاب شاخه -]]></value>
+	</definition>
+</definitions>

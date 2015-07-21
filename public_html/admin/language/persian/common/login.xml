@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[مديريت]]></value>
+  </definition>
+  <definition>
+    <key>text_heading</key>
+    <value><![CDATA[مديريت]]></value>
+  </definition>
+  <definition>
+    <key>text_login</key>
+    <value><![CDATA[لطفا مشخصات کاربری خود را وارد کنید.]]></value>
+  </definition>
+  <definition>
+    <key>entry_username</key>
+    <value><![CDATA[نام كاربري:]]></value>
+  </definition>
+  <definition>
+    <key>entry_password</key>
+    <value><![CDATA[رمز عبور:]]></value>
+  </definition>
+  <definition>
+    <key>entry_forgot_password</key>
+    <value><![CDATA[ايا رمز عبور را فراموش كرديد؟]]></value>
+  </definition>
+  <definition>
+    <key>button_login</key>
+    <value><![CDATA[ورود]]></value>
+  </definition>
+  <definition>
+    <key>error_login</key>
+    <value><![CDATA[نام كاربري و رمز عبور درست نمي باشد.]]></value>
+  </definition>
+  <definition>
+    <key>error_token</key>
+    <value><![CDATA[جلسه نا معتبر مي باشد مجدد وارد شويد]]></value>
+  </definition>
+  <definition>
+    <key>error_login_message</key>
+    <value><![CDATA[ورود نا موفق با اي پي شما:]]></value>
+  </definition>  
+  <definition>
+    <key>error_login_message_text</key>
+    <value><![CDATA[ورود كاربر: ]]></value>
+  </definition>
+</definitions>

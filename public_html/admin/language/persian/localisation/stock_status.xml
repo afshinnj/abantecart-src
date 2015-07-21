@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[وضعيت موجودي]]></value>
+  </definition>
+  <definition>
+    <key>text_status</key>
+    <value><![CDATA[وضعيت موجودي]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما را تغییر می وضعیت موجودي!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام وضعيت موجودي]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[نام وضعيت موجودي:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[هشدار: شما اجازه دسترسی به تغییر مجسمه موجودي ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[وضعیت موجودي نام باید بین 2 و 32 حرف باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_product</key>
+    <value><![CDATA[شدار: این وضعیت سهام پاک نمی شود آن را به عنوان در حال حاضر به%s محصولات اختصاص داده!]]></value>
+  </definition>
+</definitions>

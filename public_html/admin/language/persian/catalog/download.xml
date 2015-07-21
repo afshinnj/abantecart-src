@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[به اشتراک گذاشته شده دانلود]]></value>
+  </definition>
+  <definition>
+    <key>text_download</key>
+    <value><![CDATA[به اشتراک گذاشته شده دانلود]]></value>
+  </definition>
+  <definition>
+    <key>insert_title</key>
+    <value><![CDATA[درج دانلود]]></value>
+  </definition>
+  <definition>
+    <key>update_title</key>
+    <value><![CDATA[بروز رساني دانلود]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما را تغییر می دانلود!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام دانلود]]></value>
+  </definition>
+  <definition>
+    <key>column_remaining</key>
+    <value><![CDATA[تعداد دریافت فایل مجاز]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[نام دانلود:]]></value>
+  </definition>
+  <definition>
+    <key>entry_filename</key>
+    <value><![CDATA[نام فايل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_remaining</key>
+    <value><![CDATA[تعداد دریافت فایل مجاز:]]></value>
+  </definition>
+  <definition>
+    <key>entry_update</key>
+    <value><![CDATA[فشار به مشتریان قبلی:<br /><span class="help">بررسی این برای به روز رسانی نسخه های قبلا خریداری نیز هست.</span>]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[هشدار: شما اجازه دسترسی به تغییر دانلود ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[نام باید بین 2 و 64 حرف باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_file</key>
+    <value><![CDATA[لطفا فایل دانلود مجموعه.]]></value>
+  </definition>
+  <definition>
+    <key>error_product</key>
+    <value><![CDATA[هشدار: این دانلود نمی تواند حذف شود آن را به عنوان در حال حاضر به اختصاص داده %s محصولات!]]></value>
+  </definition>
+  <definition>
+    <key>column_image</key>
+    <value><![CDATA[تصوير]]></value>
+  </definition>
+  <definition>
+    <key>column_products_count</key>
+    <value><![CDATA[تعداد محصولات]]></value>
+  </definition>
+</definitions>

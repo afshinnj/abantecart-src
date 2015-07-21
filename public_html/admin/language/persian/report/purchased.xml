@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[محصولات خریداری شده گزارش]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام محصول]]></value>
+  </definition>
+  <definition>
+    <key>column_model</key>
+    <value><![CDATA[مدل]]></value>
+  </definition>
+  <definition>
+    <key>column_quantity</key>
+    <value><![CDATA[تعداد]]></value>
+  </definition>
+  <definition>
+    <key>column_total</key>
+    <value><![CDATA[جمع]]></value>
+  </definition>
+</definitions>

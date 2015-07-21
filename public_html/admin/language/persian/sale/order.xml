@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[سفارشات]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_details</key>
+		<value><![CDATA[ويرايش جزئيات سفارش]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_shipping</key>
+		<value><![CDATA[ويرايش ادرس حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_payment</key>
+		<value><![CDATA[ويرايش ادرس پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>title_payment_details</key>
+		<value><![CDATA[جزئيات پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[موفقیت: شما را تغییر می سفارشات!]]></value>
+	</definition>
+	<definition>
+		<key>text_invoice</key>
+		<value><![CDATA[فاکتور]]></value>
+	</definition>
+	<definition>
+		<key>text_order_id</key>
+		<value><![CDATA[شماره سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>text_invoice_id</key>
+		<value><![CDATA[شماره فاكتور:]]></value>
+	</definition>
+	<definition>
+		<key>text_date_added</key>
+		<value><![CDATA[تاريخ فاكتور:]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone</key>
+		<value><![CDATA[تلفن]]></value>
+	</definition>
+	<definition>
+		<key>text_fax</key>
+		<value><![CDATA[فكس]]></value>
+	</definition>
+	<definition>
+		<key>text_select_country</key>
+		<value><![CDATA[- انتخاب كشور -]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[به]]></value>
+	</definition>
+	<definition>
+		<key>text_ship_to</key>
+		<value><![CDATA[کشتی به (اگر متفاوت آدرس)]]></value>
+	</definition>
+	<definition>
+		<key>text_missing_orders</key>
+		<value><![CDATA[سفارشات گمشده]]></value>
+	</definition>
+	<definition>
+		<key>text_wait</key>
+		<value><![CDATA[لطفا صبر نماييد!]]></value>
+	</definition>
+	<definition>
+		<key>column_order</key>
+		<value><![CDATA[شماره سفارش]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[نام مشتري]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[وضعيت]]></value>
+	</definition>
+	<definition>
+		<key>column_date_added</key>
+		<value><![CDATA[افزودن تاريخ]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[جمع]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[محصولات]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[مدل]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[تعداد]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[قيمت واحد]]></value>
+	</definition>
+	<definition>
+		<key>column_download</key>
+		<value><![CDATA[نام دانلود]]></value>
+	</definition>
+	<definition>
+		<key>column_file</key>
+		<value><![CDATA[فايل]]></value>
+	</definition>
+	<definition>
+		<key>column_remaining</key>
+		<value><![CDATA[باقي مانده]]></value>
+	</definition>
+	<definition>
+		<key>column_expire_date</key>
+		<value><![CDATA[تاريخ انقضا]]></value>
+	</definition>
+	<definition>
+		<key>column_mask</key>
+		<value><![CDATA[ماسك]]></value>
+	</definition>
+	<definition>
+		<key>column_notify</key>
+		<value><![CDATA[مشتري مطلع]]></value>
+	</definition>
+	<definition>
+		<key>column_comment</key>
+		<value><![CDATA[مشتریان سفارش نظر]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[اقدام]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_id</key>
+		<value><![CDATA[شماره سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice_id</key>
+		<value><![CDATA[شماره فاكتور:]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer</key>
+		<value><![CDATA[مشتري:]]></value>
+	</definition>
+	<definition>
+		<key>entry_firstname</key>
+		<value><![CDATA[نام:]]></value>
+	</definition>
+	<definition>
+		<key>entry_lastname</key>
+		<value><![CDATA[نام خانوادگي:]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[گروه مشتري:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[ايميل:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ip</key>
+		<value><![CDATA[IP ادرس:]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[تلفن:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[فكس:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store_name</key>
+		<value><![CDATA[نام فروشگاه:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store_url</key>
+		<value><![CDATA[آدرس فروشگاه:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_added</key>
+		<value><![CDATA[افزودن تاريخ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_method</key>
+		<value><![CDATA[نوع حمل و نقل:]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment_method</key>
+		<value><![CDATA[نوع پرداخت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_total</key>
+		<value><![CDATA[جمع كل سفارشات:]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_status</key>
+		<value><![CDATA[وضعيت سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>entry_comment</key>
+		<value><![CDATA[نظرات:]]></value>
+	</definition>
+	<definition>
+		<key>entry_company</key>
+		<value><![CDATA[شركت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_1</key>
+		<value><![CDATA[ادرس 1:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_2</key>
+		<value><![CDATA[ادرس 2:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[كد پستي:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[شهر:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[منطقه:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone_code</key>
+		<value><![CDATA[كد منطقه:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[كشور:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[وضعيت سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>entry_notify</key>
+		<value><![CDATA[اطلاع مشتريان:]]></value>
+	</definition>
+	<definition>
+		<key>entry_append</key>
+		<value><![CDATA[اضافه نظرات:]]></value>
+	</definition>
+	<definition>
+		<key>entry_add_product</key>
+		<value><![CDATA[افزودن محصولات:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به تغییر سفارشات ندارد!]]></value>
+	</definition>
+	<definition>
+		<key>error_order_load</key>
+		<value><![CDATA[هشدار: بدون منظور با چنین ID!]]></value>
+	</definition>
+	<definition>
+		<key>text_order_summary</key>
+		<value><![CDATA[خلاصه سفارش]]></value>
+	</definition>
+	<definition>
+		<key>tab_details</key>
+		<value><![CDATA[جزئيات]]></value>
+	</definition>
+	<definition>
+		<key>tab_shipping</key>
+		<value><![CDATA[ادرس حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>tab_payment</key>
+		<value><![CDATA[ادرس پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>tab_history</key>
+		<value><![CDATA[وضعیت و نظرات]]></value>
+	</definition>
+	<definition>
+		<key>tab_files</key>
+		<value><![CDATA[فايلها]]></value>
+	</definition>
+	<definition>
+		<key>tab_payment_details</key>
+		<value><![CDATA[جزئيات پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_files</key>
+		<value><![CDATA[ويرايش فايل سفارش]]></value>
+	</definition>
+	<definition>
+		<key>text_missing_file</key>
+		<value><![CDATA[فايل گمشده]]></value>
+	</definition>
+	<definition>
+		<key>order_download_history</key>
+		<value><![CDATA[دانلود تاریخچه]]></value>
+	</definition>
+	<definition>
+		<key>text_time</key>
+		<value><![CDATA[زمان]]></value>
+	</definition>
+	<definition>
+		<key>text_filename</key>
+		<value><![CDATA[نام فايل]]></value>
+	</definition>
+	<definition>
+		<key>text_mask</key>
+		<value><![CDATA[ماسك]]></value>
+	</definition>
+	<definition>
+		<key>text_download_percent</key>
+		<value><![CDATA[دانلود درصد]]></value>
+	</definition>
+	<definition>
+		<key>text_download_expired</key>
+		<value><![CDATA[تاریخ منقضی شده]]></value>
+	</definition>
+	<definition>
+		<key>text_download_remaining_count</key>
+		<value><![CDATA[باقی مانده تعداد]]></value>
+	</definition>
+	<definition>
+		<key>text_order_status_required</key>
+		<value><![CDATA[وضعيت سفارش "%s" ضروری]]></value>
+	</definition>
+	<definition>
+		<key>text_select_product</key>
+		<value><![CDATA[- انتخاب محصول -]]></value>
+	</definition>
+	<definition>
+		<key>text_push_download</key>
+		<value><![CDATA[- فشردن دانلود -]]></value>
+	</definition>
+</definitions>

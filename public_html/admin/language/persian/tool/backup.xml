@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[بك اپ / ريستور / لود]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[دانلود بك اپ]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[فايل بك اپ با موفقيت ايجاد شد]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[ديتابس  با موفقيت وارد شد]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[فايل مورد نظر با موفيت وارد شد]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[ريستور بك اپ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[بك اپ جداول:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[ريستور ديتابيس با فرمتxml:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[لود فايلxml:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[بك اپ]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[ريستور]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[طرح بندی و بار مجموعه داده XML]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به تغییر پشتیبان گیری نداريد!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_backup</key>
+		<value><![CDATA[اخطار: لطفا مجموعه آنچه شما نسخه پشتیبان تهیه می خواهید!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[هشدار: این فایل شما آپلود خالی است یا به حال نوع فایل اشتباه است!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value>
+			<![CDATA[هشدار: فایل آپلود نشد. post_max_size یا file_upload دستورات از فایل php.ini خود را بررسی کنید.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value>
+			<![CDATA[هشدار: این فایل شما آپلود می کند به عنوان XML لود نیست! لطفا، دیدن ورود فایل برای جزئیات بیشتر]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_files</key>
+		<value><![CDATA[فايل بك اپ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_config</key>
+		<value><![CDATA[Config.php فايل:<br><br /><span class="help">توجه داشته باشید: نگه داشتن نسخه پشتیبان تهیه-آرشیو ایمن. فایل شامل خواهد شد "salt" برای رمزنگاری.</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[بك اپ جديد]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[لود]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[برنامه پشتيبان گيري]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[موفقیت: شما با موفقیت کار پشتیبان گیری برنامه ریزی شده ایجاد شده! <a href="%s">مشاهده جزئيات</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[توجه: این اعدام فرآیند بستگی دارد AbanteCart اندازه داده خود را به عنوان سرور اندازه حافظه مجازی خود را. اگر فرآیند با خطا خاتمه، بررسی دایرکتوری %s مجوز به مجموعه -rw-rw-rw and <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. افزایش تنظیم حافظه و یا اجرای پشتیبان گیری دستی اگر روند هنوز هم شکست.]]></value>
+	</definition>
+</definitions>
