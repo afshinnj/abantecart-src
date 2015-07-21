@@ -2400,7 +2400,7 @@ body.stickyheader .sticky_left {
    }
    
    .mainpanel {
-      margin-left: 0;
+      margin-right: 0;
       width: 100%;
    }
 
@@ -2409,11 +2409,11 @@ body.stickyheader .sticky_left {
    }
    
    .leftpanel-collapsed .mainpanel {
-      margin-left: 0;
+      margin-right: 0;
    }
    
    .leftpanel-collapsed .headerbar {
-      margin-left: 0;
+      margin-right: 0;
    }
    
    .leftpanel-show section {
@@ -2425,7 +2425,7 @@ body.stickyheader .sticky_left {
    }
    
    .leftpanel-show .mainpanel {
-      margin-left: 240px;
+      margin-right: 240px;
    }
    
    .stickyheader .headerbar {
