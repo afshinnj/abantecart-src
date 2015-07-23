@@ -4,7 +4,6 @@
 
 <?php echo $product_tabs ?>
 <div id="content" class="panel panel-default">
-
 	<div class="panel-heading col-xs-12">
 		<div class="primary_content_actions pull-left">
 			<?php if ($product_id) { ?>
@@ -63,7 +62,14 @@
 		</div>
 	</div>
 	</form>
-	
+
+        <div class="panel-body">
+            <div class="form-group col-xs-6">
+                <label>Select Date</label>
+                <input id="observer" type="text" class="form-control"/>
+            </div>
+
+        </div>
 </div>
 
 <script type="text/javascript"><!--

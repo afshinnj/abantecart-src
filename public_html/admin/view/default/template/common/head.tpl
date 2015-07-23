@@ -44,6 +44,9 @@
 <?php } ?>
 
 <script type="text/javascript" src="<?php echo $template_dir; ?>javascript/aform.js"></script>
+<link href="<?php echo $template_dir; ?>javascript/p/persian-datepicker-0.4.5.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="<?php echo $template_dir; ?>javascript/p/persian-date.js"></script>
+<script type="text/javascript" src="<?php echo $template_dir; ?>javascript/p/persian-datepicker-0.4.5.min.js"></script>
 
 <?php 
 	//Generic PHP processed Javascript section

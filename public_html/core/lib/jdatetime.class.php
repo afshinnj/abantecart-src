@@ -41,6 +41,10 @@
  * @see        DateTime
  * @version    2.2.0
  */
+if (! defined ( 'DIR_CORE' )) {
+	header ( 'Location: static_pages/' );
+}
+
 class jDateTime
 {
 

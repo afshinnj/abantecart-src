@@ -229,6 +229,7 @@ try {
 	require_once(DIR_CORE . 'lib/file.php');
 	require_once(DIR_CORE . 'lib/download.php');
         require_once(DIR_CORE . 'lib/jdatetime.class.php');
+        require_once(DIR_CORE . 'lib/jdatetime.php');
 
 // Application Classes
 	require_once(DIR_CORE . 'lib/customer.php');

@@ -11,7 +11,16 @@ jQuery(window).load(function() {
 
 
 jQuery(document).ready(function() {
+        /*
+         observer persianDate
+         */
+        $("#observer").persianDatepicker({
+            observer: true,
+            format: 'YYYY/MM/DD'
 
+        });
+        
+        
 	//Process selected menu on page load
     URL = String(document.location);
     var route = getURLVar(URL, 'rt');
