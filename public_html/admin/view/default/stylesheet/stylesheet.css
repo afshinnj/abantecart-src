@@ -780,7 +780,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .side_summary .stats_info {
-   float: left;
+   float: right;
    line-height: normal;
 }
 
@@ -800,8 +800,8 @@ h1,h2,h3,h4,h5 {
 }
 
 .side_summary .icon {
-   float: left;
-   margin: 5px 20px 5px 10px;
+   float: right;
+   margin: 5px 10px 5px 20px;
    opacity: 0.8;
 }
 

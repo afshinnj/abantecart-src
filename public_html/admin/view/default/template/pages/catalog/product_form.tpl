@@ -62,14 +62,6 @@
 		</div>
 	</div>
 	</form>
-
-        <div class="panel-body">
-            <div class="form-group col-xs-6">
-                <label>Select Date</label>
-                <input id="observer" type="text" class="form-control"/>
-            </div>
-
-        </div>
 </div>
 
 <script type="text/javascript"><!--

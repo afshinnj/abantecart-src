@@ -118,7 +118,8 @@
   top: 100px;
   font: 12px tahoma;
   border: 1px solid #cccccc;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  z-index: 9999999}
   .datepicker-plot-area table,
   .datepicker-plot-area th,
   .datepicker-plot-area td {
