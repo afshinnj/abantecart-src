@@ -107,6 +107,7 @@
     left: 0px;
     top: 0px;
     padding: .0em;
+    direction: rtl;
 }
 
 /* caption*/
@@ -340,7 +341,7 @@
 }
 
 .ui-jqgrid tr.ui-row-ltr td {
-    text-align: left;
+    text-align: center !important;
 }
 
 .ui-jqgrid tr.ui-row-rtl td {
@@ -840,7 +841,7 @@
 
 
 .ui-jqgrid .tree-wrap-ltr {
-    float: left;
+    float: right;
     padding-right: 20px;
 }
 

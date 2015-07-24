@@ -1,15 +1,21 @@
 <?php
-if (! defined ( 'DIR_CORE' )) {
-	header ( 'Location: static_pages/' );
+
+if (!defined('DIR_CORE')) {
+    header('Location: static_pages/');
 }
 
 class Jdate {
 
     public static function now() {
-        
+
         $date = new jDateTime(true, true, 'Asia/Tehran');
-        
-       return $date->date("Y-m-d H:i:s", false, false);
+        return $date->date("Y-m-d H:i:s", false, false);
+    }
+
+    public static function defualt() {
+
+        $date = new jDateTime(true, true, 'Asia/Tehran');
+        return $date->date("d/m/Y", false, false);
     }
 
 }

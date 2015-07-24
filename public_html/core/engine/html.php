@@ -1511,17 +1511,17 @@ class DateHtmlElement extends HtmlElement {
 		if (!$this->data['registry']->has('date-field')) {
 
 			$doc = $this->data['registry']->get('document');
-			$doc->addScript($this->view->templateResource('/javascript/jquery-ui/js/jquery-ui-1.10.4.custom.min.js'));
-			$doc->addScript($this->view->templateResource('/javascript/jquery-ui/js/jquery.ui.datepicker.js'));
+			$doc->addScript($this->view->templateResource('/javascript/p/persian-date.js'));
+			$doc->addScript($this->view->templateResource('/javascript/p/persian-datepicker-0.4.5.min.js'));
 			if(IS_ADMIN===true){
 				$doc->addStyle(array(
-					'href' => $this->view->templateResource('/javascript/jquery-ui/js/css/ui-lightness/ui.all.css'),
+					'href' => $this->view->templateResource('/javascript/p/persian-datepicker-0.4.5.css'),
 					'rel' => 'stylesheet',
 					'media' => 'screen',
 				));
 			}else{
 				$doc->addStyle(array(
-						'href'  => $this->view->templateResource('/javascript/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.min.css'),
+						'href'  => $this->view->templateResource('/javascript/p/persian-datepicker-0.4.5.css'),
 						'rel'   => 'stylesheet',
 						'media' => 'screen',
 				));

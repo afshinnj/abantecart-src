@@ -1084,7 +1084,7 @@ p {
 
 /* resource library */
 .reslibrary_block{
-	width: 150px;
+	width: 150px !important;
 }
 .reslibrary .thumbnail {
 	margin-bottom : 0px;
@@ -1939,7 +1939,8 @@ p {
 	background: url(../image/gotop.png) no-repeat 0 0;
 	display: block;
 	text-indent: -9999px;
-	overflow: hidden
+	overflow: hidden;
+        z-index: 999999;
 }
 
 .debug_alert{
@@ -2255,7 +2256,7 @@ body.stickyheader .sticky_left {
 	margin-top: 10px;
 }
 .center{
-	text-align: center;	
+	text-align: center;
 }
 .nomargin {
 	margin: 0;
@@ -2956,3 +2957,8 @@ body.stickyheader .sticky_left {
 	padding: 0;
 	display: block;
 }
+.btn-group, .btn-group-vertical{
+ direction: ltr ;   
+}
+.form-inline .input-group{text-align: right}
+.cell-wrapperleaf{float: right; margin-right: 10px;}
