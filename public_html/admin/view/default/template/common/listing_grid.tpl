@@ -1,6 +1,6 @@
 <div class="ui-jqgrid-wrapper" id="<?php echo $data['table_id'] ?>_wrapper">
     <form class="form-inline" id="<?php echo $data['table_id'] ?>_form" action="<?php echo $data["editurl"] ?>" method="POST" role="form">
-        <table id="<?php echo $data['table_id'] ?>"></table>
+          <table id="<?php echo $data['table_id'] ?>"></table>
         <div id="<?php echo $data['table_id'] ?>_pager"></div>
         <div class="no_results"><?php echo $text_no_results; ?></div>
         <?php if ($data['multiselect'] == 'true' && !$data['multiselect_noselectbox']) { ?>
@@ -21,7 +21,6 @@
             <a id="<?php echo $data['table_id'] ?>_go" class="btn btn-xs btn-default"><?php echo $text_go; ?></a>
         </div>
         <?php } ?>
-
     </form>
 </div>
 <script type="text/javascript" src="<?php echo $template_dir; ?>javascript/jqgrid/plugins/jquery.tablednd.js"></script>

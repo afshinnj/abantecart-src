@@ -8,13 +8,13 @@
 <?php } ?>
 
 <?php if (is_file(DIR_RESOURCE . $icon)) { ?>
-<link href="<?php echo HTTPS_DIR_RESOURCE . $icon; ?>" type="image/png" rel="icon"/>
+<link href="<?php echo ($ssl ? HTTPS_DIR_RESOURCE : HTTP_DIR_RESOURCE). $icon; ?>" type="image/png" rel="icon"/>
 <?php } else if (!empty($icon)) { ?>
 <?php echo $icon; ?>
 <?php } ?>
 
 <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>stylesheet/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>stylesheet/bootstrap-rtl.css" />
+
 <?php foreach ($styles as $style) { ?>
 <link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>"
       media="<?php echo $style['media']; ?>"/>

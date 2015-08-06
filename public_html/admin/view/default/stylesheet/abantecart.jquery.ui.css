@@ -107,7 +107,6 @@
     left: 0px;
     top: 0px;
     padding: .0em;
-    direction: rtl;
 }
 
 /* caption*/
@@ -151,12 +150,6 @@
     overflow: hidden;
     border: none;
     background: none;
-}
-
-.ui-jqgrid .ui-jqgrid-hbox {
-    float: left;
-    padding-right: 20px;
-    border-bottom: 2px solid #DDDDDD;
 }
 
 .ui-jqgrid .ui-jqgrid-htable {
@@ -281,14 +274,6 @@
     text-align: left;
 }
 
-.ui-jqgrid .ui-jqgrid-btable {
-    table-layout: fixed;
-    margin: 0em;
-    border: none;
-    border-collapse: collapse;
-    width: 100%;
-}
-
 .ui-jqgrid tr.jqgrow {
     outline-style: none;
     border: 0;
@@ -338,10 +323,6 @@
     white-space: pre;
     height: 22px;
     padding: 0 2px 0 2px;
-}
-
-.ui-jqgrid tr.ui-row-ltr td {
-    text-align: center !important;
 }
 
 .ui-jqgrid tr.ui-row-rtl td {
@@ -800,20 +781,6 @@
     white-space: nowrap;
 }
 
-.ui-jqgrid .tree-plus {
-    position: relative;
-    height: 16px;
-    width: 16px;
-    -moz-background-clip: border;
-    -moz-background-inline-policy: continuous;
-    -moz-background-origin: padding;
-    background: url(../image/arrow_right.png) 100% 0 no-repeat;
-    color: #000000;
-    display: inline-block;
-    line-height: 16px;
-    cursor: pointer;
-}
-
 .ui-jqgrid .tree-minus {
     position: relative;
     height: 16px;
@@ -837,12 +804,6 @@
 
 .ui-jqgrid .treeclick {
     cursor: pointer;
-}
-
-
-.ui-jqgrid .tree-wrap-ltr {
-    float: right;
-    padding-right: 20px;
 }
 
 .ui-jqgrid .tree-wrap-rtl {

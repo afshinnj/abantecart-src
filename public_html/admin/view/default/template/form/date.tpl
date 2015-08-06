@@ -13,13 +13,7 @@
 <?php } ?>
 
 <script type="text/javascript">
-	/*$('#<?php echo $id ?>').datepicker({dateFormat:'<?php echo $dateformat ?>'});*/
-
-        $('#<?php echo $id ?>').persianDatepicker({
-            observer: true,
-            format: 'DD/MM/YYYY'
-
-        });
+	$('#<?php echo $id ?>').datepicker({dateFormat:'<?php echo $dateformat ?>'});
 <?php if ( $highlight == 'pased' ) : ?>
 	var startdate = $('#<?php echo $id ?>').val();
 	if( (new Date(startdate).getTime() < new Date().getTime())) {

@@ -1,0 +1,42 @@
+
+.ui-jqgrid .ui-jqgrid-hbox {
+    float: right;
+    padding-left: 20px;
+    border-bottom: 2px solid #DDDDDD;
+    direction: rtl;
+}
+
+
+.ui-jqgrid .ui-jqgrid-btable {
+    table-layout: fixed;
+    margin: 0em;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    direction: rtl;
+}
+
+
+.ui-jqgrid .tree-plus {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background: url(../../image/arrow_left.png) 100% 0 no-repeat;
+    color: #000000;
+    display: inline-block;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+
+.ui-jqgrid .tree-wrap-ltr {
+    float: right;
+    padding-left: 20px;
+}
+
+.ui-jqgrid tr.ui-row-ltr td {
+    text-align: center !important;
+}
