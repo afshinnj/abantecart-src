@@ -46,7 +46,7 @@
 <?php foreach ($styles as $style) { ?>
 <link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
-
+<link href="<?php echo $this->templateResource('/stylesheet/bootstrap-rtl.css'); ?>" rel="stylesheet" />
 <script type="text/javascript"
         src="<?php echo $ssl ? 'https' : 'http'?>://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript">

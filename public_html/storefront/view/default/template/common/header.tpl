@@ -17,11 +17,11 @@
 	    <?php } ?>
 	  </div>
 	  <div class="navbar-collapse collapse">
-	  	<div class="navbar-right headerstrip_blocks">
+	  	<div class="navbar-left headerstrip_blocks">
+                    <div class="block_4"><?php echo ${$children_blocks[3]}; ?></div>
+                    <div class="block_3"><?php echo ${$children_blocks[2]}; ?></div>
+                    <div class="block_2"><?php echo ${$children_blocks[1]}; ?></div>
 	  	    <div class="block_1"><?php echo ${$children_blocks[0]}; ?></div>
-	  	    <div class="block_2"><?php echo ${$children_blocks[1]}; ?></div>
-	  	    <div class="block_3"><?php echo ${$children_blocks[2]}; ?></div>
-	  	    <div class="block_4"><?php echo ${$children_blocks[3]}; ?></div>
 	  	</div>
 	   </div><!--/.navbar-collapse -->
 	</div>         

@@ -108,6 +108,7 @@
   text-shadow: none; }
 
 .datepicker-plot-area {
+  z-index: 999999;
   box-sizing: border-box;
   overflow: hidden;
   min-height: 70px;
@@ -289,6 +290,7 @@
       background-color: #eeeeee; }
 
 .datepicker-plot-area .datepicker-header {
+    direction: ltr;
   display: block;
   width: 98%;
   height: 30px;

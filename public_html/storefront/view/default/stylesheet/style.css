@@ -4,6 +4,7 @@
 @import url('onebyone.css');
 @import url('print.css');
 @import url('font-awesome.min.css');
+@import url('style-rtl.css');
 
 /*
 AbanteCart storefront main CSS style.css
@@ -361,14 +362,6 @@ section.row {
 ul#search-category{
 	margin: 0;
 }
-
-.search-bar .button-in-search {
-	float: left;
-	margin-top: 2px;
-	margin-left: -32px;
-	font-size: 24px;
-}
-
 .button-in-search {
 	cursor: hand;
 	cursor: pointer;
@@ -390,34 +383,6 @@ ul#search-category{
 li.dropdown {
 	list-style: none
 }
-
-/* Top block positioning */
-.headerstrip_blocks .block_1 {
-	float: left;
-	margin-left: 10px;
-}
-.headerstrip_blocks .block_2 {
-	float: left;
-}
-.headerstrip_blocks .block_3 {
-	float: left;
-}
-.headerstrip_blocks .block_4 {
-	float: right;
-}
-.headerdetails .block_5 {
-	float: left;
-}
-.headerdetails .block_6 {
-	float: left;
-}
-.headerdetails .block_7 {
-	float: left;
-}
-.headerdetails .block_8 {
-	float: right;
-}
-
 
 /* ------------  Top Cart ------------ */
 .headerdetails #main-nav ul > li.topcart {
@@ -634,25 +599,6 @@ ul.categorymenu > li.current > a {
 	padding: 5px 10px 5px 5px;
 }
 
-ul.categorymenu > li > div {
-	display: none;
-	padding: 15px;
-	position: absolute;
-	top: 97%;
-	left: 7px;
-	z-index: 99999;
-	display: none;
-	float: left;
-	min-width: 180px;
-	margin: 1px 0 0;
-	list-style: none;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	border-bottom: 4px solid #00A1CB;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
-}
 
 .categorymenu li a.menu_home {
 	box-shadow: none;
@@ -672,27 +618,6 @@ ul.categorymenu > li > div {
 .categorymenu li a:hover.menu_home {
 	background-position: 5px -27px;
 }
-
-.dropdown-menu {
-	white-space: normal;
-	padding: 10px;
-	position: absolute;
-	top: 97%;
-	left: 7px;
-	z-index: 99999;
-	display: none;
-	float: left;
-	min-width: 210px;
-	margin: 1px 0 0;
-	list-style: none;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	border-bottom: 4px solid #00A1CB;
-	border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-}
-
 .dropdown-menu > li > a {
 	white-space: normal;
 }
@@ -775,10 +700,6 @@ ul.categorymenu > li ul > li img {
 	background: none
 }
 
-.otherddetails .otherddetailspart .innerclass {
-	padding: 25px 0 25px 90px;
-	background: url(../image/otherdetailicon.png) no-repeat 10px top;
-}
 
 .otherddetails .otherddetailspart .innerclass h2 {
 	font-size: 20px;
@@ -787,21 +708,6 @@ ul.categorymenu > li ul > li img {
 	margin: 0
 }
 
-.otherddetails .otherddetailspart .innerclass.free {
-	background-position: 20px 29px
-}
-
-.otherddetails .otherddetailspart .innerclass.payment {
-	background-position: 20px -103px
-}
-
-.otherddetails .otherddetailspart .innerclass.shipping {
-	background-position: 20px -240px
-}
-
-.otherddetails .otherddetailspart .innerclass.choice {
-	background-position: 20px -360px
-}
 
 /* ------------ banners ------------ */
 .banner_fallback {
@@ -2839,28 +2745,6 @@ form .help-block {
 
 .dropdown-menu li > a {
 	color: #96979d
-}
-
-.dropdown-menu:before {
-	position: absolute;
-	top: -7px;
-	left: 9px;
-	display: inline-block;
-	border-right: 7px solid transparent;
-	border-bottom: 7px solid rgba(0, 0, 0, 0.2);
-	border-left: 7px solid transparent;
-	content: '';
-}
-
-.dropdown-menu:after {
-	position: absolute;
-	top: -6px;
-	left: 10px;
-	display: inline-block;
-	border-right: 6px solid transparent;
-	border-bottom: 6px solid #ffffff;
-	border-left: 6px solid transparent;
-	content: '';
 }
 
 .nav > li > a:hover {

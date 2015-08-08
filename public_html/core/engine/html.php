@@ -1549,13 +1549,13 @@ class DateHtmlElement extends HtmlElement {
 			$doc->addScript($this->view->templateResource('/javascript/persian-datepicker/js/persian-datepicker-0.4.5.min.js'));
 			if(IS_ADMIN===true){
 				$doc->addStyle(array(
-					'href' => $this->view->templateResource('/javascript/persian-datepicker/css/persian-datepicker-0.4.5.min.css'),
+					'href' => $this->view->templateResource('/javascript/persian-datepicker/css/persian-datepicker-0.4.5.css'),
 					'rel' => 'stylesheet',
 					'media' => 'screen',
 				));
 			}else{
 				$doc->addStyle(array(
-						'href'  => $this->view->templateResource('/javascript/persian-datepicker/css/persian-datepicker-0.4.5.min.css'),
+						'href'  => $this->view->templateResource('/javascript/persian-datepicker/css/persian-datepicker-0.4.5.css'),
 						'rel'   => 'stylesheet',
 						'media' => 'screen',
 				));
