@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[حساب كاربري]]></value>
+	</definition>
+	<definition>
+		<key>text_account_dashboard</key>
+		<value><![CDATA[حساب كاربري]]></value>
+	</definition>
+	<definition>
+		<key>text_account</key>
+		<value><![CDATA[پروفايل]]></value>
+	</definition>
+	<definition>
+		<key>text_my_account</key>
+		<value><![CDATA[پروفايل من]]></value>
+	</definition>
+	<definition>
+		<key>text_my_orders</key>
+		<value><![CDATA[سفارشات من]]></value>
+	</definition>
+	<definition>
+		<key>text_my_newsletter</key>
+		<value><![CDATA[خبرنامه ها]]></value>
+	</definition>
+	<definition>
+		<key>text_information</key>
+		<value><![CDATA[ويرايش اطلاعات پروفايل]]></value>
+	</definition>
+	<definition>
+		<key>text_password</key>
+		<value><![CDATA[تغيير رمز عبور]]></value>
+	</definition>
+	<definition>
+		<key>text_address</key>
+		<value><![CDATA[مديريت ادرس ها]]></value>
+	</definition>
+	<definition>
+		<key>text_history</key>
+		<value><![CDATA[تاريخچه سفارشات]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[تاريخچه پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>text_download</key>
+		<value><![CDATA[دانلودها]]></value>
+	</definition>
+	<definition>
+		<key>text_newsletter</key>
+		<value><![CDATA[عضويت در خبرنامه]]></value>
+	</definition>
+</definitions>

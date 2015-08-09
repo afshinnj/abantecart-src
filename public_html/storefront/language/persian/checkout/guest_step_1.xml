@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[پرداخت مهمان - مرحله  1]]></value>
+	</definition>
+	<definition>
+		<key>text_cart</key>
+		<value><![CDATA[سبد خريد]]></value>
+	</definition>
+	<definition>
+		<key>text_guest_step_1</key>
+		<value><![CDATA[پرداخت مهمان - مرحله 1]]></value>
+	</definition>
+	<definition>
+		<key>text_your_details</key>
+		<value><![CDATA[جرئيات شخصي شما]]></value>
+	</definition>
+	<definition>
+		<key>text_your_address</key>
+		<value><![CDATA[ادرس شما]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_address</key>
+		<value><![CDATA[ادرس حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_indicator</key>
+		<value><![CDATA[بررسی در اینجا اگر شما هر گونه آدرس حمل و نقل جداگانه در دسترس داشته باشد.]]></value>
+	</definition>
+	<definition>
+		<key>entry_firstname</key>
+		<value><![CDATA[نام:]]></value>
+	</definition>
+	<definition>
+		<key>entry_lastname</key>
+		<value><![CDATA[نام خانوادگي:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[ايميل:]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[تلفن:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[فكس:]]></value>
+	</definition>
+	<definition>
+		<key>entry_company</key>
+		<value><![CDATA[شركت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_1</key>
+		<value><![CDATA[ادرس 1:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_2</key>
+		<value><![CDATA[ادرس 2:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[كد پستي:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[شهر:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[كشور:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[منطقه:]]></value>
+	</definition>
+	<definition>
+		<key>error_firstname</key>
+		<value><![CDATA[تعداد كاراكتر نام بايد بين 1 تا 32 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_lastname</key>
+		<value><![CDATA[تعداد كاراكتر نام خانوادگي بايد بين 1 تا 32 كاراكتر باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[ايميل وارد شده معتبر نمي باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[تعداد كاراكتر تلفن بايد بين 1 تا 32 كاراكتر باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_address_1</key>
+		<value><![CDATA[تعداد كاراكتر ادرس بايد بين 1 تا 128 كاراكتر باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[تعداد كاراكتر شهر بايد بين 1 تا 128 كاراكتر باشد]]></value>
+	</definition>
+    <definition>
+        <key>error_postcode</key>
+        <value><![CDATA[تعداد كاراكتر كد پستي بايد بين 1 تا 10 كاراكتر باشد]]></value>
+    </definition>
+	<definition>
+		<key>error_country</key>
+		<value><![CDATA[لطفا يك كشور انتخاب نماييد !]]></value>
+	</definition>
+	<definition>
+		<key>error_zone</key>
+		<value><![CDATA[لطفا يك منطقه را انتخاب نماييد!]]></value>
+	</definition>
+</definitions>

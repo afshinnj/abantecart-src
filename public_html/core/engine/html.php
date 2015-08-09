@@ -1578,7 +1578,7 @@ class DateHtmlElement extends HtmlElement {
 				'name' => $this->name,
 				'id' => $this->element_id,
 				'type' => 'text',
-				'value' => str_replace('"', '&quot;', $this->value),
+				'value' =>  str_replace('"', '&quot;', $this->value),
 				'default' => $this->default,
 				//TODO: remove deprecated attribute aform_field_type
 				'attr' => 'aform_field_type="date" ' . $this->attr.' data-aform-field-type="captcha"',

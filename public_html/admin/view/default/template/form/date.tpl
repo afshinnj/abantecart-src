@@ -17,7 +17,7 @@
 	/*$('#<?php echo $id ?>').datepicker({dateFormat:'<?php echo $dateformat ?>'});*/
 
         $('#<?php echo $id ?>').persianDatepicker({
-            observer: false,
+           
             format: 'DD/MM/YYYY'
 
         });

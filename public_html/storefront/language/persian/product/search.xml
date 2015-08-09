@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[جستجو]]></value>
+	</definition>
+	<definition>
+		<key>text_search</key>
+		<value><![CDATA[محصولات موجود در ضوابط جستجو]]></value>
+	</definition>
+	<definition>
+		<key>text_keyword</key>
+		<value><![CDATA[كلمات كليدي]]></value>
+	</definition>
+	<definition>
+		<key>text_category</key>
+		<value><![CDATA[همه شاخه ها]]></value>
+	</definition>
+	<definition>
+		<key>text_critea</key>
+		<value><![CDATA[شرايط جستجو]]></value>
+	</definition>
+	<definition>
+		<key>text_empty</key>
+		<value><![CDATA[هیچ محصول که منطبق شرايط جستجو وجود دارد.]]></value>
+	</definition>
+	<definition>
+		<key>text_stars</key>
+		<value><![CDATA[%s از 5 ستاره!]]></value>
+	</definition>
+	<definition>
+		<key>text_sort</key>
+		<value><![CDATA[مرتب سازي بر اساس:]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[پيش فرض]]></value>
+	</definition>
+	<definition>
+		<key>text_name_asc</key>
+		<value><![CDATA[نام الف - ي]]></value>
+	</definition>
+	<definition>
+		<key>text_name_desc</key>
+		<value><![CDATA[نام ي - الف]]></value>
+	</definition>
+	<definition>
+		<key>text_price_asc</key>
+		<value><![CDATA[كمترين قيمت &gt; بيشترين]]></value>
+	</definition>
+	<definition>
+		<key>text_price_desc</key>
+		<value><![CDATA[بيشترين قيمت &gt; كمترين]]></value>
+	</definition>
+	<definition>
+		<key>text_rating_asc</key>
+		<value><![CDATA[كمترين امتياز]]></value>
+	</definition>
+	<definition>
+		<key>text_rating_desc</key>
+		<value><![CDATA[بيشترين امتياز]]></value>
+	</definition>
+	<definition>
+		<key>entry_search</key>
+		<value><![CDATA[جستجو:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[جستجو در توضیحات محصول]]></value>
+	</definition>
+	<definition>
+		<key>entry_model</key>
+		<value><![CDATA[جستجو در مدل محصول]]></value>
+	</definition>
+</definitions>

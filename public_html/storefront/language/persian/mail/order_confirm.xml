@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>text_subject</key>
+    <value><![CDATA[%s - سفارش %s]]></value>
+  </definition>
+  <definition>
+    <key>text_greeting</key>
+    <value><![CDATA[تشکر خود را برای علاقه در %s محصولات. سفارش شما دریافت شده است و پردازش خواهد شد یک بار پرداخت شده است تایید کرد.]]></value>
+  </definition>
+  <definition>
+    <key>text_received</key>
+    <value><![CDATA[شما سفارش را دریافت کرده اند.]]></value>
+  </definition>
+  <definition>
+    <key>text_order_detail</key>
+    <value><![CDATA[جزئيات سفارش]]></value>
+  </definition>
+  <definition>
+    <key>text_order_id</key>
+    <value><![CDATA[شماره سفارش:]]></value>
+  </definition>
+  <definition>
+    <key>text_date_added</key>
+    <value><![CDATA[تاريخ سفارش:]]></value>
+  </definition>
+  <definition>
+    <key>text_order_status</key>
+    <value><![CDATA[وضعيت سفارش:]]></value>
+  </definition>
+  <definition>
+    <key>text_invoice</key>
+    <value><![CDATA[برای دیدن منظور کلیک خود را در لینک زیر:]]></value>
+  </definition>
+  <definition>
+    <key>text_shipping_method</key>
+    <value><![CDATA[روش حمل و نقل:]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_method</key>
+    <value><![CDATA[روش پرداخت:]]></value>
+  </definition>
+  <definition>
+    <key>text_shipping_address</key>
+    <value><![CDATA[ادرس حمل و نقل]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_address</key>
+    <value><![CDATA[ادرس پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_email</key>
+    <value><![CDATA[ايميل:]]></value>
+  </definition>
+  <definition>
+    <key>text_telephone</key>
+    <value><![CDATA[تلفن:]]></value>
+  </definition>
+  <definition>
+    <key>text_fax</key>
+    <value><![CDATA[فكس:]]></value>
+  </definition>
+  <definition>
+    <key>text_ip</key>
+    <value><![CDATA[IP ادرس:]]></value>
+  </definition>
+  <definition>
+    <key>text_product</key>
+    <value><![CDATA[محصولات:]]></value>
+  </definition>
+  <definition>
+    <key>text_total</key>
+    <value><![CDATA[جمع:]]></value>
+  </definition>
+  <definition>
+    <key>text_download</key>
+    <value><![CDATA[هنگامی که پرداخت شما تایید شده است شما می توانید بر روی لینک زیر کلیک کنید تا دسترسی به محصولات قابل دانلود خود را:]]></value>
+  </definition>
+  <definition>
+    <key>text_comment</key>
+    <value><![CDATA[نظرات برای سفارش خود را می:]]></value>
+  </definition>
+  <definition>
+    <key>text_footer</key>
+    <value><![CDATA[لطفا به این ایمیل پاسخ اگر شما هر گونه سوال.]]></value>
+  </definition>
+  <definition>
+    <key>text_powered_by</key>
+    <value><![CDATA[قدرت گرفته از]]></value>
+  </definition>
+  <definition>
+    <key>text_new_order</key>
+    <value><![CDATA[سفارش جديد - #]]></value>
+  </definition>
+  <definition>
+    <key>text_new_order_text</key>
+    <value><![CDATA[مشتري %s افزودن سفارش جديد]]></value>
+  </definition>
+  <definition>
+    <key>column_product</key>
+    <value><![CDATA[محصولات]]></value>
+  </definition>
+  <definition>
+    <key>column_model</key>
+    <value><![CDATA[مدل]]></value>
+  </definition>
+  <definition>
+    <key>column_quantity</key>
+    <value><![CDATA[تعداد]]></value>
+  </definition>
+  <definition>
+    <key>column_price</key>
+    <value><![CDATA[قيمت]]></value>
+  </definition>
+  <definition>
+    <key>column_total</key>
+    <value><![CDATA[جمع]]></value>
+  </definition>
+</definitions>

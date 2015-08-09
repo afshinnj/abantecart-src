@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[بلوك ها]]></value>
+	</definition>
+	<definition>
+		<key>text_delete</key>
+		<value><![CDATA[حذف بلوك]]></value>
+	</definition>
+	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[ويرايش بلوك]]></value>
+	</definition>
+	<definition>
+		<key>text_enable</key>
+		<value><![CDATA[فعال كردن/غيرفعال كردن]]></value>
+	</definition>
+	<definition>
+		<key>text_details</key>
+		<value><![CDATA[جزئيات]]></value>
+	</definition>
+	<definition>
+		<key>text_create</key>
+		<value><![CDATA[ايجاد بلوك]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[بلوک شما تغییر کرده اند: موفقیت!]]></value>
+	</definition>
+	<definition>
+		<key>column_block_id</key>
+		<value><![CDATA[شماره]]></value>
+	</definition>
+	<definition>
+		<key>column_block_txt_id</key>
+		<value><![CDATA[منحصر به فرد شماره متن ]]></value>
+	</definition>
+	<definition>
+		<key>column_block_name</key>
+		<value><![CDATA[نام]]></value>
+	</definition>
+	<definition>
+		<key>column_date_added</key>
+		<value><![CDATA[افزودن تاريخ]]></value>
+	</definition>
+	<definition>
+		<key>column_block_type</key>
+		<value><![CDATA[ نوع ]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[ اقدام ]]></value>
+	</definition>
+	<definition>
+		<key>column_sort_order</key>
+		<value><![CDATA[ نوع سفارش ]]></value>
+	</definition>
+	<definition>
+		<key>column_image</key>
+		<value><![CDATA[ تصوير ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_status</key>
+		<value><![CDATA[ وضعيت ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_status_note</key>
+		<value><![CDATA[ توجه: شما نیاز به اضافه کردن این بلوک در <a style="text-decoration: underline; font-weight: bold;" href="#admin#rt=design/layout">صفحه بندي</a>در مورد نظر صفحه به آن را ببینید کار ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_type</key>
+		<value><![CDATA[ سفارشی نوع بلوک ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_name</key>
+		<value><![CDATA[ نام سفارشی بلوک ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_wrapper</key>
+		<value><![CDATA[ لفاف بسته بندی بلوک استفاده از (ظاهر) ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_framed</key>
+		<value><![CDATA[ قاب استفاده از بلوک های ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_title</key>
+		<value><![CDATA[ سفارشی بلوک عنوان]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_description</key>
+		<value><![CDATA[ توضیحات سفارشی بلوک<p>تنها مصرف داخلی: توجه داشته باشید </p> ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_content</key>
+		<value><![CDATA[ محتوای سفارشی بلوک ]]></value>
+	</definition>
+	<definition>
+		<key>entry_listing_datasource</key>
+		<value><![CDATA[ داده های لیست منبع ]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_confirm</key>
+		<value><![CDATA[ تایید به حذف بلوک؟ ]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[لطفا پر کردن تمام اطلاعات لازم!]]></value>
+	</definition>
+	<definition>
+		<key>error_delete</key>
+		<value><![CDATA[نمی تونم حذف به دلیل این بلوک در حال استفاده است. لطفا بخش چیدمان مراجعه کنید. ]]></value>
+	</definition>
+	<definition>
+		<key>error_text_status</key>
+		<value><![CDATA[نمی تونم تغییر وضعیت به دلیل این بلوک در حال استفاده نیست. لطفا بخش چیدمان مراجعه کنید. ]]></value>
+	</definition>
+	<definition>
+		<key>text_success_deleted</key>
+		<value><![CDATA[موفقیت: شما حذف شده اند بلوک سفارشی!]]></value>
+	</definition>
+	<definition>
+		<key>entry_data_source</key>
+		<value><![CDATA[دادههای منبع:]]></value>
+	</definition>
+	<definition>
+		<key>entry_limit</key>
+		<value><![CDATA[محدود:]]></value>
+	</definition>
+	<definition>
+		<key>text_listing_auto</key>
+		<value><![CDATA[لیست خودکار]]></value>
+	</definition>
+	<definition>
+		<key>text_listing_manual</key>
+		<value><![CDATA[لیست سفارشی]]></value>
+	</definition>
+	<definition>
+		<key>text_select_listing</key>
+		<value><![CDATA[--- اطلاعات انتخاب فهرست منبع ---]]></value>
+	</definition>
+	<definition>
+		<key>text_products_special</key>
+		<value><![CDATA[پیشنهادات ویژه]]></value>
+	</definition>
+	<definition>
+		<key>text_products_popular</key>
+		<value><![CDATA[محصولات محبوب]]></value>
+	</definition>
+	<definition>
+		<key>text_categories</key>
+		<value><![CDATA[شاخه ها]]></value>
+	</definition>
+	<definition>
+		<key>text_media</key>
+		<value><![CDATA[رسانه]]></value>
+	</definition>
+	<definition>
+		<key>entry_resource_type</key>
+		<value><![CDATA[نوع رسانه:]]></value>
+	</definition>
+	<definition>
+		<key>text_custom_products</key>
+		<value><![CDATA[محصولات سفارشی]]></value>
+	</definition>
+	<definition>
+		<key>text_custom_categories</key>
+		<value><![CDATA[شاخه سفارشي]]></value>
+	</definition>
+	<definition>
+		<key>text_custom_manufacturers</key>
+		<value><![CDATA[سازندگان سفارشي]]></value>
+	</definition>
+	<definition>
+		<key>text_html_block</key>
+		<value><![CDATA[HTML]]></value>
+	</definition>
+	<definition>
+		<key>text_listing_block</key>
+		<value><![CDATA[اطلاعات مثال]]></value>
+	</definition>
+	<definition>
+		<key>text_selected</key>
+		<value><![CDATA[ انتخاب مورد: ]]></value>
+	</definition>
+	<definition>
+		<key>text_data_listed</key>
+		<value><![CDATA[ اطلاعات به فهرست شده باشد ]]></value>
+	</definition>
+	<definition>
+		<key>text_save_edit</key>
+		<value><![CDATA[ افزودن/ويرايش ]]></value>
+	</definition>
+	<definition>
+		<key>text_apply</key>
+		<value><![CDATA[ درخواست انتخاب ]]></value>
+	</definition>
+	<definition>
+		<key>text_block_id</key>
+		<value><![CDATA[ شماره بلوك ]]></value>
+	</definition>
+	<definition>
+		<key>text_block_txt_id</key>
+		<value><![CDATA[ شماره متن بلوك ]]></value>
+	</definition>
+	<definition>
+		<key>text_controller</key>
+		<value><![CDATA[ كنترل كننده ]]></value>
+	</definition>
+	<definition>
+		<key>text_templates</key>
+		<value><![CDATA[ قالب بلوك ]]></value>
+	</definition>
+	<definition>
+		<key>text_block_date_added</key>
+		<value><![CDATA[ تاريخ ايجاد بلوك ]]></value>
+	</definition>
+	<definition>
+		<key>text_layouts</key>
+		<value><![CDATA[ مورد استفاده در طرح بندی ]]></value>
+	</definition>
+	<definition>
+		<key>text_block_info</key>
+		<value><![CDATA[ اطلاعات درباره سفارشی بلوک ]]></value>
+	</definition>
+	<definition>
+		<key>text_add_block</key>
+		<value><![CDATA[اضافه کردن بلوک به بخش]]></value>
+	</definition>
+	<definition>
+		<key>text_available_block</key>
+		<value><![CDATA[بلوک های موجود]]></value>
+	</definition>
+	<definition>
+		<key>error_block_not_available</key>
+		<value><![CDATA[این بلوک خواهد شد در موقعیت انتخاب در نمای نمایش داده نمی!]]></value>
+	</definition>
+</definitions>

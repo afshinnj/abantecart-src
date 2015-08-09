@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[منطقه]]></value>
+  </definition>
+  <definition>
+    <key>text_zone</key>
+    <value><![CDATA[منطقه]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما را تغییر می مناطق!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام منطقه]]></value>
+  </definition>
+  <definition>
+    <key>column_code</key>
+    <value><![CDATA[كد منطقه]]></value>
+  </definition>
+  <definition>
+    <key>column_country</key>
+    <value><![CDATA[كشور]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>column_status</key>
+    <value><![CDATA[وضعيت]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[وضعيت منطقه:]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[نام منطقه:]]></value>
+  </definition>
+  <definition>
+    <key>entry_code</key>
+    <value><![CDATA[كد منطقه:]]></value>
+  </definition>
+  <definition>
+    <key>entry_country</key>
+    <value><![CDATA[كشور:]]></value>
+  </definition>
+  <definition>
+    <key>text_select_country</key>
+    <value><![CDATA[- انتخاب كشور -]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[هشدار: شما اجازه دسترسی به تغییر مناطق ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[نام منطقه باید بین 2 و 128 کاراکتر باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[هشدار: این منطقه نمی تواند حذف شود آن را به عنوان در حال حاضر به عنوان منطقه فروشگاه به طور پیش فرض اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[هشدار: این منطقه نمی تواند حذف شود آن را به عنوان در حال حاضر به %s فروشگاه اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_address</key>
+    <value><![CDATA[هشدار: این منطقه نمی تواند حذف شود آن را به عنوان در حال حاضر به%s مطالب کتاب آدرس اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_zone_to_location</key>
+    <value><![CDATA[هشدار: این منطقه نمی تواند حذف شود آن را به عنوان در حال حاضر به مناطق%s به مکان های اختصاص داده!]]></value>
+  </definition>
+</definitions>

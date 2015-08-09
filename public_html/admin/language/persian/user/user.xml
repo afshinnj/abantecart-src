@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[كاربران]]></value>
+  </definition>
+  <definition>
+    <key>text_edit_details</key>
+    <value><![CDATA[ويرايش اطلاعات كاربران]]></value>
+  </definition>
+  <definition>
+    <key>text_user</key>
+    <value><![CDATA[كاربر]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما را تغییر می کاربران!]]></value>
+  </definition>
+  <definition>
+    <key>text_success_details</key>
+    <value><![CDATA[موفقیت: شما مشخصات خود را اصلاح کرده اند!]]></value>
+  </definition>
+  <definition>
+    <key>column_username</key>
+    <value><![CDATA[نام كاربري]]></value>
+  </definition>
+  <definition>
+    <key>column_group</key>
+    <value><![CDATA[گروه]]></value>
+  </definition>
+  <definition>
+    <key>column_status</key>
+    <value><![CDATA[وضعيت]]></value>
+  </definition>
+  <definition>
+    <key>column_date_added</key>
+    <value><![CDATA[افزودن اطلاعات]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>entry_username</key>
+    <value><![CDATA[نام كاربري:]]></value>
+  </definition>
+  <definition>
+    <key>entry_password</key>
+    <value><![CDATA[رمز عبور:]]></value>
+  </definition>
+  <definition>
+    <key>entry_confirm</key>
+    <value><![CDATA[تاييد:]]></value>
+  </definition>
+  <definition>
+    <key>entry_firstname</key>
+    <value><![CDATA[نام:]]></value>
+  </definition>
+  <definition>
+    <key>entry_lastname</key>
+    <value><![CDATA[نام خانوادگي:]]></value>
+  </definition>
+  <definition>
+    <key>entry_email</key>
+    <value><![CDATA[ايميل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_user_group</key>
+    <value><![CDATA[نام گروه:]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[وضعيت:]]></value>
+  </definition>
+  <definition>
+    <key>entry_captcha</key>
+    <value><![CDATA[كدزير را وارد كنيد:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[هشدار: شما اجازه دسترسی به تغییر کاربران نداريد!]]></value>
+  </definition>
+  <definition>
+    <key>error_account</key>
+    <value><![CDATA[هشدار: شما نمي توانيد كاربري را حذف كنيد]]></value>
+  </definition>
+  <definition>
+    <key>error_username</key>
+    <value><![CDATA[تعداد كاراكتر نام كاربري بايد بين 2 و 20 عدد باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_password</key>
+    <value><![CDATA[كاراكتر رمز عبور بايد بيش از 3 عدد باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_confirm</key>
+    <value><![CDATA[پسورد وارد شده با پسورد تاييدي درست نيست]]></value>
+  </definition>
+  <definition>
+    <key>error_firstname</key>
+    <value><![CDATA[تعداد كاراكتر نام بايد بيش از 2 عدد باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_lastname</key>
+    <value><![CDATA[تعداد كاراكتر نام خانوادگي بايد بين 2 تا 32 كاراكتر باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_email</key>
+    <value><![CDATA[ايميل وارد شده معتبر نيست!]]></value>
+  </definition>  
+  <definition>
+    <key>error_captcha</key>
+    <value><![CDATA[كد وارد شده با تصوير مطابقت ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>text_select_group</key>
+    <value><![CDATA[- انتخاب گروه -]]></value>
+  </definition>
+
+</definitions>

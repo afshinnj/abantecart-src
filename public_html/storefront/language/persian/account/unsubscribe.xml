@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[لغو با موفقيت انجام گرفت]]></value>
+  </definition>
+  <definition>
+    <key>text_message</key>
+    <value><![CDATA[<p>شما با موفقیت از ارتباطات ایمیل لغو.]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[حساب كاربري]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقيت]]></value>
+  </definition>
+</definitions>

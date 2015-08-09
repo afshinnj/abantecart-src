@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[حساب دانلود]]></value>
+	</definition>
+	<definition>
+		<key>text_account</key>
+		<value><![CDATA[پروفايل]]></value>
+	</definition>
+	<definition>
+		<key>text_downloads</key>
+		<value><![CDATA[دانلودها]]></value>
+	</definition>
+	<definition>
+		<key>text_order</key>
+		<value><![CDATA[شماره سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>text_date_added</key>
+		<value><![CDATA[افزودن تاريخ:]]></value>
+	</definition>
+	<definition>
+		<key>text_date_purchased</key>
+		<value><![CDATA[تاريخ سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>text_name</key>
+		<value><![CDATA[نام:]]></value>
+	</definition>
+	<definition>
+		<key>text_remaining</key>
+		<value><![CDATA[باقي مانده:]]></value>
+	</definition>
+	<definition>
+		<key>text_size</key>
+		<value><![CDATA[سايز:]]></value>
+	</definition>
+	<definition>
+		<key>text_download</key>
+		<value><![CDATA[دانلود]]></value>
+	</definition>
+	<definition>
+		<key>text_error</key>
+		<value><![CDATA[شما هنوز سفارشات قبلي را نساخته ايد]]></value>
+	</definition>
+	<definition>
+		<key>text_expire_date</key>
+		<value><![CDATA[تاريخ انقضا:]]></value>
+	</definition>
+	<definition>
+		<key>text_expired</key>
+		<value><![CDATA[منقضي شده]]></value>
+	</definition>
+	<definition>
+		<key>text_pending</key>
+		<value><![CDATA[در انتظار]]></value>
+	</definition>
+	<definition>
+		<key>text_unavailable</key>
+		<value><![CDATA[در دسترس نيست]]></value>
+	</definition>
+	<definition>
+		<key>text_reached_limit</key>
+		<value><![CDATA[به محدوديت رسيده]]></value>
+	</definition>
+</definitions>

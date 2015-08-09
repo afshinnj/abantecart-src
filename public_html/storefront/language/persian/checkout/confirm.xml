@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[تاييد پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[سبد]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_basket</key>
+		<value><![CDATA[ويرايش سبد]]></value>
+	</definition>
+	<definition>
+		<key>text_accept_agree</key>
+		<value>
+			<![CDATA[با کلیک کردن تایید سفارش، شما شرایط و موافقت به تمام نظر]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_items</key>
+		<value><![CDATA[اقلام در سبد خرید شما]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[حمل نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_shipping</key>
+		<value><![CDATA[ويرايش حمل نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_payment</key>
+		<value><![CDATA[ويرايش پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>text_guest_step_1</key>
+		<value><![CDATA[پرداخت مهمان - مرحله 1]]></value>
+	</definition>
+	<definition>
+		<key>text_guest_step_2</key>
+		<value><![CDATA[پرداخت مهمان - مرحله 2]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[تاييد]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_address</key>
+		<value><![CDATA[ادرس حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_method</key>
+		<value><![CDATA[روش حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_address</key>
+		<value><![CDATA[ادرس پراخت]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_method</key>
+		<value><![CDATA[روش پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>text_change</key>
+		<value><![CDATA[تغيير]]></value>
+	</definition>
+	<definition>
+		<key>text_comment</key>
+		<value><![CDATA[نظرات شما]]></value>
+	</definition>
+	<definition>
+		<key>text_discount</key>
+		<value><![CDATA[كوپن تخفيف]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[محصولات]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[مدل]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[تعداد]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[قيمت]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[جمع]]></value>
+	</definition>
+	<definition>
+		<key>text_add_coupon</key>
+		<value><![CDATA[افزودن كوپن]]></value>
+	</definition>
+</definitions>

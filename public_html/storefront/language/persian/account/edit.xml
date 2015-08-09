@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[اطلاعات حساب كاربري من]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[پروفايل]]></value>
+  </definition>
+  <definition>
+    <key>text_edit</key>
+    <value><![CDATA[ويرايش اطلاعات]]></value>
+  </definition>
+  <definition>
+    <key>text_your_details</key>
+    <value><![CDATA[جزئيات اطلاعات شخصي]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[اطلاعات شم با موفقيت بروزرساني شد.]]></value>
+  </definition>
+  <definition>
+    <key>entry_loginname</key>
+    <value><![CDATA[نام ورود:]]></value>
+  </definition>  
+  <definition>
+    <key>entry_firstname</key>
+    <value><![CDATA[نام:]]></value>
+  </definition>
+  <definition>
+    <key>entry_lastname</key>
+    <value><![CDATA[نام خانوادگي:]]></value>
+  </definition>
+  <definition>
+    <key>entry_date_of_birth</key>
+    <value><![CDATA[تاريخ تولد:]]></value>
+  </definition>
+  <definition>
+    <key>entry_email</key>
+    <value><![CDATA[ايميل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_telephone</key>
+    <value><![CDATA[تلفن:]]></value>
+  </definition>
+  <definition>
+    <key>entry_fax</key>
+    <value><![CDATA[فكس:]]></value>
+  </definition>
+  <definition>
+    <key>error_exists</key>
+    <value><![CDATA[خطا: ادرس ايميل در فروشگاه موجود است]]></value>
+  </definition>
+  <definition>
+    <key>error_loginname</key>
+    <value><![CDATA[نام وارد شده بايد بين 5 تا 25 كاراكتر باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_loginname_notunique</key>
+    <value><![CDATA[نام كاربري درست نمي باشد مجدد تلاش نماييد]]></value>
+  </definition>
+  <definition>
+    <key>error_firstname</key>
+    <value><![CDATA[نام بايد بين 1 تا 32 كاراكتر باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_lastname</key>
+    <value><![CDATA[نام خانوادگي بايد بين بين 1 تا 32 كاراكتر باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_email</key>
+    <value><![CDATA[ايميل وارد شده معتبر نمي باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_telephone</key>
+    <value><![CDATA[تلفن بايد بي 1 تا 32 كاراكتر باشد]]></value>
+  </definition>
+  <definition>
+    <key>loginname_update_required</key>
+   <value><![CDATA[نام كاربري شما همان ايميل مي باشد. لطفا جهت امنيت بيشتر يك نام جديد وارد نماييد]]></value>
+  </definition>
+</definitions>

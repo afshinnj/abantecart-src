@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[ايجاد حساب كاربري]]></value>
+	</definition>
+	<definition>
+		<key>text_account</key>
+		<value><![CDATA[پروفايل]]></value>
+	</definition>
+	<definition>
+		<key>text_create</key>
+		<value><![CDATA[ثبت نام]]></value>
+	</definition>
+	<definition>
+		<key>text_account_already</key>
+		<value>
+			<![CDATA[اگر شما عضو فروشگاه هست وارد شويد <a style="text-decoration: underline" href="%s">صفحه ورود</a>.]]></value>
+	</definition>
+	<definition>
+		<key>text_your_details</key>
+		<value><![CDATA[اطلاعات شخصي شما]]></value>
+	</definition>
+	<definition>
+		<key>text_your_address</key>
+		<value><![CDATA[ادرس]]></value>
+	</definition>
+	<definition>
+		<key>text_newsletter</key>
+		<value><![CDATA[عضويت در خبرنامه]]></value>
+	</definition>
+	<definition>
+		<key>text_your_password</key>
+		<value><![CDATA[رمز عبور]]></value>
+	</definition>
+	<definition>
+		<key>text_agree</key>
+		<value><![CDATA[من خواندم و موافق هستم ]]></value>
+	</definition>
+	<definition>
+		<key>entry_loginname</key>
+		<value><![CDATA[نام ورود:]]></value>
+	</definition>
+	<definition>
+		<key>entry_firstname</key>
+		<value><![CDATA[نام :]]></value>
+	</definition>
+	<definition>
+		<key>entry_lastname</key>
+		<value><![CDATA[نام خانوادگي:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[ايميل:]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[تلفن:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[فكس:]]></value>
+	</definition>
+	<definition>
+		<key>entry_company</key>
+		<value><![CDATA[شركت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_1</key>
+		<value><![CDATA[ادرس 1:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_2</key>
+		<value><![CDATA[ادرس 2:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[كد پستي:]]></value>
+	</definition>	
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[شهر:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[كشور:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[منطقه:]]></value>
+	</definition>
+	<definition>
+		<key>entry_newsletter</key>
+		<value><![CDATA[اشتراك:]]></value>
+	</definition>
+	<definition>
+		<key>entry_password</key>
+		<value><![CDATA[رمز عبور:]]></value>
+	</definition>
+	<definition>
+		<key>entry_confirm</key>
+		<value><![CDATA[رمز عبور مجدد:]]></value>
+	</definition>
+	<definition>
+		<key>error_exists</key>
+		<value><![CDATA[هشدار: ايميل وارد شده در فروشگاه موجود مي باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[شناسه ورود تنها بايد بين 5 تا 64 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[اين نام در دسترس نيست. لطفا نام ديگري را وارد نماييد]]></value>
+	</definition>
+	<definition>
+		<key>error_firstname</key>
+		<value><![CDATA[تعداد كاراكتر نام بايد بين 1 تا 32 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_lastname</key>
+		<value><![CDATA[تعداد كاراكتر نام خانوادگي بايد بين 1 تا 32 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[ايميل وارد شده معتبر نمي باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_email_exists</key>
+		<value><![CDATA[ادرس ايميل در فروشگاه وجود دارد]]></value>
+	</definition>
+	<definition>
+		<key>error_password</key>
+		<value><![CDATA[تعداد كاراكتر رمز عبور بايد بين 1 تا 32 كاراكتر باشد ]]></value>
+	</definition>
+	<definition>
+		<key>error_confirm</key>
+		<value><![CDATA[رمز عبور مجدد با رمز عبور اول يكي نمي باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_address_1</key>
+		<value><![CDATA[تعداد كاراكتر ادرس ها بايد بين 1 تا 128 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[تعداد كاراكتر شهر بايد بين 1 تا 128 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[كد پستي بايد بين 1 تا 10 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_country</key>
+		<value><![CDATA[لطفا يك كشور را انتخاب نماييد]]></value>
+	</definition>
+	<definition>
+		<key>error_zone</key>
+		<value><![CDATA[لطفا يك منطقه را انتخاب نماييد]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[تعداد كاراكتر تلفن بايد بيش از 3 كاراكتر باشد]]></value>
+	</definition>
+	<definition>
+		<key>error_agree</key>
+		<value><![CDATA[هشدار: شما بايد موافقيت با %s!]]></value>
+	</definition>
+	<definition>
+		<key>text_full_register</key>
+		<value><![CDATA[جهت درج اطلاعات در سايت عضو شويد]]></value>
+	</definition>
+	<definition>
+		<key>text_subscribe_register</key>
+		<value><![CDATA[ايجاد يك خبرنامه مشترك]]></value>
+	</definition>
+	<definition>
+		<key>text_success_subscribe_heading</key>
+		<value><![CDATA[عضويت در خبرنامه]]></value>
+	</definition>
+	<definition>
+		<key>text_success_subscribe</key>
+		<value><![CDATA[عضويت در خبرنامه شما با موفقيت انجام شد]]></value>
+	</definition>
+	<definition>
+		<key>error_subscriber_exists</key>
+		<value><![CDATA[شما داراي يك حساب كاربري هستيد. لطفا جهت اشتراك خبرنامه وارد سايت شويد]]></value>
+	</definition>
+	<definition>
+		<key>text_new_customer</key>
+		<value><![CDATA[مشتريان ثبت نام شده در انتظار]]></value>
+	</definition>	
+	<definition>
+		<key>text_pending_customer_approval</key>
+		<value><![CDATA[مشتري %s حساب شما با موفقيت ايجاد شد. جهت مشاهده حساب كليك كنيد #admin#rt=sale/customer/update&customer_id=%s]]></value>
+	</definition>	
+</definitions>

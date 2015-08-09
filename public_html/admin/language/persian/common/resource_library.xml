@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[منابع کتابخانه ای]]></value>
+	</definition>
+	<definition>
+		<key>view_title</key>
+		<value><![CDATA[مشاهده شئي منابع]]></value>
+	</definition>
+	<definition>
+		<key>confirm_title</key>
+		<value><![CDATA[تایید منابع (بازدید کنندگان) حذف]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[آیا مطمئن هستید که می خواهید پاک کنید منبع (بازدید کنندگان)?]]></value>
+	</definition>
+	<definition>
+		<key>text_cant_delete_title</key>
+		<value><![CDATA[منابع (بازدید کنندگان) حذف]]></value>
+	</definition>
+	<definition>
+		<key>text_cant_delete</key>
+		<value><![CDATA[نمی تونم منابع (بازدید کنندگان) حذف به خاطر یکی یا بیشتر به شی مرتبط]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_resource</key>
+		<value><![CDATA[ویرایش منابع]]></value>
+	</definition>
+	<definition>
+		<key>text_resource_details</key>
+		<value><![CDATA[جزییات منابع]]></value>
+	</definition>
+	<definition>
+		<key>text_mapped_to</key>
+		<value><![CDATA[مرتبط با]]></value>
+	</definition>
+	<definition>
+		<key>text_products</key>
+		<value><![CDATA[محصولات]]></value>
+	</definition>
+	<definition>
+		<key>text_add_file</key>
+		<value><![CDATA[اضافه کردن فایل منبع]]></value>
+	</definition>
+	<definition>
+		<key>text_add_code</key>
+		<value><![CDATA[اضافه کردن منابع HTML]]></value>
+	</definition>
+	<definition>
+		<key>text_add_files</key>
+		<value><![CDATA[افزودن فايل...]]></value>
+	</definition>
+	<definition>
+		<key>text_upload_files</key>
+		<value><![CDATA[اپلود فايل]]></value>
+	</definition>
+	<definition>
+		<key>text_drag</key>
+		<value><![CDATA[و یا کشیدن آنها را در اینجا برای شروع بارگذاری]]></value>
+	</definition>
+	<definition>
+		<key>text_start_upload</key>
+		<value><![CDATA[شروع اپلود]]></value>
+	</definition>
+	<definition>
+		<key>text_cancel_upload</key>
+		<value><![CDATA[لغو اپلود]]></value>
+	</definition>
+	<definition>
+		<key>text_start</key>
+		<value><![CDATA[شروع]]></value>
+	</definition>
+	<definition>
+		<key>text_cancel</key>
+		<value><![CDATA[لغو كردن]]></value>
+	</definition>
+	<definition>
+		<key>text_save_sort_order</key>
+		<value><![CDATA[ذخيره نوع سفارش]]></value>
+	</definition>
+	<definition>
+		<key>text_error</key>
+		<value><![CDATA[خطا]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_files</key>
+		<value><![CDATA[حذف فايل]]></value>
+	</definition>
+	<definition>
+		<key>text_search</key>
+		<value><![CDATA[جستجو]]></value>
+	</definition>
+	<definition>
+		<key>text_type</key>
+		<value><![CDATA[نوع]]></value>
+	</definition>
+	<definition>
+		<key>text_language</key>
+		<value><![CDATA[زبان]]></value>
+	</definition>
+	<definition>
+		<key>text_resource_code</key>
+		<value><![CDATA[منبع HTML]]></value>
+	</definition>
+	<definition>
+		<key>text_name</key>
+		<value><![CDATA[نام]]></value>
+	</definition>
+	<definition>
+		<key>text_title</key>
+		<value><![CDATA[عنوان]]></value>
+	</definition>
+	<definition>
+		<key>text_description</key>
+		<value><![CDATA[توضيحات]]></value>
+	</definition>
+	<definition>
+		<key>text_uploaded</key>
+		<value><![CDATA[موفقیت: منابع آپلود شده است!]]></value>
+	</definition>
+	<definition>
+		<key>text_add</key>
+		<value><![CDATA[افزودن]]></value>
+	</definition>
+	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[ويرايش]]></value>
+	</definition>
+	<definition>
+		<key>text_map</key>
+		<value><![CDATA[لینک به شی]]></value>
+	</definition>
+	<definition>
+		<key>text_map_to</key>
+		<value><![CDATA[لينك به %s]]></value>
+	</definition>
+	<definition>
+		<key>text_unmap</key>
+		<value><![CDATA[برداشتن لينك فرم]]></value>
+	</definition>
+	<definition>
+		<key>text_unmap_from</key>
+		<value><![CDATA[برداشتن لينك فرم %s]]></value>
+	</definition>
+	<definition>
+		<key>text_success_unmap</key>
+		<value><![CDATA[موفقیت: منابع قطع شده است.]]></value>
+	</definition>
+	<definition>
+		<key>text_file_delete</key>
+		<value><![CDATA[منبع حذف شده است!]]></value>
+	</definition>
+	<definition>
+		<key>text_delete</key>
+		<value><![CDATA[موفقیت: منابع شما حذف شده است!]]></value>
+	</definition>
+	<definition>
+		<key>error_file_type</key>
+		<value><![CDATA[هشدار: نوع فایل نادرست!]]></value>
+	</definition>
+	<definition>
+		<key>error_file_size</key>
+		<value><![CDATA[هشدار: فایل به بزرگ لطفا نگه داشتن زیر 300KB و بیش از 1000px ارتفاع یا عرض!]]></value>
+	</definition>
+	<definition>
+		<key>error_maxFileSize</key>
+		<value><![CDATA[فایل بسیار بزرگ است]]></value>
+	</definition>
+	<definition>
+		<key>error_minFileSize</key>
+		<value><![CDATA[فایل بسیار كوچك است]]></value>
+	</definition>
+	<definition>
+		<key>error_acceptFileTypes</key>
+		<value><![CDATA[نوع فایل مجاز نیست]]></value>
+	</definition>
+	<definition>
+		<key>error_maxNumberOfFiles</key>
+		<value><![CDATA[حداکثر تعداد فایل های بیش از]]></value>
+	</definition>
+	<definition>
+		<key>error_uploadedBytes</key>
+		<value><![CDATA[بایت آپلود شده بیش از اندازه پرونده]]></value>
+	</definition>
+	<definition>
+		<key>error_emptyResult</key>
+		<value>
+			<![CDATA[خالی نتیجه آپلود فایل. احتمالا فایل خراب است و یا بیش از حد بزرگ است. سایز فایل محدود به 16MB. اگر اندازه فایل کمتر از حد است لطفا تنظیمات پی اچ پی برای upload_max_size قرار و post_max_size چک  ]]></value>
+	</definition>
+	<definition>
+		<key>error_1</key>
+		<value><![CDATA[فایل upload_max_size قرار (بخشنامه فایل php.ini) بیش از]]></value>
+	</definition>
+	<definition>
+		<key>error_2</key>
+		<value><![CDATA[فایل بیش از MAX_FILE_SIZE (HTML فرم بخشنامه)]]></value>
+	</definition>
+	<definition>
+		<key>error_3</key>
+		<value><![CDATA[بارگذاری پرونده درونریزی شد]]></value>
+	</definition>
+	<definition>
+		<key>error_4</key>
+		<value><![CDATA[بدون فایل آپلود شد]]></value>
+	</definition>
+	<definition>
+		<key>error_5</key>
+		<value><![CDATA[یک پوشه موقت از دست رفته]]></value>
+	</definition>
+	<definition>
+		<key>error_6</key>
+		<value><![CDATA[به ارسال فایل بر روی دیسک شکست خورده]]></value>
+	</definition>
+	<definition>
+		<key>error_7</key>
+		<value><![CDATA[آپلود فایل های پسوند متوقف]]></value>
+	</definition>
+	<definition>
+		<key>error_uploaded</key>
+		<value><![CDATA[هشدار: فایل می تواند به دلیل نامعلومی نمی شود ارسال شده!]]></value>
+	</definition>
+	<definition>
+		<key>error_no_type</key>
+		<value><![CDATA[لطفا نوع منبع را انتخاب کنید]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[لازم داده شده، وارد نشده است]]></value>
+	</definition>
+	<definition>
+		<key>error_not_added</key>
+		<value><![CDATA[منابع اضافه شده است. لطفا ورود به سیستم خطا برای اطلاعات بیشتر چک کنید]]></value>
+	</definition>
+	<definition>
+		<key>error_ajax</key>
+		<value><![CDATA[بار خطا داده. لطفا ورود به سیستم خطا برای اطلاعات بیشتر چک کنید]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: اجازه ممنوع!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[خطا: نام فیلد الزامی است!]]></value>
+	</definition>
+	<definition>
+		<key>button_delete</key>
+		<value><![CDATA[حذف كردن]]></value>
+	</definition>
+	<definition>
+		<key>button_add</key>
+		<value><![CDATA[اضافه کردن منابع]]></value>
+	</definition>
+	<definition>
+		<key>button_done</key>
+		<value><![CDATA[انجام شده]]></value>
+	</definition>
+	<definition>
+		<key>button_select</key>
+		<value><![CDATA[انتخاب منابع]]></value>
+	</definition>
+	<definition>
+		<key>text_with_selected</key>
+		<value><![CDATA[با انتخاب:]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[منبع با موفقیت به روز شده]]></value>
+	</definition>
+	<definition>
+		<key>text_map_success</key>
+		<value><![CDATA[منبع با موفقیت مرتبط]]></value>
+	</definition>
+	<definition>
+		<key>text_no_resources</key>
+		<value><![CDATA[بدون منابع در دسترس]]></value>
+	</definition>
+	<definition>
+		<key>text_preview</key>
+		<value><![CDATA[پیشنمایش / دانلود]]></value>
+	</definition>
+	<definition>
+		<key>error_file size</key>
+		<value><![CDATA[توجه: حداکثر اندازه فایل برای آپلود است %s. شما می توانید این مقدار در افزایش php.ini.]]></value>
+	</definition>
+	<definition>
+		<key>text_product_option_value</key>
+		<value><![CDATA[مقدار گزینه های محصولات]]></value>
+	</definition>
+	<definition>
+		<key>text_products</key>
+		<value><![CDATA[محصولات]]></value>
+	</definition>
+	<definition>
+		<key>text_categories</key>
+		<value><![CDATA[شاخه ها]]></value>
+	</definition>
+	<definition>
+		<key>text_manufacturers</key>
+		<value><![CDATA[سازندگان]]></value>
+	</definition>
+	<definition>
+		<key>error_unmap</key>
+		<value><![CDATA[آیا می توانم منابع قطع ارتباط نیست. شی مجموعه ای توی.]]></value>
+	</definition>
+	<definition>
+		<key>text_replace_file</key>
+		<value><![CDATA[جایگزین فایل]]></value>
+	</definition>
+	<definition>
+		<key>error_not_replaced</key>
+		<value><![CDATA[فایل خطا جایگزین. ID مورد نیاز!]]></value>
+	</definition>
+	<definition>
+		<key>error_not_exists</key>
+		<value><![CDATA[فایل خطا جایگزین. منابع می کند وجود دارد نیست!]]></value>
+	</definition>
+	<definition>
+		<key>error_cannot_move</key>
+		<value><![CDATA[خطا: فایل حرکت نمی کند %s به دایرکتوری منابع.]]></value>
+	</definition>
+	<definition>
+		<key>button_save_n_link</key>
+		<value><![CDATA[ذخيره و پيوند به لينك]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_product</key>
+		<value><![CDATA[محصولات]]></value>
+	</definition>
+	<definition>
+		<key>text_error</key>
+		<value><![CDATA[شاخه اي وجود ندارد!]]></value>
+	</definition>
+	<definition>
+		<key>text_empty</key>
+		<value><![CDATA[هیچ کالایی در این شاخه وجود دارد.]]></value>
+	</definition>
+	<definition>
+		<key>text_stars</key>
+		<value><![CDATA[%s از 5 ستاره!]]></value>
+	</definition>
+	<definition>
+		<key>text_sort</key>
+		<value><![CDATA[مرتب سازي بر اساس:]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[پيش فرض]]></value>
+	</definition>
+	<definition>
+		<key>text_name_asc</key>
+		<value><![CDATA[نام الف - ي]]></value>
+	</definition>
+	<definition>
+		<key>text_name_desc</key>
+		<value><![CDATA[نام ي - الف]]></value>
+	</definition>
+	<definition>
+		<key>text_price_asc</key>
+		<value><![CDATA[قيمت كم &gt; زياد]]></value>
+	</definition>
+	<definition>
+		<key>text_price_desc</key>
+		<value><![CDATA[قيمت زياد &gt; كم]]></value>
+	</definition>
+	<definition>
+		<key>text_rating_asc</key>
+		<value><![CDATA[پايين ترين امتياز]]></value>
+	</definition>
+	<definition>
+		<key>text_rating_desc</key>
+		<value><![CDATA[بالاترين امتياز]]></value>
+	</definition>
+</definitions>

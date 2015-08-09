@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[صفت كلي]]></value>
+	</definition>
+	<definition>
+		<key>text_attribute</key>
+		<value><![CDATA[صفت كلي]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[وفقیت: شما را تغییر می صفات!]]></value>
+	</definition>
+    <definition>
+        <key>text_select_type</key>
+        <value><![CDATA[- انتخاب نوع -]]></value>
+    </definition>
+    <definition>
+        <key>text_select_parent</key>
+        <value><![CDATA[- انتخاب منبع -]]></value>
+    </definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[نام]]></value>
+	</definition>
+	<definition>
+		<key>column_type</key>
+		<value><![CDATA[نوع]]></value>
+	</definition>
+	<definition>
+		<key>column_sort_order</key>
+		<value><![CDATA[نوع سفارش]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[وضعيت]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[اقدام]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[نام:]]></value>
+	</definition>
+	<definition>
+		<key>entry_attribute_parent</key>
+		<value><![CDATA[صفت منبع:]]></value>
+	</definition>
+	<definition>
+		<key>entry_attribute_group</key>
+		<value><![CDATA[صفت گروه:]]></value>
+	</definition>
+	<definition>
+		<key>entry_attribute_type</key>
+		<value><![CDATA[نوع صفت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_type</key>
+		<value><![CDATA[نوع عنصر:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_values</key>
+		<value><![CDATA[ارزش عنصر:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[نوع سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>entry_required</key>
+		<value><![CDATA[ضروري:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[وضعيت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_children_attributes</key>
+		<value><![CDATA[صفات کودکان:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به تغییر ویژگی های جهانی ندارد!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[نام گروه باید بین 2 و 32 حرف باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_required</key>
+		<value><![CDATA[این فیلد الزامی است!]]></value>
+	</definition>
+	<definition>
+		<key>text_parent_note</key>
+		<value><![CDATA[اگر این ویژگی پدر و مادر با فرزندان ویژگی، تنها می تواند از نوع جعبه انتخاب، MultiSelect جعبه، گروه جعبه و جعبه باشد.<br>ارزش کودکان ترکیبی به عنوان یک مجموعه نشان داده شده است.]]></value>
+	</definition>
+	<definition>
+		<key>entry_allowed_extensions</key>
+		<value><![CDATA[ضمیمهها فایل مجاز (txt, jpg …)]]></value>
+	</definition>
+	<definition>
+		<key>entry_min_size</key>
+		<value><![CDATA[كمترين سايز فايل (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_max_size</key>
+		<value><![CDATA[بيشتر سايز فايل (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_dir</key>
+		<value><![CDATA[بارگذاری نام پوشه]]></value>
+	</definition>
+	<definition>
+		<key>entry_regexp_pattern</key>
+		<value><![CDATA[الگوی بیان منظم برای اعتبار سنجی از ارزش ها:]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_text</key>
+		<value><![CDATA[پیام خطا از مقدار نامعتبر:]]></value>
+	</definition>
+	<definition>
+		<key>error_attribute_name</key>
+		<value><![CDATA[نام ویژگی باید بین 2 و 64 کاراکتر باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_error_text</key>
+		<value><![CDATA[متن خطا در مورد مقدار ویژگی نامعتبر باید بین 2 و 255 کاراکتر باشد!]]></value>
+	</definition>
+	<definition>
+		<key>error_regexp_pattern</key>
+		<value><![CDATA[به طور منظم الگوی بیان نامعتبر است!]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_to_customer</key>
+		<value><![CDATA[نمایش به مشتری]]></value>
+	</definition>
+</definitions>

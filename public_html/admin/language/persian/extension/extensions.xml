@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[ماژول ها]]></value>
+	</definition>
+	<definition>
+		<key>text_install</key>
+		<value><![CDATA[نصب]]></value>
+	</definition>
+	<definition>
+		<key>text_uninstall</key>
+		<value><![CDATA[حذف كردن]]></value>
+	</definition>
+	<definition>
+		<key>text_uninstall_delete</key>
+		<value><![CDATA[حذف كردن/پاك كردن]]></value>
+	</definition>
+	<definition>
+		<key>text_uninstall_confirm</key>
+		<value>
+			<![CDATA[ لطفا تأیید کنید که می خواهید به حذف پسوند. همه تنظیمات فرمت و اطلاعات مربوط به ممکن است حذف شده و از دست رفته. ]]></value>
+	</definition>
+	<definition>
+		<key>text_delete</key>
+		<value><![CDATA[پاك كردن]]></value>
+	</definition>
+	<definition>
+		<key>text_enlarge</key>
+		<value><![CDATA[کلیک کنید تصویر برای بزرگ نمایی]]></value>
+	</definition>
+	<definition>
+		<key>text_activate</key>
+		<value><![CDATA[فعال]]></value>
+	</definition>
+	<definition>
+		<key>text_deactivate</key>
+		<value><![CDATA[غيرفعال]]></value>
+	</definition>
+	<definition>
+		<key>text_left</key>
+		<value><![CDATA[چپ]]></value>
+	</definition>
+	<definition>
+		<key>text_right</key>
+		<value><![CDATA[راست]]></value>
+	</definition>
+	<definition>
+		<key>text_date_added</key>
+		<value><![CDATA[اضافه شده در]]></value>
+	</definition>
+	<definition>
+		<key>column_icon</key>
+		<value><![CDATA[ايكون]]></value>
+	</definition>
+	<definition>
+		<key>column_id</key>
+		<value><![CDATA[شماره ماژول]]></value>
+	</definition>
+	<definition>
+		<key>column_required</key>
+		<value><![CDATA[ضروري]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[نام ماژول]]></value>
+	</definition>
+	<definition>
+		<key>column_position</key>
+		<value><![CDATA[موقعيت]]></value>
+	</definition>
+	<definition>
+		<key>column_update_date</key>
+		<value><![CDATA[تاريخ بروزرساني]]></value>
+	</definition>
+	<definition>
+		<key>column_category</key>
+		<value><![CDATA[شاخه ها]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[وضعيت]]></value>
+	</definition>
+	<definition>
+		<key>column_sort_order</key>
+		<value><![CDATA[نوع سفارش]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[عمليات سريع]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به تغییر پسوند نیست!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_field</key>
+		<value><![CDATA[اخطار: لطفا زمینه های مورد نیاز را پر کنید! ]]></value>
+	</definition>
+	<definition>
+		<key>error_payment_uninstall</key>
+		<value><![CDATA[هشدار: توسعه غیر فعال کردن قبل از حذف!]]></value>
+	</definition>
+	<definition>
+		<key>error_uninstall</key>
+		<value><![CDATA[هشدار: گسترش عزل قبل از حذف!]]></value>
+	</definition>
+	<definition>
+		<key>text_save_success</key>
+		<value><![CDATA[موفقیت: شما اصلاح تنظیمات فرمت!]]></value>
+	</definition>
+	<definition>
+		<key>text_restore_success</key>
+		<value><![CDATA[موفقیت: شما را ترمیم کرده اند تنظیمات فرمت پیش فرض!]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions_store</key>
+		<value><![CDATA[فروشگاه ماژول ها]]></value>
+	</definition>
+	<definition>
+		<key>text_required</key>
+		<value><![CDATA[ضروری]]></value>
+	</definition>
+	<definition>
+		<key>text_optional</key>
+		<value><![CDATA[اختيازي]]></value>
+	</definition>
+	<definition>
+		<key>text_add_new</key>
+		<value><![CDATA[نصب ماژول ها]]></value>
+	</definition>
+	<definition>
+		<key>text_search</key>
+		<value><![CDATA[جستجو]]></value>
+	</definition>
+	<definition>
+		<key>text_search_for_extension</key>
+		<value><![CDATA[جستجو در ماژول ها]]></value>
+	</definition>
+	<definition>
+		<key>text_missing_extension</key>
+		<value>
+			<![CDATA["ماژول %s: منبع نمی تواند واقع شود! لطفا آن را حذف کنید و بازدید از ارائه دهنده وسعت برای دریافت منبع کامل و نصب دوباره آن را "]]></value>
+	</definition>
+	<definition>
+		<key>text_broken_extension</key>
+		<value>
+			<![CDATA["ماژول %s:  منبع احتمالا شکسته! آیا می config.xml و یا فایل های main.php پیدا کند. لطفا آن را حذف کنید و بازدید از ارائه دهنده وسعت برای دریافت منبع کامل و نصب دوباره آن را  "]]></value>
+	</definition>
+	<definition>
+		<key>text_extension_pagination</key>
+		<value><![CDATA[فرمت (ماژول ها) {شروع} به {پایان} از {کل}]]></value>
+	</definition>
+	<definition>
+		<key>text_per_page</key>
+		<value><![CDATA[در هر صفحه]]></value>
+	</definition>
+	<definition>
+		<key>text_error_in_ajax</key>
+		<value><![CDATA[اشکال در تماس آژاکس]]></value>
+	</definition>
+	<definition>
+		<key>text_saved</key>
+		<value><![CDATA[ذخيره]]></value>
+	</definition>
+	<definition>
+		<key>text_save</key>
+		<value><![CDATA[ذخيره]]></value>
+	</definition>
+	<definition>
+		<key>text_reset</key>
+		<value><![CDATA[ريست]]></value>
+	</definition>
+	<definition>
+		<key>text_back</key>
+		<value><![CDATA[برگشت]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[تنظيمات اضافي]]></value>
+	</definition>
+	<definition>
+		<key>text_reload</key>
+		<value><![CDATA[بازنگري]]></value>
+	</definition>
+	<definition>
+		<key>text_version</key>
+		<value><![CDATA[نسخه]]></value>
+	</definition>
+	<definition>
+		<key>text_installed_on</key>
+		<value><![CDATA[نصب شده بر روي]]></value>
+	</definition>
+	<definition>
+		<key>text_installed</key>
+		<value><![CDATA[نصب]]></value>
+	</definition>
+	<definition>
+		<key>text_not_installed</key>
+		<value><![CDATA[نصب نشده است]]></value>
+	</definition>
+	<definition>
+		<key>text_visit_repository</key>
+		<value><![CDATA[لطفا مخزن گسترش بازدید</a> به دانلود ماژول]]></value>
+	</definition>
+	<definition>
+		<key>text_license</key>
+		<value><![CDATA[پروانه]]></value>
+	</definition>
+	<definition>
+		<key>text_dependency</key>
+		<value><![CDATA[بستگي]]></value>
+	</definition>
+	<definition>
+		<key>text_configuration_settings</key>
+		<value><![CDATA[پيكربندي تنظيمات]]></value>
+	</definition>
+	<definition>
+		<key>text_upgrade</key>
+		<value><![CDATA[بروز رساني]]></value>
+	</definition>
+	<definition>
+		<key>text_help</key>
+		<value><![CDATA[راهنما]]></value>
+	</definition>
+	<definition>
+		<key>text_dependencies</key>
+		<value><![CDATA[وابستگي]]></value>
+	</definition>
+	<definition>
+		<key>text_update_available</key>
+		<value><![CDATA[نسخه جديد (%s) در دسترس است. <a href="%s">جهت بروز رساني كليك كنيد.</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_confirm</key>
+		<value><![CDATA[آیا مطمئن هستید که می خواهید پاک کنید فرمت?]]></value>
+	</definition>
+	<definition>
+		<key>error_config_load</key>
+		<value><![CDATA[خطا: پیکربندی برای بارگيري نیست <b>%s</b>!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_extension</key>
+		<value><![CDATA[<b>%s</b> گسترش نمی تواند نصب شود: <b>%s</b> گسترش مورد نیاز]]></value>
+	</definition>
+	<definition>
+		<key>error_required_phpmodule</key>
+		<value><![CDATA[<b>%s</b> گسترش نمی تواند نصب شود: <b>%s</b> ماژول پی اچ پی مورد نیاز]]></value>
+	</definition>
+	<definition>
+		<key>button_restore_defaults</key>
+		<value><![CDATA[ريستارت كردن تنظيمات به پيش فرض]]></value>
+	</definition>
+	<definition>
+		<key>additional_settings_confirm</key>
+		<value>
+			<![CDATA[برای تنظیم تنظیمات اضافی از گسترش فروشگاه دیگر شما نیاز به ورود به کنترل پنل در نام دامنه دیگر. باشه? ]]></value>
+	</definition>
+	<definition>
+		<key>error_no_help_file</key>
+		<value><![CDATA[با عرض پوزش، برای این افزونه هیچ فایل راهنما وجود دارد.]]></value>
+	</definition>
+	<definition>
+		<key>text_more_help</key>
+		<value><![CDATA[راهنماي بيشتر]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_type</key>
+		<value><![CDATA[نوع]]></value>
+	</definition>
+	<definition>
+		<key>text_total</key>
+		<value><![CDATA[جمع]]></value>
+	</definition>
+	<definition>
+		<key>text_subtotal</key>
+		<value><![CDATA[زير جمع]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_tax</key>
+		<value><![CDATA[ماليات]]></value>
+	</definition>
+	<definition>
+		<key>text_fee</key>
+		<value><![CDATA[پرداخت]]></value>
+	</definition>
+	<definition>
+		<key>text_discount</key>
+		<value><![CDATA[تخفيف]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_disable_dependants</key>
+		<value>
+			<![CDATA[ماژول %s باید وابسته هستند: <br>%s<br> از آن خواهد شد به صورت خودکار غیر فعال شده است.<br> آیا شما تایید؟]]></value>
+	</definition>
+	<definition>
+		<key>text_status</key>
+		<value><![CDATA[وضعيت]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_order</key>
+		<value><![CDATA[نوع سفارش]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_minimum_total</key>
+		<value><![CDATA[كمترين جمع سفارش:<span class="help">حداقل مقدار به منظور رسیده است که اجازه می دهد این پرداخت</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_maximum_total</key>
+		<value><![CDATA[بيشترين جمع سفارش:<span class="help">حداکثر مقدار به منظور رسیده به ندهید این پرداخت</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_storefront_icon</key>
+		<value><![CDATA[ايكون فروشگاه:<span class="help">آیکون پرداخت می شود در انتخاب پرداخت پرداخت نمایش داده می</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_storefront_icon</key>
+<value><![CDATA[ايكون فروشگاه:<span class="help">آیکون حمل و نقل به در انتخاب حمل و نقل پرداخت نمایش داده می</span>]]></value>
+	</definition>
+	<definition>
+	    <key>text_autoselect_payment</key>
+	    <value><![CDATA[انتخاب خودكار:<br /><span class="help">شما می توانید مجموعه ای به جست و خیز پرداخت صفحه انتخاب اگر فقط یک گزینه پرداخت وجود دارد. این روش پرداخت به صورت خودکار انتخاب خواهد شد</span>]]></value>
+	</definition>
+	<definition>
+	    <key>text_autoselect_shipping</key>
+	    <value><![CDATA[انتخاب خودكار:<br /><span class="help">شما می توانید مجموعه ای به جست و خیز حمل و نقل صفحه انتخاب اگر فقط یک گزینه حمل و نقل وجود دارد. این روش حمل و نقل به طور خودکار انتخاب خواهد شد</span>]]></value>
+	</definition>
+	<definition>
+	    <key>text_accept_payments_shipping</key>
+	    <value><![CDATA[شرایط پرداخت:<br /><span class="help">اگر روشهای پرداخت تنها خاص برای این روش حمل و نقل مورد نیاز، آنها را در اینجا انتخاب کنید. اگر چیزی انتخاب، همه روش های پرداخت موجود نشان داده خواهد شد</span>]]></value>
+	</definition>
+	<definition>
+	    <key>text_ready_to_install</key>
+	    <value><![CDATA[اماده براي نصب]]></value>
+	</definition>
+	<definition>
+	    <key>button_install</key>
+	    <value><![CDATA[نصب]]></value>
+	</definition>
+	<definition>
+	    <key>error_dependencies</key>
+	    <value><![CDATA[این فرمت را نمی توان فعال به دلیل وابستگی های مورد نیاز از دست رفته یا نه فعال.]]></value>
+	</definition>
+	<definition>
+	    <key>button_howto</key>
+	    <value><![CDATA[چگونه]]></value>
+	</definition>
+	<definition>
+	    <key>text_developer_site</key>
+	    <value><![CDATA[پشتيباني سايت]]></value>
+	</definition>
+	<definition>
+	    <key>text_preview</key>
+	    <value><![CDATA[پيش نمايش]]></value>
+	</definition>
+	<definition>
+	    <key>text_confirmation</key>
+	    <value><![CDATA[تاييد]]></value>
+	</definition>
+	<definition>
+	    <key>button_confirm</key>
+	    <value><![CDATA[تاييد]]></value>
+	</definition>
+	<definition>
+	    <key>button_continue</key>
+	    <value><![CDATA[ادامه]]></value>
+	</definition>
+	<definition>
+	    <key>button_cancel</key>
+	    <value><![CDATA[لغو كردن]]></value>
+	</definition>
+	<definition>
+	    <key>error_could_not_load_config</key>
+	    <value><![CDATA[خطا: پیکربندی برای بار نیست <b>%s</b> (%s)!]]></value>
+	</definition>
+	<definition>
+	    <key>error_could_not_load_override</key>
+	    <value><![CDATA[خطا: قالب باطل بار نیست %s در ماژول %s!]]></value>
+	</definition>
+	<definition>
+	    <key>tab_general</key>
+	    <value><![CDATA[عمومي]]></value>
+	</definition>
+	<definition>
+	    <key>tab_additional_settings</key>
+	    <value><![CDATA[تنظيمات اضافي]]></value>
+	</definition>
+
+</definitions>

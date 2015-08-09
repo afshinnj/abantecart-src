@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[عضويت در خبرنامه]]></value>
+	</definition>
+	<definition>
+		<key>text_signup</key>
+		<value><![CDATA[ثبت نام برای دریافت خبرنامه &amp; 
+دریافت جذاب ارائه می دهد با مشترک شدن در خبرنامه ما.]]></value>
+	</definition>
+	<definition>
+		<key>text_sign_in</key>
+		<value><![CDATA[ورود]]></value>
+	</definition>
+	<definition>
+		<key>text_subscribe</key>
+		<value><![CDATA[اشتراك در خبرنامه]]></value>
+	</definition>
+	<definition>
+		<key>button_subscribe</key>
+		<value><![CDATA[اشتراك]]></value>
+	</definition>	
+</definitions>

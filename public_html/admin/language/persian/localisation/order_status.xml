@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[وضعيت سفارش]]></value>
+  </definition>
+  <definition>
+    <key>text_status</key>
+    <value><![CDATA[وضعيت سفارش]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما را تغییر می وضعیت سفارش!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[نام وضعيت سفارش]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[اقدام]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[نام وضعيت سفارش:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[هشدار: شما اجازه دسترسی به تغییر مجسمه منظور ندارد!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[وضعیت سفارش نام باید بین 2 و 32 حرف باشد!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[هشدار: این وضعیت سفارش نمی تواند حذف شود آن را به عنوان در حال حاضر به عنوان وضعیت سفارش فروشگاه به طور پیش فرض اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_download</key>
+   <value><![CDATA[هشدار: این وضعیت سفارش نمی تواند حذف شود آن را به عنوان در حال حاضر به عنوان وضعیت دانلود به طور پیش فرض اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[هشدار: وضعیت این منظور پاک نمی شود آن را به عنوان در حال حاضر به%s فروشگاه اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_order</key>
+    <value><![CDATA[هشدار: وضعیت این منظور پاک نمی شود آن را به عنوان در حال حاضر به%s سفارشات اختصاص داده!]]></value>
+  </definition>
+  <definition>
+    <key>error_nondeletable</key>
+    <value><![CDATA[هشدار: این مهم وضعیت سفارش است که به پرداخت مرتبط است. شما می توانید این وضعیت را حذف کنید.]]></value>
+  </definition>
+</definitions>

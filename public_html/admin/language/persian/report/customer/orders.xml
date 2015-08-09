@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[سفارش مشتري]]></value>
+  </definition>
+  <definition>
+    <key>column_customer_id</key>
+    <value><![CDATA[شماره مشتري]]></value>
+  </definition>
+  <definition>
+    <key>column_customer</key>
+    <value><![CDATA[نام مشتري]]></value>
+  </definition>
+  <definition>
+    <key>column_group</key>
+    <value><![CDATA[گروه مشتري]]></value>
+  </definition>
+  <definition>
+    <key>column_order_count</key>
+    <value><![CDATA[تعداد سفارشات]]></value>
+  </definition>
+  <definition>
+    <key>column_total</key>
+    <value><![CDATA[جمع]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[خطاي لوگ]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: شما با موفقیت پاک ورود به خطا خود را!]]></value>
+  </definition>
+  <definition>
+    <key>text_file_tail</key>
+    <value><![CDATA[ا توجه به اندازه بزرگ فایل ورود به سیستم، تنها حجم 500KB از رایانه آخرین اطلاعات را می توان در اینجا مشاهده شده است.
+برای دیدن ورود کامل، آن را از directly.Path سرور شما:]]></value>
+  </definition>
+</definitions>

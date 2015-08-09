@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>text_home</key>
+    <value><![CDATA[صفحه اصلي]]></value>
+  </definition>
+  <definition>
+    <key>text_special</key>
+    <value><![CDATA[پیشنهادات ویژه]]></value>
+  </definition>
+  <definition>
+    <key>text_contact</key>
+    <value><![CDATA[تماس ]]></value>
+  </definition>
+  <definition>
+    <key>text_sitemap</key>
+    <value><![CDATA[نقشه سايت]]></value>
+  </definition>
+  <definition>
+    <key>text_bookmark</key>
+    <value><![CDATA[علاقه مندي ها]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[اكانت]]></value>
+  </definition>
+  <definition>
+    <key>text_login</key>
+    <value><![CDATA[وارد شدن]]></value>
+  </definition>
+  <definition>
+    <key>text_logout</key>
+    <value><![CDATA[خارج شدن]]></value>
+  </definition>
+  <definition>
+    <key>text_cart</key>
+    <value><![CDATA[سبد]]></value>
+  </definition>
+  <definition>
+    <key>text_checkout</key>
+    <value><![CDATA[پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_keyword</key>
+    <value><![CDATA[كلمات كليدي]]></value>
+  </definition>
+  <definition>
+    <key>text_advanced</key>
+    <value><![CDATA[جستجوي پيشرفته]]></value>
+  </definition>
+  <definition>
+    <key>text_category</key>
+    <value><![CDATA[همه شاخه ها]]></value>
+  </definition>
+  <definition>
+    <key>entry_search</key>
+    <value><![CDATA[جستجو:]]></value>
+  </definition>
+</definitions>

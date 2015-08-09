@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[معاملات مشتري]]></value>
+  </definition>
+  <definition>
+    <key>column_transaction_date</key>
+    <value><![CDATA[تاريخ معاملات]]></value>
+  </definition>
+  <definition>
+    <key>column_customer</key>
+    <value><![CDATA[نام مشتري]]></value>
+  </definition>
+  <definition>
+    <key>column_created_by</key>
+    <value><![CDATA[ايجاد شده توسط]]></value>
+  </definition>
+  <definition>
+    <key>column_debit</key>
+    <value><![CDATA[بدهي]]></value>
+  </definition>
+  <definition>
+    <key>column_credit</key>
+    <value><![CDATA[اعتبار]]></value>
+  </definition>
+  <definition>
+    <key>column_transaction_type</key>
+    <value><![CDATA[نوع معاملات]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[سفارش شما به صورت پردازش!]]></value>
+  </definition>
+  <definition>
+    <key>text_message</key>
+  <value><![CDATA[<p>سفارش شما با موفقیت پردازش!</p>
+  <p>شما می توانید تاریخچه سفارش خود را با رفتن به مشاهده <a href="%s">حساب كاربري</a> صفحه و با کلیک بر روی <a href="%s">تاريخچه</a>.</p><p>لطفا هر گونه سوال شما به باید مستقیم <a href="%s">مديريت فروشگاه</a>.</p><p>تشکر برای خرید با ما آنلاین!</p>]]></value>
+  </definition>
+  <definition>
+    <key>text_message_guest</key>
+    <value><![CDATA[<p>سفارش شما با موفقیت پردازش!</p><p>لطفا هر گونه سوال شما به باید مستقیم <a href="%s">مديريت فروشگاه</a>.</p><p>تشكر از خريد شما </p>]]></value>
+  </definition>
+  <definition>
+    <key>text_basket</key>
+    <value><![CDATA[سبد]]></value>
+  </definition>
+  <definition>
+    <key>text_shipping</key>
+    <value><![CDATA[حمل و نقل]]></value>
+  </definition>
+  <definition>
+    <key>text_payment</key>
+    <value><![CDATA[پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_guest</key>
+    <value><![CDATA[پرداخت مهمان]]></value>
+  </definition>
+  <definition>
+    <key>text_confirm</key>
+    <value><![CDATA[تاييد]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقيت]]></value>
+  </definition>
+</definitions>

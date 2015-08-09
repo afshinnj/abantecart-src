@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[تماس با ما]]></value>
+  </definition>
+  <definition>
+    <key>text_address</key>
+    <value><![CDATA[ادرس:]]></value>
+  </definition>
+  <definition>
+    <key>text_email</key>
+    <value><![CDATA[ايميل:]]></value>
+  </definition>
+  <definition>
+    <key>text_telephone</key>
+    <value><![CDATA[تلفن:]]></value>
+  </definition>
+  <definition>
+    <key>text_fax</key>
+    <value><![CDATA[فكس:]]></value>
+  </definition>
+  <definition>
+    <key>text_message</key>
+    <value><![CDATA[<p>پرسش شما با موفقیت به صاحب فروشگاه ارسال!</p>]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[نام:]]></value>
+  </definition>
+  <definition>
+    <key>entry_email</key>
+    <value><![CDATA[ادرس ايميل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_enquiry</key>
+    <value><![CDATA[استعلام:]]></value>
+  </definition>
+  <definition>
+    <key>entry_captcha</key>
+    <value><![CDATA[کد را وارد کنید در کادر زیر:]]></value>
+  </definition>
+  <definition>
+    <key>email_subject</key>
+    <value><![CDATA[استعلام %s]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[كاراكتر نام بايد بين 1 تا 32 كاراكتر باشد]]></value>
+  </definition>
+  <definition>
+    <key>error_email</key>
+    <value><![CDATA[آدرس ایمیل نظر نمی رسد به معتبر!]]></value>
+  </definition>
+  <definition>
+    <key>error_enquiry</key>
+    <value><![CDATA[استعلام باید بین 10 و 3000 کاراکتر باشد!]]></value>
+  </definition>
+</definitions>

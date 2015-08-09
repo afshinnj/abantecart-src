@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[عضویت در خبرنامه]]></value>
+	</definition>
+	<definition>
+		<key>text_account</key>
+		<value><![CDATA[حساب كاربري]]></value>
+	</definition>
+	<definition>
+		<key>text_newsletter</key>
+		<value><![CDATA[خبرنامه]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[موفقیت: عضویت در خبرنامه شما با موفقیت به روز شده!]]></value>
+	</definition>
+	<definition>
+		<key>entry_newsletter</key>
+		<value><![CDATA[اشتراك:]]></value>
+	</definition>
+	<definition>
+		<key>text_customer_registration</key>
+		<value><![CDATA[ثبت نام مشتريان]]></value>
+	</definition>
+	<definition>
+		<key>entry_captcha</key>
+		<value><![CDATA[كد را وارد كنيد: ]]></value>
+	</definition>
+	<definition>
+		<key>error_captcha</key>
+		<value><![CDATA[كد وارد شده با تصوير يكسان نيست!]]></value>
+	</definition>
+</definitions>

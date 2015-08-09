@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[سفارشات كل]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[سفارشات كل]]></value>
+	</definition>
+	<definition>
+		<key>text_total</key>
+		<value><![CDATA[مجموع سفارشات]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[ويرايش با موفقيت انجام شد]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[وضعيت:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[نوع سفارش:]]></value>
+	</definition>
+	<definition>
+		<key>entry_calculation_order</key>
+		<value><![CDATA[محاسبه سفارشات:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[شما اجازه ويرايش اين مورد رو ندارم]]></value>
+	</definition>
+</definitions>

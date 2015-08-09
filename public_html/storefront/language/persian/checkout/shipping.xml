@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[اطلاعات تحویل]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[سبد]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_to</key>
+		<value><![CDATA[لطفا از کتاب آدرس خود را انتخاب کنید که در آن شما می توانید آیتم های به تحویل دوست.]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_address</key>
+		<value><![CDATA[ادرس حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_method</key>
+		<value><![CDATA[روش حمل و نقل]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_methods</key>
+		<value><![CDATA[لطفا روش حمل و نقل ترجیح را انتخاب کنید برای استفاده بر روی این منظور.]]></value>
+	</definition>
+	<definition>
+		<key>text_comments</key>
+		<value><![CDATA[اضافه کردن نظرات درباره سفارش شما]]></value>
+	</definition>
+	<definition>
+		<key>error_shipping</key>
+		<value><![CDATA[خطا: روش حمل و نقل مورد نیاز!]]></value>
+	</definition>
+	<definition>
+		<key>error_no_shipping</key>
+		<value><![CDATA[خطا: هیچ گزینه حمل و نقل در دسترس هستند. لطفا <a href="index.php?rt=content/contact">تماس با ما</a> جهت كمك!]]></value>
+	</definition>
+</definitions>

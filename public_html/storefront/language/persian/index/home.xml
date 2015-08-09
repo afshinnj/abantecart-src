@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[خوش امديد به %s]]></value>
+	</definition>
+	<definition>
+		<key>text_latest</key>
+		<value><![CDATA[اخرين محصولات]]></value>
+	</definition>
+</definitions>

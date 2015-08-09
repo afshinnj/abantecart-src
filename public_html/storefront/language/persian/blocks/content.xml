@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[اطلاعات]]></value>
+	</definition>
+	<definition>
+		<key>text_contact</key>
+		<value><![CDATA[تماس با ما]]></value>
+	</definition>
+	<definition>
+		<key>text_sitemap</key>
+		<value><![CDATA[نقشه سايت]]></value>
+	</definition>
+</definitions>

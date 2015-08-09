@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[پرداخت مهمان - مرحله 2]]></value>
+  </definition>
+  <definition>
+    <key>text_cart</key>
+    <value><![CDATA[سبد خريد]]></value>
+  </definition>
+  <definition>
+    <key>text_guest_step_1</key>
+    <value><![CDATA[پرداخت مهان - مرحله 1]]></value>
+  </definition>
+  <definition>
+    <key>text_guest_step_2</key>
+    <value><![CDATA[پرداخت مهمان - مرحله 2]]></value>
+  </definition>
+  <definition>
+    <key>text_shipping_method</key>
+    <value><![CDATA[روش حمل و نقل]]></value>
+  </definition>
+  <definition>
+    <key>text_shipping_methods</key>
+    <value><![CDATA[لطفا روش حمل و نقل ترجیح را انتخاب کنید برای استفاده بر روی این منظور..]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_method</key>
+    <value><![CDATA[روش پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_methods</key>
+    <value><![CDATA[لطفا روش پرداخت ترجیح به استفاده از سفارش خود را انتخاب کنید.]]></value>
+  </definition>
+  <definition>
+    <key>text_comments</key>
+    <value><![CDATA[اضافه کردن نظرات درباره سفارش شما]]></value>
+  </definition>
+  <definition>
+    <key>text_agree</key>
+    <value><![CDATA[من خوانده و قبول دارم ]]></value>
+  </definition>
+  <definition>
+    <key>text_coupon</key>
+    <value><![CDATA[کد خود را وارد کنید,  "درخواست كوپن"   دکمه و تماشای تخفیف خود را فورا به سفارش خود را به کار برده شود.]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: تخفیف کوپن شما-شده کاربردی!]]></value>
+  </definition>
+  <definition>
+    <key>entry_shipping</key>
+    <value><![CDATA[روش حمل نقل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_payment</key>
+    <value><![CDATA[روش پرداخت:]]></value>
+  </definition>
+  <definition>
+    <key>entry_coupon</key>
+    <value><![CDATA[كوپن:]]></value>
+  </definition>
+  <definition>
+    <key>error_shipping</key>
+    <value><![CDATA[طا: روش حمل و نقل مورد نیاز!]]></value>
+  </definition>
+  <definition>
+    <key>error_no_shipping</key>
+   <value><![CDATA[خطا: هیچ گزینه حمل و نقل در دسترس هستند. لطفا <a href="index.php?rt=content/contact">تماس يل مل</a> برای کمک!]]></value>
+  </definition>
+  <definition>
+    <key>error_payment</key>
+    <value><![CDATA[خطا: روش پرداخت مورد نیاز!]]></value>
+  </definition>
+  <definition>
+    <key>error_agree</key>
+    <value><![CDATA[خطا: شما باید به توافق %s!]]></value>
+  </definition>
+  <definition>
+    <key>error_coupon</key>
+    <value><![CDATA[خطا: در هر دو صورت کوپن نامعتبر است، تمام شده یا آن را محدود استفاده شده رسیده است!]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[دسترسي ممنون!]]></value>
+  </definition>
+  <definition>
+    <key>text_permission</key>
+    <value><![CDATA[شما اجازه دسترسی به این صفحه را ندارید، لطفا به مدیر سیستم خود مراجعه کنید.]]></value>
+  </definition>
+</definitions>

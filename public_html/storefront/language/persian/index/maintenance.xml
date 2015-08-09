@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[نگهداري/تعمير]]></value>
+	</definition>
+	<definition>
+		<key>text_maintenance</key>
+		<value><![CDATA[نگهداري/تعمير]]></value>
+	</definition>
+	<definition>
+		<key>text_message</key>
+		<value>
+			<![CDATA[<h1 style="text-align:center;">ما در حال حاضر انجام برخی از تعمیر و نگهداری برنامه ریزی شده. <br/>ما پشت در اسرع وقت خواهد بود. لطفا بعدا مراجعه کنید.</h1>]]></value>
+	</definition>
+</definitions>

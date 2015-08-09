@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[حساب شما با موفقيت انجام شد]]></value>
+  </definition>
+  <definition>
+    <key>text_message</key>
+    <value><![CDATA[<p>تبریک می گویم! حساب کاربری جدید شما با موفقیت ایجاد شد!</p> <p>شما هم اکنون می توانید امکان استفاده از امتیازات عضو به منظور افزایش تجربه خرید آنلاین خود را با ما.</p> <p>اگر شما هر گونه سوال در مورد بهره برداری از این فروشگاه آنلاین، لطفا ایمیل صاحب فروشگاه</p> <p>تأیید شده است به آدرس ایمیل ارائه فرستاده می شود. اگر شما آن را در یک ساعت نیست، لطفا <a href="%s">تماس با ما</a>.</p>]]></value>
+  </definition>
+  <definition>
+    <key>text_approval</key>
+    <value><![CDATA[<p>با تشکر از شما برای ثبت نام در %s!</p><p>شما می توانید از طریق ایمیل مطلع یک بار حساب شما توسط صاحب فروشگاه فعال.</p><p>اگر شما هر گونه سوال در مورد بهره برداری از این فروشگاه آنلاین، لطفا <a href="%s">تماس با مديريت فروشگاه</a>.</p>]]></value>
+  </definition>
+  <definition>
+    <key>text_activate</key>
+  <value><![CDATA[<p>با تشکر از شما برای ثبت نام در %s!</p><p>شما می توانید از طریق ایمیل مطلع یک بار حساب شما توسط صاحب فروشگاه فعال.</p><p>اگر شما هر گونه سوال در مورد بهره برداری از این فروشگاه آنلاین، لطفا <a href="%s">تماس با مديريت فروشگاه</a>.</p>]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[حساب كاربري]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقيت]]></value>
+  </definition>
+</definitions>

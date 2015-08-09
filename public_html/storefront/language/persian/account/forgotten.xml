@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[ايا رمز عبور را فراموش كرديد؟]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_loginname</key>
+		<value><![CDATA[ايا نام كاربري را فراموش كرديد؟؟]]></value>
+	</definition>
+	<definition>
+		<key>text_account</key>
+		<value><![CDATA[حساب كاربري]]></value>
+	</definition>
+	<definition>
+		<key>text_forgotten</key>
+		<value><![CDATA[فراموشي رمز عبور]]></value>
+	</definition>
+	<definition>
+		<key>text_your_email</key>
+		<value><![CDATA[ادرس ايميل شما]]></value>
+	</definition>
+	<definition>
+		<key>text_email</key>
+		<value>
+			<![CDATA[لطفا ايميلي را كه در هنگام ثبت نام درج كرديد وارد نماييد.رمز جديد به ان ايميل ارسال خواده شد]]></value>
+	</definition>
+	<definition>
+		<key>text_loginname_email</key>
+		<value>
+			<![CDATA[لطفا شناسه كاربري خود درا جهت دريافت رمز جديد وارد نماييد]]></value>
+	</definition>
+	<definition>
+		<key>text_lastname_email</key>
+		<value>
+			<![CDATA[لطفا نام خانوادگي خود را جهت دريافت ايميل وارد نماييد]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[رمز عبور جديد با موفقيت براي شما ارسال شد]]></value>
+	</definition>
+	<definition>
+		<key>text_success_loginname</key>
+		<value><![CDATA[نام كاربري شما با موفقيت بررسي و رمز براي شما ارسال شده است]]></value>
+	</definition>
+	<definition>
+		<key>entry_loginname</key>
+		<value><![CDATA[شناسه كاربري:]]></value>
+	</definition>
+	<definition>
+		<key>entry_lastname</key>
+		<value><![CDATA[نام خانوادگي:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[ايميل:]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value>
+			<![CDATA[خطا: آدرس ایمیل ارائه نشده است و یا در سوابق ما یافت نشد، لطفا دوباره سعی کنید!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[خطا:نام ورود ارائه نشده است و یا در سوابق ما یافت نشد، لطفا دوباره سعی کنید]]></value>
+	</definition>
+	<definition>
+		<key>error_lastname</key>
+		<value><![CDATA[
+خطا: نام خانوادگی ارائه نشده است و یا در سوابق ما یافت نشد، لطفا دوباره سعی کنید!]]></value>
+	</definition>
+	<definition>
+		<key>error_not_found</key>
+		<value><![CDATA[خطا: هیچ ثبتی یافت اطلاعات خود را مطابق ارائه، لطفا اطلاعات خود را چک کنید و دوباره سعی کنید!]]></value>
+	</definition>
+	<definition>
+		<key>text_forgotten_loginname</key>
+		<value><![CDATA[نام كاربري را فراموش كرديد؟؟]]></value>
+	</definition>
+</definitions>

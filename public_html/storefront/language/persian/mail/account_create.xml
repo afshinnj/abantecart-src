@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>text_subject</key>
+    <value><![CDATA[%s - با تشکر از شما برای ثبت نام]]></value>
+  </definition>
+  <definition>
+    <key>text_welcome</key>
+   <value><![CDATA[خوش آمدید و تشکر از شما برای ثبت نام در %s!]]></value>
+  </definition>
+  <definition>
+    <key>text_login</key>
+   <value><![CDATA[حساب کاربری شما در حال حاضر ایجاد شده است و شما می توانید آن را با مراجعه به وب سایت ما و یا در آدرس زیر دسترسی:]]></value>
+  </definition>
+  <definition>
+    <key>text_approval</key>
+    <value><![CDATA[حساب شما باید تایید شود قبل از اینکه شما می توانید وارد سایت شوید. پس از مورد تایید شما می توانید در با استفاده از آدرس ایمیل و رمز عبور خود را با مراجعه به وب سایت ما و یا در URL زیر وارد سیستم شوید:]]></value>
+  </definition>
+  <definition>
+    <key>text_activate</key>
+    <value><![CDATA[قبل از اینکه ما می توانید حساب کاربری خود را فعال کنید یک گام گذشته باید انجام شود برای تکمیل ثبت نام کنید.
+     لطفا توجه داشته باشید - شما باید این مرحله گذشته برای تبدیل شدن به یک عضو ثبت شده کامل است. شما فقط نیاز به بازدید از این URL یک بار به حساب خود را فعال کنید.
+     برای تکمیل ثبت نام خود، لطفا این URL بازدید:
+    %s ]]></value>
+  </definition>
+  <definition>
+    <key>text_services</key>
+    <value><![CDATA[پس از ورود به سیستم، شما قادر به دسترسی به خدمات دیگر از جمله مرور سفارشات گذشته، فاکتورها چاپ و ویرایش اطلاعات حساب شما خواهد بود.]]></value>
+  </definition>
+  <definition>
+    <key>text_thanks</key>
+    <value><![CDATA[تشكر,]]></value>
+  </definition>
+</definitions>

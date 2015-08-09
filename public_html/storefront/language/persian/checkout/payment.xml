@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[اطلاعات پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_basket</key>
+    <value><![CDATA[سبد]]></value>
+  </definition>
+  <definition>
+    <key>entry_shipping</key>
+    <value><![CDATA[حمل و نثل]]></value>
+  </definition>
+  <definition>
+    <key>entry_payment</key>
+    <value><![CDATA[پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_to</key>
+    <value><![CDATA[لطفا از کتاب آدرس خود را انتخاب کنید که در آن شما می توانید فاکتور فرستاده دوست.]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_address</key>
+    <value><![CDATA[ادرس پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_method</key>
+    <value><![CDATA[روش پرداخت]]></value>
+  </definition>
+  <definition>
+    <key>text_payment_methods</key>
+    <value><![CDATA[لطفا روش پرداخت ترجیح به استفاده از سفارش خود را انتخاب کنید.]]></value>
+  </definition>
+  <definition>
+    <key>text_comments</key>
+    <value><![CDATA[اضافه کردن نظرات درباره سفارش شما]]></value>
+  </definition>
+  <definition>
+    <key>text_agree</key>
+    <value><![CDATA[من خوانده و قبول دارم]]></value>
+  </definition>
+  <definition>
+    <key>text_coupon</key>
+    <value><![CDATA[کد خود را وارد کنید و بر روی "درخواست کوپن" و برای دیدن تخفیف خود را فورا به سفارش خود را اعمال می شود.]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[موفقیت: تخفیف کوپن شما استفاده شده است!]]></value>
+  </definition>
+  <definition>
+    <key>entry_coupon</key>
+    <value><![CDATA[كوپن:]]></value>
+  </definition>
+  <definition>
+    <key>error_payment</key>
+    <value><![CDATA[خطا: روش پرداخت مورد نیاز!]]></value>
+  </definition>
+  <definition>
+    <key>error_agree</key>
+    <value><![CDATA[خطا: شما باید به توافق %s!]]></value>
+  </definition>
+  <definition>
+    <key>error_coupon</key>
+    <value><![CDATA[خطا: کوپن است یا نامعتبر است، تمام شده و یا رسید آن حد استفاده است!]]></value>
+  </definition>
+</definitions>

@@ -649,9 +649,11 @@ CREATE TABLE `ac_currencies` (
 --
 
 INSERT INTO `ac_currencies` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'US Dollar', 'USD', '$', '', '2', 1.00, 1, '2011-06-20 21:00:00'),
-(2, 'Euro', 'EUR', '', '€', '2', 0.76775432 , 1, '2011-06-20 21:00:00'),
-(3, 'Pound Sterling', 'GBP', '£', '', '2', 0.64524455, 1, '2011-06-20 21:00:00');
+(1, 'ایران', 'IRR', 'ریال', '', '0', '1.00000000', 1, '2015-08-09 05:36:56'),
+(2, 'ایران', 'IRT', 'تومان', '', '0', '0.10000000', 1, '2015-08-09 05:37:05'),
+(3, 'US Dollar', 'USD', '$', '', '2', 1.00, 1, '2015-08-09 05:36:56'),
+(4, 'Euro', 'EUR', '', '€', '2', 0.76775432 , 1, '2015-08-09 05:36:56'),
+(5, 'Pound Sterling', 'GBP', '£', '', '2', 0.64524455, 1, '2015-08-09 05:36:56');
 
 --
 -- DDL for table `customers`
@@ -922,8 +924,9 @@ ON `ac_languages` ( `language_id`,`code` );
 -- Dumping data for table `languages`
 --
 
-INSERT INTO `ac_languages` (`language_id`, `name`, `code`, `locale`, `image`, `directory`, `filename`, `sort_order`, `status`) VALUES
-(1, 'persian', 'fa', 'fa_FA.UTF-8,fa_FA,persian', 'admin/language/persian/flag.png', 'persian', 'persian', 1, 1);
+INSERT INTO `abc_languages` (`language_id`, `name`, `code`, `locale`, `image`, `directory`, `filename`, `sort_order`, `status`) VALUES
+(1, 'Persian', 'fa', 'fa_IR.UTF-8,fa_IR,persian', '', 'persian', 'persian', 1, 1),
+(2, 'English', 'en', 'en_US.UTF-8,en_US,en-gb,english', '', 'english', 'english', 1, 1);
 
 --
 -- DDL for table `language_definitions`

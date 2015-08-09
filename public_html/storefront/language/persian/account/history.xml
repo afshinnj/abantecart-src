@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[تاريخچه سفارشات من]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[حساب كاربري]]></value>
+  </definition>
+  <definition>
+    <key>text_history</key>
+    <value><![CDATA[تاريخچه سفارشا]]></value>
+  </definition>
+  <definition>
+    <key>text_order</key>
+    <value><![CDATA[شماره سفارش:]]></value>
+  </definition>
+  <definition>
+    <key>text_status</key>
+    <value><![CDATA[وضعيت:]]></value>
+  </definition>
+  <definition>
+    <key>text_date_added</key>
+    <value><![CDATA[افزودن تاريخ:]]></value>
+  </definition>
+  <definition>
+    <key>text_customer</key>
+    <value><![CDATA[مشتري:]]></value>
+  </definition>
+  <definition>
+    <key>text_products</key>
+    <value><![CDATA[محصولات:]]></value>
+  </definition>
+  <definition>
+    <key>text_total</key>
+    <value><![CDATA[جمع:]]></value>
+  </definition>
+  <definition>
+    <key>text_error</key>
+    <value><![CDATA[شما هر گونه سفارشات قبلی را ساخته اند نه!]]></value>
+  </definition>
+</definitions>

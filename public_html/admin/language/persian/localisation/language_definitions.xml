@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[تعاریف زبان]]></value>
+	</definition>
+	<definition>
+		<key>text_definition</key>
+		<value><![CDATA[تعاریف زبان]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[موفقیت: شما را تغییر می زبان!]]></value>
+	</definition>
+	<definition>
+		<key>column_language</key>
+		<value><![CDATA[زبان]]></value>
+	</definition>
+	<definition>
+		<key>column_key</key>
+		<value><![CDATA[كليد]]></value>
+	</definition>
+	<definition>
+		<key>column_translation</key>
+		<value><![CDATA[ترجمه]]></value>
+	</definition>
+	<definition>
+		<key>column_block</key>
+		<value><![CDATA[بلوك]]></value>
+	</definition>
+	<definition>
+		<key>column_update_date</key>
+		<value><![CDATA[بروزرساني تاريخ]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[عمليات]]></value>
+	</definition>
+	<definition>
+		<key>entry_language_key</key>
+		<value><![CDATA[كليد]]></value>
+	</definition>
+	<definition>
+		<key>entry_language_value</key>
+		<value><![CDATA[مقدار]]></value>
+	</definition>
+	<definition>
+		<key>entry_translation</key>
+		<value><![CDATA[ترجمه]]></value>
+	</definition>
+	<definition>
+		<key>entry_block</key>
+		<value><![CDATA[بلوك]]></value>
+	</definition>
+	<definition>
+		<key>entry_section</key>
+		<value><![CDATA[بخش]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[مدير]]></value>
+	</definition>
+	<definition>
+		<key>text_storefront</key>
+		<value><![CDATA[فروشگاه]]></value>
+	</definition>
+	<definition>
+		<key>error_language_key</key>
+		<value><![CDATA[کلید زبان مورد نیاز!]]></value>
+	</definition>
+	<definition>
+		<key>error_language_value</key>
+		<value><![CDATA[ترجمه مورد نیاز!]]></value>
+	</definition>
+	<definition>
+		<key>error_block</key>
+		<value><![CDATA[بلوك مورد نياز!]]></value>
+	</definition>
+	<definition>
+		<key>error_section</key>
+		<value><![CDATA[بخش مورد نياز!]]></value>
+	</definition>
+	<definition>
+		<key>text_all_section</key>
+		<value><![CDATA[همه بخش ها]]></value>
+	</definition>
+    <definition>
+        <key>text_all_languages</key>
+        <value><![CDATA[همه زبان ها]]></value>
+    </definition>
+    <definition>
+        <key>error_already exists</key>
+        <value><![CDATA[هشدار!<br>تعریف زبان با کلید "%s" و بلوک "%s" براي %s بخش حال حاضر وجود دارد!<br>كليك <a target="_blank" href="%s">ین لینک</a> براي مشاهده]]></value>
+    </definition>
+
+</definitions>

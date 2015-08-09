@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[خروج از حساب كاربري]]></value>
+  </definition>
+  <definition>
+    <key>text_message</key>
+    <value><![CDATA[<p>شما وارد شده است به حساب خود. در حال حاضر امن به ترک کامپیوتر.</p><p>Yسبد خرید ما ذخیره شده است، اقلام در داخل آن خواهد شد بازسازی هر زمان که شما دوباره وارد حساب خود.</p>]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[حساب كاربري]]></value>
+  </definition>
+  <definition>
+    <key>text_logout</key>
+    <value><![CDATA[خروج]]></value>
+  </definition>
+</definitions>

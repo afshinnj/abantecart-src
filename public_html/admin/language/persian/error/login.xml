@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[ورود به خطا!]]></value>
+  </definition>
+  <definition>
+    <key>text_login</key>
+    <value><![CDATA[شما وارد سایت نشده اید از شما می خواهند هدایت می شوید برای ورود به سایت صفحه]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[سبد خريد]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[سبد]]></value>
+	</definition>
+	<definition>
+		<key>text_sub_total</key>
+		<value><![CDATA[زير مجموع:]]></value>
+	</definition>
+	<definition>
+		<key>text_weight</key>
+		<value><![CDATA[وزن سبد:]]></value>
+	</definition>
+	<definition>
+		<key>text_error</key>
+		<value><![CDATA[سبد شما خالي مي باشد!]]></value>
+	</definition>
+	<definition>
+		<key>column_remove</key>
+		<value><![CDATA[پاك كردن]]></value>
+	</definition>
+	<definition>
+		<key>column_image</key>
+		<value><![CDATA[تصوير]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[نام]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[مدل]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[تعداد]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[قيمت واحد]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[جمع]]></value>
+	</definition>
+	<definition>
+		<key>text_continue_shopping</key>
+		<value><![CDATA[ادامه خريد]]></value>
+	</definition>
+	<definition>
+		<key>text_coupon_codes</key>
+		<value><![CDATA[درج كد كوپن]]></value>
+	</definition>
+	<definition>
+		<key>text_estimate_shipping_tax</key>
+		<value><![CDATA[برآورد حمل و مالیات]]></value>
+	</definition>
+	<definition>
+		<key>text_estimate_country</key>
+		<value><![CDATA[كشور و منطقه]]></value>
+	</definition>
+	<definition>
+		<key>text_estimate_postcode</key>
+		<value><![CDATA[كد پستي]]></value>
+	</definition>
+	<definition>
+		<key>button_text_estimate</key>
+		<value><![CDATA[تخمين]]></value>
+	</definition>
+	<definition>
+		<key>text_estimate_shipments</key>
+		<value><![CDATA[محموله]]></value>
+	</definition>
+	<definition>
+		<key>error_coupon</key>
+		<value><![CDATA[خطا: کوپن است یا نامعتبر است، تمام شده و یا رسید آن حد استفاده است!]]></value>
+	</definition>
+	<definition>
+		<key>error_stock</key>
+		<value><![CDATA[محصولات مشخص شده با *** در دسترس نیست در مقدار مورد نظر و یا خارج از بورس!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_options</key>
+		<value><![CDATA[لطفا تمام گزینه های مورد نیاز را انتخاب کنید!]]></value>
+	</definition>
+	<definition>
+		<key>error_order_minimum</key>
+		<value>
+			<![CDATA[نظور مقدار زیر کل شما حداقل مقدار را برآورده نمی %s مورد نیاز است. لطفا محصولات بیشتر به سبد خرید خود اضافه کنید!]]></value>
+	</definition>
+	<definition>
+		<key>error_order_maximum</key>
+		<value>
+			<![CDATA[مقدار سفارش زیر مجموع خود را بیش از حداکثر مقدار %s اجازه هر سفارش. لطفا برخی از موارد از سبد خرید خود حذف کنید!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_file_data</key>
+		<value><![CDATA[طلاعات فایل خراب است و یا خالی.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_file_name</key>
+		<value><![CDATA[نام فایل خالی است!]]></value>
+	</definition>
+	<definition>
+		<key>error_file_extension</key>
+		<value><![CDATA[فايل فايل با پسوند(s) %s مجاز به اپلود هستند!]]></value>
+	</definition>
+	<definition>
+		<key>error_min_file_size</key>
+		<value><![CDATA[كمتر حجم اپلود فايل %s Kb.]]></value>
+	</definition>
+	<definition>
+		<key>error_max_file_size</key>
+		<value><![CDATA[حداکثر اندازه فایل برای آپلود است %s Kb.]]></value>
+	</definition>
+	<definition>
+		<key>text_coupon_success</key>
+		<value><![CDATA[موفقیت: تخفیف کوپن شما استفاده شده است!]]></value>
+	</definition>
+	<definition>
+		<key>error_quantity_maximum</key>
+		<value><![CDATA[مقدار محصول مجاز فراتر می رود. تعداد برای حداکثر تنظیم شده است.]]></value>
+	</definition>
+</definitions>

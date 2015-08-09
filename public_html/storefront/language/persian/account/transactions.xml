@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[معاملات من]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[حساب كاربري]]></value>
+  </definition>
+  <definition>
+    <key>text_transactions</key>
+    <value><![CDATA[تاريخچه معاملات]]></value>
+  </definition>
+  <definition>
+    <key>text_order</key>
+    <value><![CDATA[شماره سفارش]]></value>
+  </definition>  
+  <definition>
+    <key>text_transaction_id</key>
+    <value><![CDATA[شماره]]></value>
+  </definition>
+  <definition>
+    <key>text_transaction_type</key>
+    <value><![CDATA[نوع]]></value>
+  </definition>
+  <definition>
+    <key>text_transaction_description</key>
+    <value><![CDATA[توضيحات]]></value>
+  </definition>
+  <definition>
+    <key>text_date_added</key>
+    <value><![CDATA[ايجاد تاريخ]]></value>
+  </definition>
+  <definition>
+    <key>text_debit</key>
+    <value><![CDATA[بدهي]]></value>
+  </definition>
+  <definition>
+    <key>text_credit</key>
+    <value><![CDATA[اعتبار]]></value>
+  </definition>
+  <definition>
+    <key>text_total</key>
+    <value><![CDATA[جمع]]></value>
+  </definition>
+  <definition>
+    <key>text_error</key>
+    <value><![CDATA[هيچ معامله اي در حساب شما وجود ندارد!]]></value>
+  </definition>
+</definitions>

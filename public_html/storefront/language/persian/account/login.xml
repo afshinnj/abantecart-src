@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[ورود به حساب كاربري]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[ثبت نام]]></value>
+  </definition>
+  <definition>
+    <key>text_login</key>
+    <value><![CDATA[ورود]]></value>
+  </definition>
+  <definition>
+    <key>text_i_am_new_customer</key>
+    <value><![CDATA[من مشتري جديد هستم.]]></value>
+  </definition>
+  <definition>
+    <key>text_checkout</key>
+    <value><![CDATA[گزينه پرداخت نهايي:]]></value>
+  </definition>
+  <definition>
+    <key>text_guest</key>
+    <value><![CDATA[پرداخت مهامن]]></value>
+  </definition>
+  <definition>
+    <key>text_create_account</key>
+    <value><![CDATA[با ایجاد یک حساب کاربری شما قادر خواهید بود برای خرید سریع تر، به روز در وضعیت سفارشات، و پیگیری سفارشات شما قبلا ساخته شده است.]]></value>
+  </definition>
+  <definition>
+    <key>text_returning_customer</key>
+    <value><![CDATA[اعضاي فروشگاه]]></value>
+  </definition>
+  <definition>
+    <key>text_i_am_returning_customer</key>
+    <value><![CDATA[من یک مشتری هستم.]]></value>
+  </definition>
+  <definition>
+    <key>text_forgotten_login</key>
+    <value><![CDATA[ورود را فراموش کرده اید؟]]></value>
+  </definition>
+  <definition>
+    <key>text_forgotten_password</key>
+    <value><![CDATA[رمز عبور را فراموش كرديد؟]]></value>
+  </definition>
+  <definition>
+    <key>entry_loginname</key>
+    <value><![CDATA[شناسه كاربري:]]></value>
+  </definition>
+  <definition>
+    <key>entry_email_address</key>
+    <value><![CDATA[ايميل:]]></value>
+  </definition>
+  <definition>
+    <key>entry_password</key>
+    <value><![CDATA[رمز عبور:]]></value>
+  </definition>
+  <definition>
+    <key>error_login</key>
+    <value><![CDATA[خطا: رمز يا شناسه كاربري اشتباه مي باشد]]></value>
+  </definition>
+  <definition>
+    <key>text_success_activated</key>
+    <value><![CDATA[موفقیت: حساب شما با موفقیت فعال شد. لطفا با اعتبار خود وارد شوید.]]></value>
+  </definition>
+  <definition>
+    <key>text_already_activated</key>
+    <value><![CDATA[حساب کاربری شما در حال حاضر فعال می شود. لطفا با اعتبار خود وارد شوید.]]></value>
+  </definition>
+  <definition>
+    <key>text_already_activated</key>
+    <value><![CDATA[حساب کاربری شما در حال حاضر فعال می شود. لطفا با اعتبار خود وارد شوید.]]></value>
+  </definition>
+  <definition>
+    <key>text_resend_activation_email</key>
+    <value><![CDATA[خطا: کد فعال سازی شما یافت نشد. برای ارسال کد جدید لطفا این کلیک کنید <a href=" %s ">link</a>]]></value>
+  </definition>
+</definitions>
