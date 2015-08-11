@@ -34,8 +34,8 @@ class ModelCatalogCategory extends Model {
 						  SET parent_id = '" . (int)$data['parent_id'] . "',
 						      sort_order = '" . (int)$data['sort_order'] . "',
 						      status = '" . (int)$data['status'] . "',
-						      date_modified = NOW(),
-						      date_added = NOW()");
+						      date_modified = '".Jdate::now()."',
+						      date_added = '".Jdate::now()."'");
 	
 		$category_id = $this->db->getLastId();
 		
@@ -90,7 +90,7 @@ class ModelCatalogCategory extends Model {
 	public function editCategory($category_id, $data) {
 
 		$fields = array('parent_id', 'sort_order', 'status');
-		$update = array('date_modified = NOW()');
+		$update = array('date_modified = NOW()');//$update = array("date_modified = ".Jdate::now()."");
 		foreach ( $fields as $f ) {
 			if ( isset($data[$f]) )
 				$update[] = $f." = '".$this->db->escape($data[$f])."'";

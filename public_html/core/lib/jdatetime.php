@@ -1,5 +1,11 @@
 <?php
-
+/*
+ * persian date 
+ * 
+ * www.abantecart.ir
+ * 
+ * afshin nj
+ */
 if (!defined('DIR_CORE')) {
     header('Location: static_pages/');
 }

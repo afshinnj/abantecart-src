@@ -30,7 +30,7 @@ class ModelUserUser extends Model {
 						      email = '" . $this->db->escape($data['email']) . "',
 						      user_group_id = '" . (int)$data['user_group_id'] . "',
 						      status = '" . (int)$data['status'] . "',
-						      date_added = NOW()");
+						      date_added = '".Jdate::now()."'");
 		return $this->db->getLastId();
 	}
 	

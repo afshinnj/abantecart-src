@@ -120,3 +120,9 @@ ul.categorymenu > li > div {
 	padding: 25px 90px 25px 0px;
 	background: url(../image/otherdetailicon.png) no-repeat 10px top;
 }
+
+ul.productinfo li .productinfoleft {
+	width: 160px;
+	float: right;
+	font-weight: bold
+}

@@ -81,7 +81,7 @@ class ModelAccountCustomer extends Model {
 					approved = '".(int)$data['approved']."',
 					status = '".(int)$data['status']."'". $key_sql . ",
 					ip = '". $this->db->escape($data['ip']) ."',
-					date_added = NOW()";
+					date_added = '".Jdate::now()."'";
 		$this->db->query($sql);
 		$customer_id = $this->db->getLastId();
 			

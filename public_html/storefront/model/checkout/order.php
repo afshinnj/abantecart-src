@@ -172,8 +172,8 @@ class ModelCheckoutOrder extends Model {
 								payment_method_key = '" . $this->db->escape($data['payment_method_key']) . "',
 								comment = '" . $this->db->escape($data['comment']) . "'"
 								. $key_sql . ",
-								date_modified = NOW(),
-								date_added = NOW()");
+								date_modified = '".Jdate::now()."',
+								date_added = '".Jdate::now()."'");
 
 		$order_id = $this->db->getLastId();
 
@@ -267,7 +267,7 @@ class ModelCheckoutOrder extends Model {
 							        order_status_id = '" . (int)$order_status_id . "',
 							        notify = '1',
 							        comment = '" . $this->db->escape($comment) . "',
-							        date_added = NOW()");
+							        date_added = '".Jdate::now()."'");
 			$order_row['comment'] = $order_row['comment'] .' '. $comment;
 
 			$order_product_query = $this->db->query("SELECT *
@@ -571,7 +571,7 @@ class ModelCheckoutOrder extends Model {
 			
 			$this->db->query("UPDATE `" . $this->db->table("orders") . "`
 								SET order_status_id = '" . (int)$order_status_id . "',
-									date_modified = NOW()
+									date_modified = '".Jdate::now()."'
 								WHERE order_id = '" . (int)$order_id . "'");
 
 			$this->db->query("INSERT INTO " . $this->db->table("order_history") . "
@@ -579,7 +579,7 @@ class ModelCheckoutOrder extends Model {
 									order_status_id = '" . (int)$order_status_id . "',
 									notify = '" . (int)$notify . "',
 									comment = '" . $this->db->escape($comment) . "',
-									date_added = NOW()");
+									date_added = '".Jdate::now()."'");
 
 			if ($notify) {
 				$language = new ALanguage($this->registry, $order_row['code']);
@@ -634,7 +634,7 @@ class ModelCheckoutOrder extends Model {
 								order_status_id = '" . (int)$order_status_id . "', 
 								notify = '0', 
 								comment = '" . $this->db->escape($comment) . "', 
-								date_added = NOW()"
+								date_added = '".Jdate::now()."'"
 						);
 		return null;
 	}

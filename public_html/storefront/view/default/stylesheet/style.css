@@ -1296,12 +1296,6 @@ ul.productinfo li {
 	display: block
 }
 
-ul.productinfo li .productinfoleft {
-	width: 160px;
-	float: left;
-	font-weight: bold
-}
-
 .productformbutton {
 	border-bottom: 1px solid #E7E7E7;
 	width: 100%;

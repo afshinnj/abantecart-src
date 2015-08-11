@@ -55,7 +55,7 @@ class ModelCatalogProduct extends Model{
 								status = '" . (int)$data['status'] . "',
 								tax_class_id = '" . (int)$data['tax_class_id'] . "',
 								sort_order = '" . (int)$data['sort_order'] . "',
-								date_added = NOW()");
+								date_added = '".Jdate::now()."'");
 
 		$product_id = $this->db->getLastId();
 		// if new product

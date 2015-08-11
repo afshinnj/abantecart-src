@@ -44,7 +44,7 @@ class ModelCatalogDownload extends Model {
       	                  	  activate = '" . $this->db->escape($data[ 'activate' ]) . "',
       	                  	  activate_order_status_id = '" . (int)$data[ 'activate_order_status_id' ] . "',
       	                  	  status = '" . (int)$data[ 'status' ] . "',
-      	                  	  date_added = NOW()");
+      	                  	  date_added = '".Jdate::now()."'");
 
 		$download_id = $this->db->getLastId();
 
