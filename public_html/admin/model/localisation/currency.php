@@ -46,7 +46,7 @@ class ModelLocalisationCurrency extends Model {
 						          '" . $this->db->escape($data[ 'decimal_place' ]) . "',
 						          '" . $this->db->escape($data[ 'value' ]) . "',
 						          '" . (int)$data[ 'status' ] . "',
-						          NOW())");
+						          '".Jdate::now()."')");
 
 		$this->cache->delete('currency');
 		return $this->db->getLastId();
@@ -73,7 +73,7 @@ class ModelLocalisationCurrency extends Model {
 		}
 
 		$fields = array( 'title', 'code', 'symbol_left', 'symbol_right', 'decimal_place', 'value', 'status', );
-		$update = array( 'date_modified = NOW()' );
+		$update = array( 'date_modified = "'.jdate::now().'"' );
 		foreach ($fields as $f) {
 			if (isset($data[ $f ]))
 				$update[ ] = $f." = '" . $this->db->escape($data[ $f ]) . "'";

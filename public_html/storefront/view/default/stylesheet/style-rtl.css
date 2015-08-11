@@ -126,3 +126,9 @@ ul.productinfo li .productinfoleft {
 	float: right;
 	font-weight: bold
 }
+
+.total-price {
+	font-size: 18px;
+	color: #00A1CB;
+        float: left;
+}

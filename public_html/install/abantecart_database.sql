@@ -32,7 +32,7 @@ CREATE TABLE `ac_categories` (
   `sort_order` int(3) NOT NULL DEFAULT '0',
   `status` int(1) NOT NULL DEFAULT '1',
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`category_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 CREATE INDEX `ac_categories_idx` ON `ac_categories` ( `category_id`, `parent_id`, `status`  );
@@ -640,7 +640,7 @@ CREATE TABLE `ac_currencies` (
   `decimal_place` char(1) COLLATE utf8_general_ci NOT NULL,
   `value` decimal(15,8) NOT NULL,
   `status` int(1) NOT NULL,
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`currency_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 
@@ -649,11 +649,8 @@ CREATE TABLE `ac_currencies` (
 --
 
 INSERT INTO `ac_currencies` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'ایران', 'IRR', 'ریال', '', '0', '1.00000000', 1, '2015-08-09 05:36:56'),
-(2, 'ایران', 'IRT', 'تومان', '', '0', '0.10000000', 1, '2015-08-09 05:37:05'),
-(3, 'US Dollar', 'USD', '$', '', '2', 1.00, 1, '2015-08-09 05:36:56'),
-(4, 'Euro', 'EUR', '', '€', '2', 0.76775432 , 1, '2015-08-09 05:36:56'),
-(5, 'Pound Sterling', 'GBP', '£', '', '2', 0.64524455, 1, '2015-08-09 05:36:56');
+(1, 'ایران', 'IRR', '', 'ریال', '0', '1.00000000', 1, '2015-08-09 05:36:56'),
+(2, 'ایران', 'IRT', '', 'تومان', '0', '0.10000000', 1, '2015-08-09 05:37:05');
 
 --
 -- DDL for table `customers`
