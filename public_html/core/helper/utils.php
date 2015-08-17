@@ -1,12 +1,9 @@
 <?php
 /*------------------------------------------------------------------------------
   $Id$
-
   AbanteCart, Ideal OpenSource Ecommerce Solution
   http://www.AbanteCart.com
-
   Copyright © 2011-2015 Belavier Commerce LLC
-
   This source file is subject to Open Software License (OSL 3.0)
   License details is bundled with this package in the file LICENSE.txt.
   It is also available at this URL:
@@ -20,11 +17,9 @@
 if (!defined('DIR_CORE')) {
 	header('Location: static_pages/');
 }
-
 function isFunctionAvailable($func_name) {
 	return function_exists($func_name);
 }
-
 /*
  * prepare prices and other floats for database writing,, based on locale settings of number formatting
  * */
@@ -35,21 +30,18 @@ function preformatFloat($value, $decimal_point = '.') {
 	}
 	return (float)preg_replace('/[^0-9\-\.]/', '', $value);
 }
-
 /*
  * prepare integer for database writing
  * */
 function preformatInteger($value) {
 	return (int)preg_replace('/[^0-9\-]/', '', $value);
 }
-
 /*
  * prepare string for text id 
  * */
 function preformatTextID($value) {
 	return strtolower(preg_replace("/[^A-Za-z0-9_]/", "", $value));
 }
-
 /**
  * format money float based on locale
  * @since 1.1.8
@@ -57,20 +49,15 @@ function preformatTextID($value) {
  * @param $mode (no_round => show number with real decimal, hide_zero_decimal => remove zeros from decimal part) 
  * @return string
  */
-
 function moneyDisplayFormat($value, $mode = 'no_round'){
 	$registry = Registry::getInstance();
-
 	$decimal_point = $registry->get('language')->get('decimal_point');
 	$decimal_point = !$decimal_point ? '.' : $decimal_point;
-
 	$thousand_point = $registry->get('language')->get('thousand_point');
 	$thousand_point = !$thousand_point ? '' : $thousand_point;
-
 	$currency = $registry->get('currency')->getCurrency();
 	$decimal_place = (int)$currency['decimal_place'];
 	$decimal_place = !$decimal_place ? 2 : $decimal_place;
-
 	// detect if need to show raw number for decimal points 
 	// In admin, this is regardless of currency format. Need to show real number
 	if ($mode == 'no_round' && $value != round($value,$decimal_place)) {
@@ -80,28 +67,24 @@ function moneyDisplayFormat($value, $mode = 'no_round'){
 			$decimal_place = strlen($decim_portion[1]);
 		}
 	}
-
 	//if only zeros after decimal point - hide zeros
 	if($mode == 'hide_zero_decimal' && round($value) == round($value,$decimal_place)){
 		$decimal_place = 0;
 	}
-
 	return number_format((float)$value, $decimal_place, $decimal_point,$thousand_point);
 }
-
 /*
  * check that argument variable has value (even 0 is a value)  
  * */
 function has_value($value) {
-	if (!is_array($value) && $value !== '' && !is_null($value)) {
+	if ($value !== (array)$value && $value !== '' && $value !== null ) {
 		return true;
-	} else if (is_array($value) && count($value) > 0) {
+	} else if ($value === (array)$value && count($value) > 0) {
 		return true;
 	} else {
 		return false;
 	}
 }
-
 /*
  * check that argument variable has value (even 0 is a value)  
  * */
@@ -113,12 +96,11 @@ function is_serialized ($value) {
 	    return false;
 	}
 }
-
 /*
  * check that argument array is multidimensional  
  * */
 function is_multi ($array) {
-	if (is_array($array) && count($array) != count($array, COUNT_RECURSIVE)) {
+	if ($array === (array)$array && count($array) != count($array, COUNT_RECURSIVE)) {
 	    return true;
 	} else {
 	    return false;
@@ -149,7 +131,6 @@ function SEOEncode($string_value, $object_key_name='', $object_id=0, $language_i
 		return getUniqueSeoKeyword($seo_key, $object_key_name, $object_id, $language_id);
 	}
 }
-
 /**
  * @param $seo_key
  * @param string $object_key_name
@@ -157,9 +138,7 @@ function SEOEncode($string_value, $object_key_name='', $object_id=0, $language_i
  * @return string
  */
 function getUniqueSeoKeyword($seo_key, $object_key_name='', $object_id=0){
-
 	$object_id=(int)$object_id;
-
 	$registry = Registry::getInstance();
 	$db = $registry->get('db');
 	$sql = "SELECT `keyword`
@@ -170,13 +149,11 @@ function getUniqueSeoKeyword($seo_key, $object_key_name='', $object_id=0){
 		// exclude keyword of given object (product, category, content etc)
 		$sql .= " AND query<>'".$db->escape($object_key_name)."=".$object_id."'";
 	}
-
 	$result = $db->query($sql);
 	if($result->num_rows){
 		foreach($result->rows as $row){
 			$keywords[] = $row['keyword'];
 		}
-
 		$i=0;
 		while(in_array($seo_key,$keywords) && $i<20){
 			$seo_key = $seo_key.'_'.($object_id?$object_id:$i);
@@ -185,7 +162,6 @@ function getUniqueSeoKeyword($seo_key, $object_key_name='', $object_id=0){
 	}
 	return $seo_key;
 }
-
 /*
 * Echo array with readable formal. Useful in debugging of array data. 
 */
@@ -197,17 +173,13 @@ function echo_array($array_data) {
 	echo'</pre>';
 	echo'</div>';	
 }
-
-
 /*
  * returns list of files from directory with subdirectories
  */
-
 function getFilesInDir($dir, $file_ext = '') {
 	if (!is_dir($dir)) return array();
 	$dir = rtrim($dir, '\\/');
 	$result = array();
-
 	foreach (glob("$dir/*") as $f) {
 		if (is_dir($f)) { // if is directory
 			$result = array_merge($result, getFilesInDir($f, $file_ext));
@@ -220,7 +192,6 @@ function getFilesInDir($dir, $file_ext = '') {
 	}
 	return $result;
 }
-
 //Custom function for version compare between store version and extensions
 //NOTE: Function will return false if major versions donot match. 
 function versionCompare($version1, $version2, $operator) {
@@ -241,18 +212,14 @@ function versionCompare($version1, $version2, $operator) {
 		}
 		$i++;
 	}
-
 	if ($version1[1] > $version2[1]) { 
 		//not compatible, if major version is higher
 		return false;
 	}
-
 	$version1 = implode('.', $version1);
 	$version2 = implode('.', $version2);
-
 	return version_compare($version1, $version2, $operator);
 }
-
 function getTextUploadError($error) {
 	switch ($error) {
 		case UPLOAD_ERR_INI_SIZE:
@@ -281,11 +248,9 @@ function getTextUploadError($error) {
 	}
 	return $error_txt;
 }
-
 /*
  * DATETIME funtions
  */
-
 /*
 *  Convert PHP date format to datepicker date format.
 *  AbanteCart base date format on language setting date_format_short that is PHP date function format
@@ -306,7 +271,6 @@ function format4Datepicker($date_format) {
 	$new_format = preg_replace('/Y/', 'yy', $new_format);
 	return $new_format;
 }
-
 /*
 * Function to format date in database format (ISO) to int format
 */
@@ -315,41 +279,34 @@ function dateISO2Int($string_date) {
 	$is_datetime = strlen($string_date) > 10 ? true : false;
 	return dateFromFormat($string_date, ($is_datetime ? 'Y-m-d H:i:s' : 'Y-m-d'));
 }
-
 /*
 * Function to format date from int to database format (ISO)
 */
 function dateInt2ISO($int_date) {
 	return date('Y-m-d H:i:s', $int_date);
 }
-
 /*
 * Function to format date from format in the display (language based) to database format (ISO)
 * Param: date in specified format, format based on PHP date function (optional)
 * Default format is taken from current language date_format_short setting
 */
 function dateDisplay2ISO($string_date, $format = '') {
-
 	if (empty($format)) {
 		$registry = Registry::getInstance();
 		$format = $registry->get('language')->get('date_format_short');
 	}
-
 	if ($string_date) {
 		return dateInt2ISO(dateFromFormat($string_date, $format));
 	} else {
 		return '';
 	}
 }
-
 /*
 * Function to format date from database format (ISO) into the display (language based) format 
 * Param: iso date, format based on PHP date function (optional)
 * Default format is taken from current language date_format_short setting
 */
-
 function dateISO2Display($iso_date, $format = '') {
-
 	if (empty($format)) {
 		$registry = Registry::getInstance();
 		$format = $registry->get('language')->get('date_format_short');
@@ -360,36 +317,28 @@ function dateISO2Display($iso_date, $format = '') {
 	} else {
 		return '';
 	}
-
 }
-
 /*
 * Function to format date from integer into the display (language based) format
 * Param: int date, format based on PHP date function (optional)
 * Default format is taken from current language date_format_short setting
 */
-
 function dateInt2Display($int_date, $format = '') {
-
 	if (empty($format)) {
 		$registry = Registry::getInstance();
 		$format = $registry->get('language')->get('date_format_short');
 	}
-
 	if ($int_date) {
 		return date($format, $int_date);
 	} else {
 		return '';
 	}
-
 }
-
 /*
 * Function to show Now date (local time) in the display (language based) format 
 * Param: format based on PHP date function (optional)
 * Default format is taken from current language date_format_short setting
 */
-
 function dateNowDisplay($format = '') {
 	if (empty($format)) {
 		$registry = Registry::getInstance();
@@ -397,8 +346,6 @@ function dateNowDisplay($format = '') {
 	}
 	return date($format);
 }
-
-
 function dateFromFormat($string_date, $date_format, $timezone = null) {
 	$date = new DateTime();
 	$timezone = is_null($timezone) ? $date->getTimezone() : $timezone;
@@ -413,8 +360,6 @@ function dateFromFormat($string_date, $date_format, $timezone = null) {
 	}
 	return $result;
 }
-
-
 /**
  * Function of getting integer timestamp from string date formatted by date() function
  * @deprecated since php 5.3
@@ -441,12 +386,10 @@ function DateTimeCreateFromFormat($date_format, $string_date) {
         'U' => '%s'
     );
     $strftime_format = strtr((string)$date_format, $caracs);
-
 	$date_parsed = strptime($string_date, $strftime_format);
 	$int_date = mktime($date_parsed["tm_hour"],$date_parsed["tm_min"],$date_parsed["tm_sec"],$date_parsed["tm_mon"]+1,($date_parsed["tm_mday"]),(1900+$date_parsed["tm_year"]));
 	return $int_date;
 }
-
 //strptime function with solution for windows
 if( !function_exists("strptime")) {
 	function strptime($date, $format) {
@@ -474,29 +417,23 @@ if( !function_exists("strptime")) {
 	    return $ret;
 	}
 }
-
 function checkRequirements() {
 	$error = '';
 	if (phpversion() < '5.2') {
 		$error = 'Warning: You need to use PHP5.2 or above for AbanteCart to work!';
 	}
-
 	if (!ini_get('file_uploads')) {
 		$error = 'Warning: file_uploads needs to be enabled!';
 	}
-
 	if (ini_get('session.auto_start')) {
 		$error = 'Warning: AbanteCart will not work with session.auto_start enabled!';
 	}
-
 	if (!extension_loaded('mysql')) {
 		$error = 'Warning: MySQL extension needs to be loaded for AbanteCart to work!';
 	}
-
 	if (!extension_loaded('gd')) {
 		$error = 'Warning: GD extension needs to be loaded for AbanteCart to work!';
 	}
-
 	if (!extension_loaded('mbstring')) {
 		$error = 'Warning: MultiByte String extension needs to be loaded for AbanteCart to work!';
 	}
@@ -505,8 +442,6 @@ function checkRequirements() {
 	}
 	return $error;
 }
-
-
 /**
  * @param string $extension_txt_id
  * @return SimpleXMLElement | bool
@@ -514,15 +449,12 @@ function checkRequirements() {
 function getExtensionConfigXml($extension_txt_id) {
 	$registry = Registry::getInstance();
 	$result = $registry->get($extension_txt_id.'_configXML');
-
 	if(!is_null($result)){
 		return $result;
 	}
-
 	$extension_txt_id = str_replace('../', '', $extension_txt_id);
 	$filename = DIR_EXT . $extension_txt_id . '/config.xml';
 	$ext_configs = simplexml_load_file($filename);
-
 	if($ext_configs === false){
 		$err_text = 'Error: cannot to load config.xml of extension '.$extension_txt_id.'.';
 		$error = new AError($err_text);
@@ -533,7 +465,6 @@ function getExtensionConfigXml($extension_txt_id) {
 		}
 		return false;
 	}
-
 	/**
 	 * DOMDocument of extension config
 	 * @var $base_dom DOMDocument
@@ -562,7 +493,6 @@ function getExtensionConfigXml($extension_txt_id) {
 		 */
 		$firstNode = $fst->getElementsByTagName('item')->item(0);
 	}
-
 	$xml_files = array('top'    => array(
 										DIR_CORE.'extension/' . 'default/config_top.xml',
 										DIR_CORE.'extension/' . (string)$ext_configs->type . '/config_top.xml'),
@@ -570,7 +500,6 @@ function getExtensionConfigXml($extension_txt_id) {
 						   				DIR_CORE.'extension/' . 'default/config_bottom.xml',
 						   				DIR_CORE.'extension/' . (string)$ext_configs->type . '/config_bottom.xml'
 					   ));
-
 	// then loop for all additional xml-config-files
 	foreach($xml_files as $place=>$files){
 		foreach($files as $filename){
@@ -616,8 +545,6 @@ function getExtensionConfigXml($extension_txt_id) {
 			}
 		}
 	}
-
-
 	//remove all disabled items from list
 	$qry = '/extension/settings/item[disabled="true"]';
 	$existed = $xpath->query($qry);
@@ -626,13 +553,10 @@ function getExtensionConfigXml($extension_txt_id) {
 			$node->parentNode->removeChild($node);
 		}
 	}
-
-
 	$result = simplexml_import_dom($base_dom);
 	$registry->set($extension_txt_id.'_configXML',$result);
 	return $result;
 }
-
 /**
  * Function for starting new storefront session for control panel user
  * NOTE: do not try to save into session any data after this function call!
@@ -653,8 +577,6 @@ function startStorefrontSession($user_id, $data=array()){
     session_write_close();
     return true;
 }
-
-
 /**
  * Function to built array with sort_order equaly encremented
  *
@@ -668,7 +590,6 @@ function build_sort_order($array, $min, $max, $sort_direction = 'asc'){
 	if ( empty($array) ) {
 		return array();
 	}
-
 	//if no min or max, set interval to 10
 	$return_arr = array();
 	if ($max > 0) {
@@ -701,7 +622,6 @@ function build_sort_order($array, $min, $max, $sort_direction = 'asc'){
 	}
 	return $return_arr;
 }
-
 /**
  * Function to test if array is assosiative array
  *
@@ -711,33 +631,28 @@ function build_sort_order($array, $min, $max, $sort_direction = 'asc'){
 function is_assoc($test_array) {
 	return is_array($test_array) && array_diff_key($test_array,array_keys(array_keys($test_array)));
 }
-
 /**
  * Return project base
  *
  * @return string
  */
-
 function project_base() {
 	$base = 'PGEgaHJlZj0iaHR0cDovL3d3dy5hYmFudGVjYXJ0LmNvbSIgb25jbGljaz0id2luZG93Lm9wZW4odGhpcy5ocmVm';
 	$base .= 'KTtyZXR1cm4gZmFsc2U7IiB0aXRsZT0iSWRlYWwgT3BlblNvdXJjZSBFLWNvbW1lcmNlIFNvbHV0aW9uIj5BYmFudGVDYXJ0PC9hPg==';
 	return base64_decode($base);
 }
-
 /**
  * Validate if string is HTML
  *
  * @param string $test_string
  * @return bool
  */
-
 function is_html($test_string) {
 	if($test_string != strip_tags($test_string)) {
 		return true;
 	}
 	return false;
 }
-
 /**
  * Get either a Gravatar URL or complete image tag for a specified email address.
  *
@@ -756,11 +671,8 @@ function getGravatar( $email = '', $s = 80, $d = 'mm', $r = 'g') {
     $url .= "?s=".$s."&d=".$d."&r=".$r;
     return $url;
 }
-
 function compressTarGZ($tar_filename, $tar_dir, $compress_level = 5){
-
 	$compress_level = ($compress_level<1 || $compress_level>9) ? 5 : $compress_level;
-
 	$exit_code = 0;
 	if(pathinfo($tar_filename,PATHINFO_EXTENSION)=='gz'){
 		$filename = rtrim($tar_filename,'.gz');
@@ -778,7 +690,6 @@ function compressTarGZ($tar_filename, $tar_dir, $compress_level = 5){
 	if(is_file($tar)){
 		unlink($tar);
 	}
-
 	if(class_exists('PharData') ){
 		try{
 			$a = new PharData($tar );
@@ -795,7 +706,6 @@ function compressTarGZ($tar_filename, $tar_dir, $compress_level = 5){
 	}else{
 		$exit_code =1;
 	}
-
 	if ( $exit_code ) {
 		$registry = Registry::getInstance();
 		$registry->get('load')->library('targz');
@@ -805,7 +715,6 @@ function compressTarGZ($tar_filename, $tar_dir, $compress_level = 5){
 		return true;
 	}
 }
-
 function gzip($src, $level = 5, $dst = false){
     if($dst == false){
         $dst = $src.".gz";
@@ -830,8 +739,6 @@ function gzip($src, $level = 5, $dst = false){
     }
     return false;
 }
-
-
 /**
  * Generate random word
  *
@@ -863,20 +770,16 @@ function randomWord($length = 4){
     }
     return $newcode;
 }
-
 /**
  * TODO: in the future
  * @param $zip_filename
  * @param $zip_dir
  */
 function compressZIP($zip_filename, $zip_dir){
-
 }
-
 function getMimeType($filename) {
 $filename = (string)$filename;
     $mime_types = array(
-
         'txt' => 'text/plain',
         'htm' => 'text/html',
         'html' => 'text/html',
@@ -887,7 +790,6 @@ $filename = (string)$filename;
         'xml' => 'application/xml',
         'swf' => 'application/x-shockwave-flash',
         'flv' => 'video/x-flv',
-
         // images
         'png' => 'image/png',
         'jpe' => 'image/jpeg',
@@ -900,37 +802,31 @@ $filename = (string)$filename;
         'tif' => 'image/tiff',
         'svg' => 'image/svg+xml',
         'svgz' => 'image/svg+xml',
-
         // archives
         'zip' => 'application/zip',
         'rar' => 'application/x-rar-compressed',
         'exe' => 'application/x-msdownload',
         'msi' => 'application/x-msdownload',
         'cab' => 'application/vnd.ms-cab-compressed',
-
         // audio/video
         'mp3' => 'audio/mpeg',
         'qt' => 'video/quicktime',
         'mov' => 'video/quicktime',
-
         // adobe
         'pdf' => 'application/pdf',
         'psd' => 'image/vnd.adobe.photoshop',
         'ai' => 'application/postscript',
         'eps' => 'application/postscript',
         'ps' => 'application/postscript',
-
         // ms office
         'doc' => 'application/msword',
         'rtf' => 'application/rtf',
         'xls' => 'application/vnd.ms-excel',
         'ppt' => 'application/vnd.ms-powerpoint',
-
         // open office
         'odt' => 'application/vnd.oasis.opendocument.text',
         'ods' => 'application/vnd.oasis.opendocument.spreadsheet',
     );
-
     $ext = strtolower(array_pop(explode('.',$filename)));
     if (has_value($mime_types[$ext])) {
         return $mime_types[$ext];
@@ -945,7 +841,6 @@ $filename = (string)$filename;
         return 'application/octet-stream';
     }
 }
-
 // function detect is maximum execution time can be changed
 function canChangeExecTime(){
 	$old_set = ini_get('max_execution_time');
@@ -957,7 +852,6 @@ function canChangeExecTime(){
 		return true;
 	}
 }
-
 function getMemoryLimitInBytes (){
 	$size_str = ini_get('memory_limit');
     switch (substr ($size_str, -1)){
@@ -967,11 +861,25 @@ function getMemoryLimitInBytes (){
         default: return $size_str;
     }
 }
-
 function is_valid_url( $validate_url ) {
 	if (filter_var($validate_url, FILTER_VALIDATE_URL) === FALSE) {
 	    return false;	
 	} else {
 	    return true;		
+	}
+}
+/*
+	Get valid URL path considering *.php
+*/
+function get_url_path( $url ) {
+	$url_path1 = parse_url($url,PHP_URL_PATH);	
+	//do we have path with php in the string? Treat case: /abantecart120/index.php/storefront/view/resources/image/18/6c/index.php
+	$pos = stripos($url_path1, '.php');
+	if ($pos) {
+		//we have .php files specified.
+		$filtered_url = substr($url_path1, 0, $pos+4);
+		return rtrim(dirname($filtered_url), '/.\\').'/';
+	} else {
+		return rtrim($url_path1, '/.\\').'/';	
 	}
 }
