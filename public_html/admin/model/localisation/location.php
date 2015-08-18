@@ -34,7 +34,7 @@ class ModelLocalisationLocation extends Model {
             "INSERT INTO " . $this->db->table("locations") . " 
 			SET name = '" . $this->db->escape($data['name']) . "',
 				description = '" . $this->db->escape($data['description']) . "',
-				date_added = NOW()");
+				date_added = '" . Jdate::now() . "'");
         $this->cache->delete('location');
 
         return $this->db->getLastId();
@@ -55,7 +55,7 @@ class ModelLocalisationLocation extends Model {
             $temp[] = "('" . (int)$data['country_id'] . "',
 					'" . (int)$zone_id . "',
 					'" . (int)$location_id . "',
-					NOW())";
+					'" . Jdate::now() . "')";
         }
         $sql .= implode(", \n", $temp) . ';';
         $this->db->query($sql);
@@ -72,7 +72,7 @@ class ModelLocalisationLocation extends Model {
 	 */
     public function editLocation($location_id, $data) {
         $fields = array('name', 'description',);
-        $update = array('date_modified = NOW()');
+        $update = array('date_modified = "' . jdate::now() . '"');
         foreach ($fields as $f) {
             if (isset($data[$f]))
                 $update[] = $f." = '" . $this->db->escape($data[$f]) . "'";
@@ -90,7 +90,7 @@ class ModelLocalisationLocation extends Model {
 	 */
     public function editLocationZone($zone_to_location_id, $data) {
         $fields = array('country_id', 'zone_id',);
-        $update = array('date_modified = NOW()');
+        $update = array('date_modified = "' . jdate::now() . '"');
         foreach ($fields as $f) {
             if (isset($data[$f]))
                 $update[] = $f." = '" . $this->db->escape($data[$f]) . "'";

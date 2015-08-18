@@ -33,7 +33,7 @@ class ModelCatalogReview extends Model{
 							  text = '" . $this->db->escape(strip_tags($data['text'])) . "',
 							  rating = '" . (int)$data['rating'] . "',
 							  status = '" . (int)$data['status'] . "',
-							  date_added = NOW()");
+							  date_added = '". Jdate::now() ."'");
 		$this->cache->delete('product.reviews.totals');
 		$this->cache->delete('product.all_info');
 		return $this->db->getLastId();
@@ -46,7 +46,7 @@ class ModelCatalogReview extends Model{
 	public function editReview($review_id, $data){
 
 		$allowFields = array('product_id', 'customer_id', 'author', 'text', 'rating', 'status', 'date_added');
-		$update_data = array(' date_modified = NOW() ');
+		$update_data = array(' date_modified = "' . jdate::now() . '" ');
 		foreach($data as $key => $val){
 			if(in_array($key, $allowFields)){
 				$update_data[] = "`$key` = '" . $this->db->escape($val) . "' ";

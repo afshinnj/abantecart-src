@@ -65,7 +65,7 @@ class ModelSaleOrder extends Model{
 								payment_country_id = '" . (int)$data['payment_country_id'] . "',
 								ip = '" . $this->db->escape('0.0.0.0') . "',
 								total = '" . $this->db->escape(preformatFloat($data['total'], $this->language->get('decimal_point'))) . "'" . $key_sql . ",
-								date_modified = NOW()");
+								date_modified ='". Jdate::now() ."'");
 
 		$order_id = $this->db->getLastId();
 
@@ -171,7 +171,7 @@ class ModelSaleOrder extends Model{
 				'order_status_id',
 				'key_id'
 		);
-		$update = array('date_modified = NOW()');
+		$update = array('date_modified = "' . jdate::now() . '"');
 
 		if($this->dcrypt->active){
 			//encrypt order data

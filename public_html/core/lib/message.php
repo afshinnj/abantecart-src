@@ -101,14 +101,14 @@ final class AMessage {
 		$last_message = $this->getLikeMessage($title);
 		// if last message equal new - update it's repeated field
 		if ($last_message['title'] == $title && $repetition_group) {
-			$this->db->query("UPDATE " . $this->db->table("messages") . " SET `repeated` = `repeated` + 1, viewed='0' WHERE msg_id = '" . $last_message['msg_id'] . "'");
+			$this->db->query("UPDATE " . $this->db->table("messages") . " SET `repeated` = `repeated` + 1, viewed='0', date_modified='".Jdate::now()."' WHERE msg_id = '" . $last_message['msg_id'] . "'");
 		} else {
 
 			$this->db->query("INSERT INTO " . $this->db->table("messages") . " 
 						    SET `title` = '" . $this->db->escape($title) . "',
 						    `message` = '" . $this->db->escape($message) . "',
 						    `status` = '" . $this->db->escape($status) . "',						    
-						    `date_added` = NOW()");
+						    `date_added` = '" . Jdate::now() . "'");
 		}
 	}
 

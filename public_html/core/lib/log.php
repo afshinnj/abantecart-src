@@ -72,7 +72,7 @@ final class ALog {
 		if(!$this->mode) return null;
 		$file = $this->filename;
 		$handle = fopen($file, 'a+');
-		fwrite($handle, date('Y-m-d G:i:s') . ' - ' . $message . "\n");
+		fwrite($handle, Jdate::now() . ' - ' . $message . "\n");
 		fclose($handle); 
 	}
 }
