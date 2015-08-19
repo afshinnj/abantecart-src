@@ -3,16 +3,16 @@
 	<div class="col-md-9">
 	<div class="panel panel-default">
 
-            <ul class="nav nav-tabs rtl" role="tablist">
-                <li class="active"><a href="#">1: پروانه</a></li> <!--License-->
-                <li class="disabled"><a href="#" onclick="return false;">2: اعتبار سنجی سازگاری</a></li> <!--Compatibility Validation-->
-                <li class="disabled"><a href="#" onclick="return false;">3: پیکر بندی</a></li><!--Configuration-->
-                <li class="disabled"><a href="#" onclick="return false;">4: بارگیری داده</a></li><!--Data Load-->
-                <li class="disabled"><a href="#" onclick="return false;">5: پایان</a></li><!--Finished-->
-            </ul>
+	<ul class="nav nav-tabs" role="tablist">
+	  <li class="disabled"><a href="#" onclick="return false;">1: License</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">2: Compatibility Validation</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">3: Configuration</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">4: Data Load</a></li>
+	  <li class="active"><a href="#" onclick="return false;">5: Finished</a></li>
+	</ul>
 
 	<div class="panel-heading">
-	<h2><i class="fa fa-flag-checkered fa-fw"></i>  نصب با موفقیت به اتمام رسید! </h2>
+	<h2><i class="fa fa-flag-checkered fa-fw"></i> Installation Completed!</h2>
 	</div>
 	
 	<div class="panel-body panel-body-nopadding">
@@ -46,15 +46,33 @@
 		<div class="container-fluid">
 	    <div class="snapshots col-md-6">
 		    <a href="../"><img src="<?php echo $template_dir; ?>image/storefront.png" alt="" width="250" style="border: none;" /></a><br />
-		    <a href="../">فروشگاه آنلاین شما</a>
+		    <a href="../">Your Online Shop</a>
 		</div>
 	    <div class="snapshots col-md-6">
 		    <a href="../<?php echo $admin_path ?>"><img src="<?php echo $template_dir; ?>image/admin.png" alt="" width="250" style="border: none;" /></a><br />
-		    <a href="../<?php echo $admin_path ?>">ورود به کنترل پنل شما</a>
+		    <a href="../<?php echo $admin_path ?>">Login to your Control Panel</a>
 		</div>
 		</div>
 
 		</br>
+		</br>
+		</br>
+		</br>
+
+		<div class="container-fluid">
+			<div class="h4 heading col-md-12 text-center" style="min-height: 50px;">Install Payment Extension Now</div>
+		    <div class="snapshots col-md-6">
+			    <?php $url = '../'.$admin_path."&rt=extension/extensions/install&extension=default_stripe"; ?>
+			    <a href="<?php echo $url;?>"><img src="../extensions/default_stripe/image/icon.png" alt="Install Stripe Payment" style="border: none;" /></a><br />
+			    <a href="<?php echo $url;?>">Stripe</a>
+			</div>
+		    <div class="snapshots col-md-6">
+			    <?php $url = '../'.$admin_path."&rt=extension/extensions/install&extension=default_pp_standart"; ?>
+			    <a href="<?php echo $url;?>"><img src="../extensions/default_pp_standart/image/icon.png" alt="Install Paypal Standart Payment" style="border: none;" /></a><br />
+			    <a href="<?php echo $url;?>">Paypal</a>
+			</div>
+		</div>
+
 	</div>
 		
 	</div>

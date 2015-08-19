@@ -3,17 +3,17 @@
 	<div class="col-md-9">
 	<div class="panel panel-default">
 
-            <ul class="nav nav-tabs rtl" role="tablist">
-                <li class="active"><a href="#">1: پروانه</a></li> <!--License-->
-                <li class="disabled"><a href="#" onclick="return false;">2: اعتبار سنجی سازگاری</a></li> <!--Compatibility Validation-->
-                <li class="disabled"><a href="#" onclick="return false;">3: پیکر بندی</a></li><!--Configuration-->
-                <li class="disabled"><a href="#" onclick="return false;">4: بارگیری داده</a></li><!--Data Load-->
-                <li class="disabled"><a href="#" onclick="return false;">5: پایان</a></li><!--Finished-->
-            </ul>
+	<ul class="nav nav-tabs" role="tablist">
+	  <li><a href="<?php echo $back; ?>">1: License</a></li>
+	  <li class="active"><a href="#" onclick="return false;">2: Compatibility Validation</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">3: Configuration</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">4: Data Load</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">5: Finished</a></li>
+	</ul>
 
 	<form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
 	<div class="panel-heading">
-	<h2><i class="fa fa-cogs fa-fw"></i> Compatibility Validation <small class="pull-left"><a onclick="document.getElementById('form').submit()" class="btn btn-primary">Continue <i class="fa fa-arrow-left"></i></a></small></h2>
+	<h2><i class="fa fa-cogs fa-fw"></i> Compatibility Validation <small class="pull-right"><a onclick="document.getElementById('form').submit()" class="btn btn-primary">Continue <i class="fa fa-arrow-right"></i></a></small></h2>
 	</div>
 	
 	<div class="panel-body">
@@ -231,8 +231,8 @@
 	</div>
 
 	<div class="panel-footer">
-		<a class="btn btn-default" href="<?php echo $back; ?>"><i class="fa fa-arrow-right"></i> Back</a>
-		<a class="btn btn-primary pull-left" onclick="document.getElementById('form').submit()">Continue <i class="fa fa-arrow-left"></i></a>
+		<a class="btn btn-default" href="<?php echo $back; ?>"><i class="fa fa-arrow-left"></i> Back</a>
+		<a class="btn btn-primary pull-right" onclick="document.getElementById('form').submit()">Continue <i class="fa fa-arrow-right"></i></a>
 	</div>
 	
 	</div>

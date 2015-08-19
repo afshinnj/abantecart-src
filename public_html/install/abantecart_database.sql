@@ -99,7 +99,6 @@ INSERT INTO `ac_country_descriptions` (`country_id`, `language_id`, `name`)
 VALUES 
 (1,1,'جمهوری اسلامی ایران');
 
-
 --
 -- DDL for table `coupons`
 --
@@ -332,25 +331,23 @@ CREATE TABLE `ac_extensions` (
 --
 
 INSERT INTO `ac_extensions` (`type`, `key`, `category`, `status`, `priority`, `version`, `license_key`, `date_installed`, `date_modified`, `date_added`) VALUES
-('payment', 'default_cod', 'payment', 1, 1, '1.0', null, now(), now(), now() ),
-('total', 'coupon', '', 1, 1, '1.0', null, now(), now(), now() ),
-('total', 'shipping', 'shipping', 1, 1, '1.0', null, now(), now(), now() ),
-('total', 'low_order_fee', '', 0, 1, '1.0', null, now(), now(), now() ),
-('total', 'handling', '', 0, 1, '1.0', null, now(), now(), now() ),
-('total', 'sub_total', '', 1, 1, '1.0', null, now(), now(), now() ),
-('total', 'tax', '', 1, 1, '1.0', null, now(), now(), now() ),
-('total', 'total', '', 1, 1, '1.0', null, now(), now(), now() ),
-('total', 'balance', '', 1, 1, '1.0', null, now(), now(), now() ),
 
-('block', 'cart', '', 1, 1, '1.0', null, now(), now(), now() ),
-('block', 'category', '', 1, 1, '1.0', null, now(), now(), now() ),
-('block', 'content', '', 1, 1, '1.0', null, now(), now(), now() ),
-('block', 'manufacturer', '', 1, 1, '1.0', null, now(), now(), now() ),
-('block', 'bestseller', '', 1, 1, '1.0', null, now(), now(), now() ),
-('block', 'latest', '', 1, 1, '1.0', null, now(), now(), now() ),
-('block', 'featured', '', 1, 1, '1.0', null, now(), now(), now() ),
+('total', 'coupon', '', 1, 1, '', null, now(), now(), now() ),
+('total', 'shipping', 'shipping', 1, 1, '', null, now(), now(), now() ),
+('total', 'low_order_fee', '', 0, 1, '', null, now(), now(), now() ),
+('total', 'handling', '', 0, 1, '', null, now(), now(), now() ),
+('total', 'sub_total', '', 1, 1, '', null, now(), now(), now() ),
+('total', 'tax', '', 1, 1, '', null, now(), now(), now() ),
+('total', 'total', '', 1, 1, '', null, now(), now(), now() ),
+('total', 'balance', '', 1, 1, '', null, now(), now(), now() ),
 
-('shipping', 'default_flat_rate_shipping', 'shipping', 1, 1, '1.0', null, now(), now(), now() ),
+('block', 'cart', '', 1, 1, '', null, now(), now(), now() ),
+('block', 'category', '', 1, 1, '', null, now(), now(), now() ),
+('block', 'content', '', 1, 1, '', null, now(), now(), now() ),
+('block', 'manufacturer', '', 1, 1, '', null, now(), now(), now() ),
+('block', 'bestseller', '', 1, 1, '', null, now(), now(), now() ),
+('block', 'latest', '', 1, 1, '', null, now(), now(), now() ),
+('block', 'featured', '', 1, 1, '', null, now(), now(), now() ),
 
 ('extensions', 'banner_manager', 'extensions', 1, 1, '1.0.1', null, now(), now(), now() ),
 ('extensions', 'forms_manager', 'extensions', 1, 1, '1.0.2', null, now(), now(), now() ),
@@ -367,8 +364,8 @@ CREATE TABLE `ac_banners` (
 	`status` int(1) NOT NULL DEFAULT '0',
 	`banner_type` int(11) NOT NULL DEFAULT '1',
 	`banner_group_name` varchar(255) NOT NULL DEFAULT '',
-	`start_date` datetime NULL DEFAULT NULL,
-	`end_date` datetime NULL DEFAULT NULL,
+	`start_date` timestamp NULL DEFAULT NULL,
+	`end_date` timestamp NULL DEFAULT NULL,
 	`blank` tinyint(1) NOT NULL DEFAULT '0',
 	`target_url` text COLLATE utf8_general_ci DEFAULT '',
 	`sort_order` int(11) NOT NULL,
@@ -394,7 +391,7 @@ CREATE TABLE `ac_banner_stat` (
 	`rowid` INT NOT NULL AUTO_INCREMENT,
   `banner_id` int(11) NOT NULL,
   `type` int(11) NOT NULL, -- 1 = view, 2 = click
-  `time` datetime NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `time` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
   `store_id` int(11) NOT NULL,
   `user_info` text(1500) DEFAULT '',
 PRIMARY KEY (`rowid`),
@@ -410,7 +407,7 @@ CREATE TABLE `ac_locations` (
   `name` varchar(32) COLLATE utf8_general_ci NOT NULL DEFAULT '',
   `description` varchar(255) COLLATE utf8_general_ci NOT NULL DEFAULT '',
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`location_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 
@@ -458,7 +455,7 @@ CREATE TABLE `ac_language_definitions` (
   `block` varchar(160) NOT NULL,
   `language_key` varchar(170) NOT NULL,
   `language_value` text NOT NULL COMMENT 'translatable',
-  `date_added` datetime NOT NULL default '0000-00-00 00:00:00',
+  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY  (`language_definition_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
@@ -669,8 +666,8 @@ CREATE TABLE `ac_order_data_types` (
   `type_id` int(11) NOT NULL AUTO_INCREMENT,
   `language_id` int(11) NOT NULL,
   `name` varchar(64) COLLATE utf8_general_ci NOT NULL DEFAULT '' COMMENT 'translatable',
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP, 
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP, 
   PRIMARY KEY (`type_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 
@@ -815,7 +812,7 @@ CREATE TABLE `ac_products` (
   `cost` DECIMAL(15,4) NOT NULL DEFAULT '0.0000',
   `call_to_order` smallint NOT NULL default '0',
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`product_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 
@@ -833,6 +830,7 @@ CREATE TABLE `ac_product_descriptions` (
   `meta_keywords` varchar(255) COLLATE utf8_general_ci NOT NULL COMMENT 'translatable',
   `meta_description` varchar(255) COLLATE utf8_general_ci NOT NULL COMMENT 'translatable',
   `description` text COLLATE utf8_general_ci NOT NULL COMMENT 'translatable',
+  `blurb` text COLLATE utf8_general_ci NOT NULL COMMENT 'translatable',
   PRIMARY KEY (`product_id`,`language_id`),
   KEY `name` (`name`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
@@ -1031,7 +1029,7 @@ CREATE TABLE `ac_reviews` (
   `rating` int(1) NOT NULL,
   `status` int(1) NOT NULL DEFAULT '0',
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`review_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 
@@ -1100,6 +1098,8 @@ INSERT INTO `ac_settings` (`group`, `key`, `value`) VALUES
 ('general','config_download',1),
 ('general','config_help_links',1),
 ('general','config_show_tree_data',1),
+('general','config_embed_status',1),
+('general','config_embed_click_action', 'modal'),
 ('general','config_product_default_sort_order','date_modified-ASC'),
 -- Checkout
 ('checkout','starting_invoice_id',001),
@@ -1169,6 +1169,7 @@ INSERT INTO `ac_settings` (`group`, `key`, `value`) VALUES
 	('system','config_maintenance',0),
 	('system','encryption_key',12345),
 	('system','enable_seo_url',0),
+	('system','config_retina_enable',0),
 	('system','config_compression',0),
 	('system','config_cache_enable',1),
 	('system','config_error_display',1),
@@ -1219,19 +1220,6 @@ INSERT INTO `ac_settings` (`group`, `key`, `value`) VALUES
 ('total', 'total_calculation_order', '7'),
 ('total', 'total_status', '1'),
 ('total', 'total_total_type', 'total'),
-
-('default_cod', 'default_cod_sort_order', '1'),
-('default_cod', 'default_cod_order_status_id', '1'),
-('default_cod', 'default_cod_status', '1'),
-('default_cod', 'default_cod_location_id', '0'),
-('default_cod', 'default_cod_autoselect', '1'),
-
-('default_flat_rate_shipping', 'default_flat_rate_shipping_cost', '2'),
-('default_flat_rate_shipping', 'default_flat_rate_shipping_tax_class_id', '9'),
-('default_flat_rate_shipping', 'default_flat_rate_shipping_location_id', '0'),
-('default_flat_rate_shipping', 'default_flat_rate_shipping_status', '1'),
-('default_flat_rate_shipping', 'default_flat_rate_shipping_sort_order', '1'),
-('default_flat_rate_shipping', 'default_flat_rate_shipping_autoselect', '1'),
 
 ('banner_manager','banner_manager_layout',''),
 ('banner_manager','banner_manager_priority',10),
@@ -1301,8 +1289,8 @@ CREATE TABLE `ac_store_descriptions` (
 DROP TABLE IF EXISTS `ac_tax_classes`;
 CREATE TABLE `ac_tax_classes` (
   `tax_class_id` int(11) NOT NULL AUTO_INCREMENT,
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`tax_class_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 
@@ -1529,7 +1517,6 @@ CREATE TABLE `ac_zone_descriptions` (
   `name` varchar(128) COLLATE utf8_general_ci NOT NULL COMMENT 'translatable',
   PRIMARY KEY (`zone_id`,`language_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
-
 
 INSERT INTO `ac_zone_descriptions` (`zone_id`, `language_id`,`name`) VALUES 
 (1, 1, 'تهران'),
@@ -2488,9 +2475,9 @@ DROP TABLE IF EXISTS `ac_ant_messages`;
 CREATE TABLE `ac_ant_messages` (
   `id` varchar(60) NOT NULL,
   `priority` int(11) NOT NULL DEFAULT 0,
-  `start_date` datetime NOT NULL default '0000-00-00 00:00:00',
-  `end_date` datetime,
-  `viewed_date` datetime,
+  `start_date` timestamp NOT NULL default '0000-00-00 00:00:00',
+  `end_date` timestamp,
+  `viewed_date` timestamp,
   `viewed` int(11) NOT NULL default '0',
   `title` varchar(255) DEFAULT NULL,
   `description` text,
@@ -2502,6 +2489,10 @@ CREATE TABLE `ac_ant_messages` (
   KEY `daterange_idx` (`start_date`,`end_date`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
+INSERT INTO `ac_ant_messages` (`id`, `priority`, `start_date`, `end_date`, `viewed_date`, `viewed`, `title`, `description`, `html`, `url`, `language_code`, `date_modified`) VALUES
+('abantecart_share_word', 1, '0000-00-00 00:00:00', '2029-12-31 20:30:00', '2015-08-18 10:23:06', 17, 'Help us making AbanteCart #1', '', '<p class="p1">Help AbanteCart community grow and provide better eCommerce for everyone. Let the world know about AbanteCart and your experience. Simply share a word on your favorite social media, blogs or forums</p>\r\n<strong></strong>', '', '*', '2015-08-18 10:23:06'),
+('banner', 1, '2011-09-16 02:24:47', '2029-12-31 20:30:00', '2015-08-18 10:13:47', 18, 'Banner at AbanteCart header', '', '<strong>AbanteCart</strong> V1.2.3 is a current application version. New in this release: Product embed codes to integrate cart into any existing website. <strong><a href="http://www.abantecart.com/shopping-cart-news/abantecart-123-released" target="_blank">Learn more ... </a></strong>', 'http://www.abantecart.com', '*', '2015-08-18 10:13:47'),
+('capterra_review', 1, '0000-00-00 00:00:00', '2029-12-31 20:30:00', '2015-08-18 08:30:21', 16, 'Please review AbanteCart and share your experience', '', 'Do you like <strong>AbanteCart</strong>? Please rate AbanteCart or share your experience with other eCommerce entrepreneurs. Go to <strong><a href="http://www.capterra.com/ecommerce-software/spotlight/126413/AbanteCart/AbanteCart" target="_blank">Capterra rating page</a></strong> to add your rating or <strong><a href="http://www.capterra.com/ecommerce-software/reviews/126413/AbanteCart/AbanteCart/new" target="_blank">write a review</a></strong>', '', '*', '2015-08-18 08:30:21');
 --
 -- DDL for table `ac_datasets`
 --
@@ -2564,7 +2555,7 @@ CREATE TABLE `ac_dataset_values` (
   `value_float` float DEFAULT NULL,
   `value_varchar` varchar(255) DEFAULT NULL,
   `value_text` text,
-  `value_timestamp` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `value_timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `value_boolean` tinyint(1) DEFAULT NULL,
   `value_sort_order` int(11) NOT NULL AUTO_INCREMENT,
   `row_id` int(10) unsigned NOT NULL DEFAULT '0',
@@ -3658,11 +3649,11 @@ INSERT INTO `ac_datasets` (`dataset_name`,`dataset_key`) VALUES ('install_upgrad
 INSERT INTO `ac_dataset_properties` (`dataset_id`,`dataset_property_name`,`dataset_property_value`) VALUES ('4','controller','tool/install_upgrade_history');
 
 INSERT INTO `ac_dataset_definition` (`dataset_id`,`dataset_column_id`, `dataset_column_name`,`dataset_column_type`,`dataset_column_sort_order`)
-VALUES  (4,20,'date_added','datetime',1),
+VALUES  (4,20,'date_added','timestamp',1),
         (4,21,'name','varchar',2),
         (4,22,'version','varchar',3),
         (4,23,'backup_file','varchar',4),
-        (4,24,'backup_date','datetime',5),
+        (4,24,'backup_date','timestamp',5),
         (4,25,'type','varchar',6),
         (4,26,'user','varchar',7);
 
@@ -3673,7 +3664,7 @@ VALUES  (20, NOW(),'1');
 INSERT INTO `ac_dataset_values` (`dataset_column_id`, `value_varchar`,`row_id`)
 VALUES  (21,'AbanteCart','1');
 INSERT INTO `ac_dataset_values` (`dataset_column_id`, `value_varchar`,`row_id`)
-VALUES  (22,'1.2.2','1');
+VALUES  (22,'1.2.3','1');
 INSERT INTO `ac_dataset_values` (`dataset_column_id`, `value_varchar`,`row_id`)
 VALUES  (23,'','1');
 INSERT INTO `ac_dataset_values` (`dataset_column_id`, `value_varchar`,`row_id`)
@@ -3705,8 +3696,8 @@ DROP TABLE IF EXISTS `ac_resource_library`;
 CREATE TABLE `ac_resource_library` (
   `resource_id` int(11) NOT NULL NULL auto_increment,
   `type_id` int(11) NOT NULL,
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`resource_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=100000;
 
@@ -3723,8 +3714,8 @@ CREATE TABLE `ac_resource_descriptions` (
   `description` text DEFAULT NULL NULL COMMENT 'translatable',
   `resource_path` varchar(255) DEFAULT NULL,
   `resource_code` text DEFAULT NULL,
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`resource_id`,`language_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci ;
 
@@ -3944,8 +3935,8 @@ CREATE TABLE `ac_resource_map` (
   `object_id` int(11) NOT NULL,  
   `default`tinyint(1) NOT NULL DEFAULT '0' COMMENT '0-no, 1-Yes', 
   `sort_order` int(3) NOT NULL DEFAULT '0',  
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 	PRIMARY KEY ( `resource_id`, `object_name`, `object_id` )
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
@@ -4050,8 +4041,8 @@ CREATE TABLE `ac_global_attributes_type_descriptions` (
   `attribute_type_id` int(11) NOT NULL,
   `language_id` int(11) NOT NULL,
   `type_name` varchar(64) COLLATE utf8_general_ci NOT NULL COMMENT 'translatable',
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`attribute_type_id`,`language_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci COMMENT='utf8_general_ci';
 
@@ -4133,13 +4124,13 @@ CREATE TABLE `ac_tasks` (
   `starter` int(11) DEFAULT NULL, -- 0 - storefront, 1 - admin side, 2 - any
   `status` int(11) DEFAULT '0', -- 0 - disabled, 1 - scheduled, 2 - active
   `start_time` datetime DEFAULT NULL,
-  `last_time_run` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `last_time_run` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `progress` int(11) NOT NULL DEFAULT '0', -- percentage of progress
   `last_result` int(11) NOT NULL DEFAULT '0', -- 0 - success, 1 - failed, 2 - interrupted
   `run_interval` INT(11) NOT NULL DEFAULT '0', -- interval in seconds since last run, 0 - without interval
   `max_execution_time` int(11) DEFAULT '0', -- maximum execution time for this task
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`task_id`),
   UNIQUE KEY `task_name_idx` (`name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
@@ -4149,8 +4140,8 @@ CREATE TABLE `ac_task_details` (
   `task_id` int(11) NOT NULL AUTO_INCREMENT,
   `created_by` varchar(255) DEFAULT '', -- task owner name
   `settings` text DEFAULT '', -- serialized array with paramenters
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`task_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 
@@ -4160,12 +4151,12 @@ CREATE TABLE `ac_task_steps` (
   `task_id` int(11) NOT NULL,
   `sort_order` int(11) DEFAULT '0',
   `status` int(11) DEFAULT '0', -- 0 - disabled, 1 - scheduled, 2 - active
-  `last_time_run` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `last_time_run` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `last_result` int(11) NOT NULL DEFAULT '0', -- 0 - success, 1 - failed, 2 - interrupted
   `max_execution_time` int(11) DEFAULT '0', -- maximum execution time for this task
   `controller` varchar(255) DEFAULT '',
   `settings` text DEFAULT '', -- serialized array with paramenters
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `date_added` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`task_id`, `step_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;

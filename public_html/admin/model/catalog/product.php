@@ -235,7 +235,7 @@ class ModelCatalogProduct extends Model{
 				"width",
 				"height");
 
-		$update = array('date_modified = NOW()');
+		$update = array('date_modified = "' . jdate::now() . '"');
 		foreach($fields as $f){
 			if(isset($data[$f])){
 				if(in_array($f, $preformat_fields)){

@@ -3,13 +3,13 @@
 	<div class="col-md-12">
 	<div class="panel panel-default">
 
-            <ul class="nav nav-tabs rtl" role="tablist">
-                <li class="active"><a href="#">1: پروانه</a></li> <!--License-->
-                <li class="disabled"><a href="#" onclick="return false;">2: اعتبار سنجی سازگاری</a></li> <!--Compatibility Validation-->
-                <li class="disabled"><a href="#" onclick="return false;">3: پیکر بندی</a></li><!--Configuration-->
-                <li class="disabled"><a href="#" onclick="return false;">4: بارگیری داده</a></li><!--Data Load-->
-                <li class="disabled"><a href="#" onclick="return false;">5: پایان</a></li><!--Finished-->
-            </ul>
+	<ul class="nav nav-tabs" role="tablist">
+	  <li class="disabled"><a href="#" onclick="return false;">1: License</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">2: Compatibility Validation</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">3: Configuration</a></li>
+	  <li class="active"><a href="#" onclick="return false;">4: Data Load</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">5: Finished</a></li>
+	</ul>
 
 	<div class="panel-heading">
 	<h2><i class="fa fa-gear fa-spin fa-fw"></i> Data Configuration <small>Provide setting below</small></h2>
@@ -36,11 +36,11 @@
 		<div class="form-inline form-group">
 		<div id="process_skip" style="text-align: center; display:none;">
 			<a class="btn btn-default button" href="Javascript:void(0);">
-			Continue and skip data load <i class="fa fa-arrow-left fa-fw"></i>
+			Continue and skip data load <i class="fa fa-arrow-right fa-fw"></i>
 			</a>
 		</div>
 		<div id="process_back" style="text-align: center; display:none;">
-			<a class="btn btn-default" onclick="window.history.back()"><i class="fa fa-arrow-right"></i> Back</a>
+			<a class="btn btn-default" onclick="window.history.back()"><i class="fa fa-arrow-left"></i> Back</a>
 		</div>
 		</div>
 	</div>
