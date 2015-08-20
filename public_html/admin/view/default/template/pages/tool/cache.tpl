@@ -2,7 +2,7 @@
 <div id="content" class="panel panel-default">
 
 	<div class="panel-heading col-xs-12">
-		<div class="primary_content_actions pull-left">
+		<div class="primary_content_actions pull-right">
 			<button class="btn btn-primary lock-on-click" id="clearall" type="button"><i class="fa fa-trash-o"></i> <?php echo $text_clear_all_cache;?></button>
 		</div>
 

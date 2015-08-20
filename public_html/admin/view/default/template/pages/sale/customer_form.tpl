@@ -20,7 +20,28 @@
 <div id="content" class="panel panel-default">
 	<?php if ($customer_id) { ?>
 	<div class="panel-heading col-xs-12">
-		<div class="primary_content_actions pull-left">
+		<div class="primary_content_actions pull-right">
+                    	<div class="btn-group mr10 toolbar">
+				<a class="btn btn-white disabled"><?php echo $balance; ?></a>
+				<a target="_blank"
+				   class="btn btn-white tooltips"
+				   href="<?php echo $button_orders_count->href; ?>"
+				   data-toggle="tooltip"
+				   title="<?php echo $button_orders_count->title; ?>"
+				   data-original-title="<?php echo $button_orders_count->title; ?>"><?php echo $button_orders_count->text; ?></a>
+				<a target="_blank"
+				   class="btn btn-white tooltips"
+				   href="<?php echo $actas->href; ?>"
+				   data-toggle="tooltip"
+				   title="<?php echo $actas->text; ?>"
+				<?php
+				//for additional store show warning about login in that store's admin (because of crossdomain restriction)
+				if($warning_actonbehalf){ ?>
+					data-confirmation="delete"
+					data-confirmation-text="<?php echo $warning_actonbehalf;?>"
+				<?php } ?>
+				   data-original-title="<?php echo $actas->text; ?>"><i class="fa fa-male"></i></a>
+			</div>
 			<div class="btn-group">
 				<button class="btn btn-default dropdown-toggle tooltips" data-original-title="<?php echo $text_edit_address; ?>" title="<?php echo $text_edit_address; ?>" type="button" data-toggle="dropdown">
 					<i class="fa fa-envelope-o"></i>
@@ -44,27 +65,7 @@
 				<i class="fa fa-plus fa-fw"></i>
 				</a>
 			</div>			
-			<div class="btn-group mr10 toolbar">
-				<a class="btn btn-white disabled"><?php echo $balance; ?></a>
-				<a target="_blank"
-				   class="btn btn-white tooltips"
-				   href="<?php echo $button_orders_count->href; ?>"
-				   data-toggle="tooltip"
-				   title="<?php echo $button_orders_count->title; ?>"
-				   data-original-title="<?php echo $button_orders_count->title; ?>"><?php echo $button_orders_count->text; ?></a>
-				<a target="_blank"
-				   class="btn btn-white tooltips"
-				   href="<?php echo $actas->href; ?>"
-				   data-toggle="tooltip"
-				   title="<?php echo $actas->text; ?>"
-				<?php
-				//for additional store show warning about login in that store's admin (because of crossdomain restriction)
-				if($warning_actonbehalf){ ?>
-					data-confirmation="delete"
-					data-confirmation-text="<?php echo $warning_actonbehalf;?>"
-				<?php } ?>
-				   data-original-title="<?php echo $actas->text; ?>"><i class="fa fa-male"></i></a>
-			</div>
+
 		</div>
 		<?php include($tpl_common_dir . 'content_buttons.tpl'); ?>	
 	</div>

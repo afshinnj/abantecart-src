@@ -1,4 +1,4 @@
-	<div class="common_content_actions pull-right">
+	<div class="common_content_actions pull-left">
 		<?php
 		if($common_content_buttons){
 		$common_content_buttons = !is_array($common_content_buttons) ? array($common_content_buttons): $common_content_buttons;

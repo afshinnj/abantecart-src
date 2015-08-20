@@ -46,9 +46,9 @@ class ModelSaleCustomer extends Model {
       	                    customer_group_id = '" . (int)$data['customer_group_id'] . "',
       	                    password = '" . $this->db->escape(AEncryption::getHash($data['password'])) . "',
       	                    status = '" . (int)$data['status'] . "',
-      	                    approved = '" . (int)$data['approved'] . "'"
-      	                    .$key_sql . ",
-      	                    date_added = NOW()");
+      	                    approved = '" . (int)$data['approved'] . "'" . $key_sql . ",
+      	                    date_added = '" . Jdate::now() . "',
+                            date_modified = '" . Jdate::now() . "'");
       	
       	return $this->db->getLastId();
 	}
@@ -105,8 +105,8 @@ class ModelSaleCustomer extends Model {
 							fax = '" . $this->db->escape($data['fax']) . "',
 							newsletter = '" . (int)$data['newsletter'] . "',
 							customer_group_id = '" . (int)$data['customer_group_id'] . "',
-							status = '" . (int)$data['status'] . "'"
-							 .$key_sql . ", 
+							status = '" . (int)$data['status'] . "'" . $key_sql . ", 
+							 
 							approved = '" . (int)$data['approved'] . "'
 						WHERE customer_id = '" . (int)$customer_id . "'");
 	
