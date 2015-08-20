@@ -175,7 +175,8 @@ require_once(DIR_CORE . 'lib/session.php');
 require_once(DIR_CORE . 'lib/template.php');
 require_once(DIR_CORE . 'lib/xml2array.php');
 require_once(DIR_CORE . 'lib/json.php');
-
+require_once(DIR_CORE . 'lib/jdatetime.class.php');
+require_once(DIR_CORE . 'lib/jdatetime.php');
 //plugins api
 
 // Application Classes

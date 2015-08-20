@@ -36,11 +36,11 @@
 		<div class="form-inline form-group">
 		<div id="process_skip" style="text-align: center; display:none;">
 			<a class="btn btn-default button" href="Javascript:void(0);">
-			Continue and skip data load <i class="fa fa-arrow-right fa-fw"></i>
+			Continue and skip data load <i class="fa fa-arrow-left fa-fw"></i>
 			</a>
 		</div>
 		<div id="process_back" style="text-align: center; display:none;">
-			<a class="btn btn-default" onclick="window.history.back()"><i class="fa fa-arrow-left"></i> Back</a>
+			<a class="btn btn-default" onclick="window.history.back()"><i class="fa fa-arrow-right"></i> Back</a>
 		</div>
 		</div>
 	</div>

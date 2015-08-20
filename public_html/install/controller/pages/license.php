@@ -55,7 +55,7 @@ class ControllerPagesLicense extends AController {
 	
 	private function validate() {
 		if (!isset($this->request->post['agree'])) {
-			$this->error['warning'] = 'You must agree to the license before you can install AbanteCart!';
+			$this->error['warning'] = 'شما باید اول مجوز را بخوانید و آن را قبول کنید بعد اقدام به نصب آبانته کارت بکنید !';
 		}
 		
     	if (!$this->error) {

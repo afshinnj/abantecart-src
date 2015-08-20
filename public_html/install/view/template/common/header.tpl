@@ -6,7 +6,7 @@
 <title>AbanteCart - Installation</title>
 <base href="<?php echo $base; ?>" />
 <link rel="stylesheet" type="text/css" href="view/stylesheet/stylesheet.css" />
-
+<link rel="stylesheet" type="text/css" href="view/stylesheet/rtl/bootstrap-rtl.css" />
 <script type="text/javascript"
         src="<?php echo $ssl ? 'https' : 'http'?>://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript">

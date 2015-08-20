@@ -4,16 +4,16 @@
 	<div class="panel panel-default">
 
 	<ul class="nav nav-tabs" role="tablist">
-	  <li><a href="<?php echo $back; ?>">1: License</a></li>
-	  <li class="active"><a href="#" onclick="return false;">2: Compatibility Validation</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">3: Configuration</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">4: Data Load</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">5: Finished</a></li>
+	  <li><a href="<?php echo $back; ?>">1: مجوز</a></li>
+	  <li class="active"><a href="#" onclick="return false;">2: اعتبار سنجی سازگار</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">3: پیکربندی</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">4: بارگذاری داده ها</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">5: پایان</a></li>
 	</ul>
 
 	<form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
 	<div class="panel-heading">
-	<h2><i class="fa fa-cogs fa-fw"></i> Compatibility Validation <small class="pull-right"><a onclick="document.getElementById('form').submit()" class="btn btn-primary">Continue <i class="fa fa-arrow-right"></i></a></small></h2>
+	<h2><i class="fa fa-cogs fa-fw"></i> اعتبار سنجی سازگاری <small class="pull-left"><a onclick="document.getElementById('form').submit()" class="btn btn-primary">ادامه <i class="fa fa-arrow-left"></i></a></small></h2>
 	</div>
 	
 	<div class="panel-body">
@@ -22,7 +22,7 @@
 		<div class="warning alert alert-error alert-danger"><?php echo $error_warning; ?></div>
 		<?php } ?>
 	
-		<p>1. Please see if your PHP settings configured to match requirements listed below.</p>
+		<p>1. تنظیمات و پیکره بندی php مورد نیاز برای نصب.</p>
 		
 		<div class="section">
 		    <table width="100%">
@@ -70,7 +70,7 @@
 		    	</tr>
 		    </table>
 		</div>
-		<p>2. Please make sure the extensions listed below are installed.</p>
+		<p>2. اکستنشن های مورد نیاز برای نصب .</p>
 		
 		<div class="section">
 		    <table width="100%">
@@ -116,7 +116,7 @@
 		    	</tr>
 		    </table>
 		</div>
-		<p>3. Please make sure you have set the correct permissions on the files list below.</p>
+		<p>3. لطفا دسترسی برای خواندن و نوشتن و تغییر فایل های زیر را ایجاد کنید.</p>
 		
 		<div class="section">
 		    <table width="100%">
@@ -136,7 +136,7 @@
 		    	<?php } ?>
 		    </table>
 		</div>
-		<p>4. Please make sure you have set the correct permissions on the directories list below.</p>
+		<p>4. لطفا دسترسی خواندن و نوشتن پوشه های داخل لیست را ایجاد کنید.</p>
 		
 		<div class="section">
 		    <table width="100%">
@@ -231,8 +231,8 @@
 	</div>
 
 	<div class="panel-footer">
-		<a class="btn btn-default" href="<?php echo $back; ?>"><i class="fa fa-arrow-left"></i> Back</a>
-		<a class="btn btn-primary pull-right" onclick="document.getElementById('form').submit()">Continue <i class="fa fa-arrow-right"></i></a>
+		<a class="btn btn-default" href="<?php echo $back; ?>"><i class="fa fa-arrow-right"></i> قبلی</a>
+		<a class="btn btn-primary pull-left" onclick="document.getElementById('form').submit()">ادامه <i class="fa fa-arrow-left"></i></a>
 	</div>
 	
 	</div>
@@ -241,7 +241,7 @@
 	<div class="col-md-3">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-			<h4><i class="fa fa-info-circle fa-fw"></i> AbanteCart Tips</h4>
+			<h4><i class="fa fa-info-circle fa-fw"></i> ویژگی های آبانته کارت</h4>
 			</div>
 			<div class="panel-body">
 				<h5 class="tip_heading">Editing text is made easy</h5>

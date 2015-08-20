@@ -151,8 +151,8 @@
 	</div>
 	
 	<div class="panel-footer">
-		<a class="btn btn-default" href="<?php echo $back; ?>"><i class="fa fa-arrow-left"></i> Back</a>
-		<a class="btn btn-primary pull-right" onclick="document.getElementById('form').submit()">Continue <i class="fa fa-arrow-right"></i></a>
+		<a class="btn btn-default" href="<?php echo $back; ?>"><i class="fa fa-arrow-right"></i> Back</a>
+		<a class="btn btn-primary pull-left" onclick="document.getElementById('form').submit()">Continue <i class="fa fa-arrow-left"></i></a>
 	</div>
 	
 	</div>
