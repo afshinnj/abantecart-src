@@ -206,19 +206,6 @@ div.aform div.scrollbox {
 div.aform div.small-scrollbox {
 	width:300px; height:60px;
 }
-div.aform div.scrollbox .acheckbox {
-	position:relative;
-	float:left;
-}
-div.aform .scrollbox label {
-	font:normal 12px Tahoma, Geneva, sans-serif;
-	color:#09487d;
-	line-height:20px;
-	display:block;
-}
-div.aform .scrollbox label .afield {
-	margin-right:8px;
-}
 div.aform .scrollbox label:hover {
 	background:#F5F5F5;
 }

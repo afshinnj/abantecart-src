@@ -1,0 +1,14 @@
+div.aform .scrollbox label .afield {
+	margin-left:8px;
+}
+div.aform div.scrollbox .acheckbox {
+	position:relative;
+	float:right;
+}
+div.aform .scrollbox label {
+	font:normal 12px Tahoma, Geneva, sans-serif;
+	color:#09487d;
+	line-height:20px;
+	display:block;
+        margin: 10px;
+}

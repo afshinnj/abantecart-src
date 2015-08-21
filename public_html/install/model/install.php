@@ -56,11 +56,11 @@ class ModelInstall extends Model {
 				    username = '" . $db->escape($data['username']) . "',
 				    password = '" . $db->escape(AEncryption::getHash($data['password'])) . "',
 				    status = '1',
-				    date_added = NOW();");
+				    date_added = '".Jdate::now()."';");
 
 			$db->query("UPDATE `" . $data['db_prefix'] . "settings` SET value = '" . $db->escape($data['email']) . "' WHERE `key` = 'store_main_email'; ");
 			$db->query("UPDATE `" . $data['db_prefix'] . "settings` SET value = '" . $db->escape(HTTP_ABANTECART) . "' WHERE `key` = 'config_url'; ");
-			$db->query("INSERT INTO `" . $data['db_prefix'] . "settings` SET `group` = 'config', `key` = 'install_date', value = NOW(); ");
+			$db->query("INSERT INTO `" . $data['db_prefix'] . "settings` SET `group` = 'config', `key` = 'install_date', value = '".Jdate::now()."'; ");
 
 			$db->query("UPDATE `" . $data['db_prefix'] . "products` SET `viewed` = '0';");
 

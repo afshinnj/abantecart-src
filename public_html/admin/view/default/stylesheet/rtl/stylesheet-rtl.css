@@ -181,3 +181,13 @@
 	float: left;	
 	color: #eeeeee;
 }
+
+.nav-bracket .children > li > a {
+   color: #EEEEEE;
+   font-size: 13px;
+   display: block;
+   padding: 5px 20px 5px 0;
+   -moz-transition: all 0.2s ease-out 0s;
+	-webkit-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+}

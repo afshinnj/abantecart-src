@@ -314,6 +314,7 @@ class ControllerPagesInstall extends AController {
 
 	public function _load_demo_data() {
 		$reg = $this->_prepare_registry();
+                
 		$db = $reg->get('db');	
 		$db->query("SET NAMES 'utf8'");
 		$db->query("SET CHARACTER SET utf8");
