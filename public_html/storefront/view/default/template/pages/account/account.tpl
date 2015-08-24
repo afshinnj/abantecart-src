@@ -13,7 +13,7 @@
 </div>
 <?php } ?>
 
-<?php echo $this->getHookVar('account_top'); ?>
+
 
 <ul class="nav-dash">
 	<li>
