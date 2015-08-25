@@ -4,15 +4,15 @@
 	<div class="panel panel-default">
 
 	<ul class="nav nav-tabs" role="tablist">
-	  <li class="disabled"><a href="#" onclick="return false;">1: License</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">2: Compatibility Validation</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">3: Configuration</a></li>
-	  <li class="active"><a href="#" onclick="return false;">4: Data Load</a></li>
-	  <li class="disabled"><a href="#" onclick="return false;">5: Finished</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">1: مجوز</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">2: بررسي اطلاعات</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">3: پیکربندی</a></li>
+	  <li class="active"><a href="#" onclick="return false;">4: بارگذاری داده ها</a></li>
+	  <li class="disabled"><a href="#" onclick="return false;">5: پایان</a></li>
 	</ul>
 
 	<div class="panel-heading">
-	<h2><i class="fa fa-gear fa-spin fa-fw"></i> Data Configuration <small>Provide setting below</small></h2>
+	<h2><i class="fa fa-gear fa-spin fa-fw"></i>بارگذاري داده ها </h2>
 	</div>
 	
 	<div class="panel-body panel-body-nopadding">
@@ -22,11 +22,11 @@
 		<?php } ?>
 		<div id="error" style="display: none;" class="warning alert alert-error alert-danger"></div>
 	
-		<label class="h5 heading">Saving settings and configuring AbanteCart database...</label>
+		<label class="h5 heading">ذخیره تنظیمات و پیکربندی پایگاه داده...</label>
 
 		<div id="progressbar" class="progress">
 		  <div class="progress-bar progress-bar-striped active"  role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-		    <span class="process_info">0% Complete</span>
+		    <span class="process_info">0% پيشرفت</span>
 		  </div>
 		</div>
 
@@ -36,11 +36,11 @@
 		<div class="form-inline form-group">
 		<div id="process_skip" style="text-align: center; display:none;">
 			<a class="btn btn-default button" href="Javascript:void(0);">
-			Continue and skip data load <i class="fa fa-arrow-left fa-fw"></i>
+			ادامه <i class="fa fa-arrow-left fa-fw"></i>
 			</a>
 		</div>
 		<div id="process_back" style="text-align: center; display:none;">
-			<a class="btn btn-default" onclick="window.history.back()"><i class="fa fa-arrow-right"></i> Back</a>
+			<a class="btn btn-default" onclick="window.history.back()"><i class="fa fa-arrow-right"></i> برگشت</a>
 		</div>
 		</div>
 	</div>

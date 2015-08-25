@@ -33,7 +33,7 @@ class ControllerPagesFinish extends AController {
 		$this->view->assign('admin_path', 'index.php?s=' . ADMIN_PATH);
 		setcookie("new_cart", 1, 0, '/', $this->request->server['HTTP_HOST']);
 
-		$message = "Keep your ecommmerce secure! <br /> Delete directory " . DIR_ABANTECART . "install from your AbanteCart installation!";
+		$message = "نکته امنیتی زیر را رعایت کنید! <br /> پوشه نصاب آبانته کارت را از مسیر ". DIR_ABANTECART . " حذف کنید ! ";
 		$this->view->assign('message', $message);
 		$this->view->assign('salt', SALT);
 

@@ -27,10 +27,10 @@
 		<div class="section">
 		    <table width="100%">
 		    	<tr>
-		    		<th width="35%" align="left"><b>PHP Settings</b></th>
-		    		<th width="25%" align="left"><b>Current Settings</b></th>
-		    		<th width="25%" align="left"><b>Required Settings</b></th>
-		    		<th width="15%" align="center"><b>Status</b></th>
+		    		<th width="35%" align="left"><b>PHP تنظيمات</b></th>
+		    		<th width="25%" align="left"><b>تنظيمات فعلي</b></th>
+		    		<th width="25%" align="left"><b>تنظیمات مورد نیاز</b></th>
+		    		<th width="15%" align="center"><b>وضعيت</b></th>
 		    	</tr>
 		    	<tr>
 		    		<td>PHP Version:</td>
@@ -75,10 +75,10 @@
 		<div class="section">
 		    <table width="100%">
 		    	<tr>
-		    		<th width="35%" align="left"><b>Extension</b></th>
-		    		<th width="25%" align="left"><b>Current Settings</b></th>
-		    		<th width="25%" align="left"><b>Required Settings</b></th>
-		    		<th width="15%" align="center"><b>Status</b></th>
+		    		<th width="35%" align="left"><b>PHP تنظيمات</b></th>
+		    		<th width="25%" align="left"><b>تنظيمات فعلي</b></th>
+		    		<th width="25%" align="left"><b>تنظیمات مورد نیاز</b></th>
+		    		<th width="15%" align="center"><b>وضعيت</b></th>
 		    	</tr>
 		    	<tr>
 		    		<td>MySQL:</td>
@@ -121,16 +121,16 @@
 		<div class="section">
 		    <table width="100%">
 		    	<tr>
-		    		<th align="left"><b>Files</b></th>
-		    		<th width="15%" align="left"><b>Status</b></th>
+		    		<th align="left"><b>ادرس فايل</b></th>
+		    		<th width="15%" align="left"><b>وضعيت</b></th>
 		    	</tr>
 		    	<tr>
 		    		<td><?php echo $config_catalog; ?></td>
-		    		<td><?php echo is_writable($config_catalog) ? '<span class="good">Writable</span>' : '<span class="bad">Unwritable</span>'; ?></td>
+		    		<td><?php echo is_writable($config_catalog) ? '<span class="good">در دسترس</span>' : '<span class="bad">عدم دسترسي</span>'; ?></td>
 		    	</tr>
 		    	<?php if (!is_writable($config_catalog)) { ?>
 		    	<tr>
-		    		<td colspan="2"><span class="bad">Change file permission to 777 or rwx-rwx-rwx:<br/> chmod 777 <?php echo $config_catalog; ?></span>
+		    		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777 <?php echo $config_catalog; ?></span>
 		    		</td>
 		    	</tr>
 		    	<?php } ?>
@@ -141,29 +141,29 @@
 		<div class="section">
 		    <table width="100%">
 		    	<tr>
-		    		<th align="left"><b>Directories</b></th>
-		    		<th width="15%" align="left"><b>Status</b></th>
+		    		<th align="left"><b>ادرس فايل/ پوشه موجود در هاست</b></th>
+		    		<th width="15%" align="left"><b>وضعيت</b></th>
 		    	</tr>
 		    	<tr>
 		    		<td><?php echo $system; ?></td>
 		    		<?php $_writable = is_writable($system) ?>
-		    		<td><?php echo $_writable ? '<span class="good">Writable</span>' : '<span class="bad">Unwritable</span>'; ?></td>
+		    		<td><?php echo $_writable ? '<span class="good">در دسترس</span>' : '<span class="bad">عدم دسترسي</span>'; ?></td>
 		    	</tr>
 		    	<?php if (!$_writable) { ?>
 		    	<tr>
-		    		<td colspan="2"><span class="bad">Change directory and all directories children permissions to 777 or rwx-rwx-rwx:<br/> chmod -R 777 <?php echo $system; ?></span>
+	<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777 <?php echo $system; ?></span>
 		    		</td>
 		    	</tr>
 		    	<?php } else { ?>
 		    	<?php if (!is_writable($cache)) { ?>
 		    		<tr>
-		    			<td colspan="2"><span class="bad">Change directory permission to 777 or rwx-rwx-rwx:<br/> chmod 777 <?php echo $cache . '/'; ?></span>
+		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777 <?php echo $cache . '/'; ?></span>
 		    			</td>
 		    		</tr>
 		    		<?php } ?>
 		    	<?php if (!is_writable($logs)) { ?>
 		    		<tr>
-		    			<td colspan="2"><span class="bad">Change directory permission to 777 or rwx-rwx-rwx:<br/> chmod 777 <?php echo $logs . '/'; ?></span>
+	<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777 <?php echo $logs . '/'; ?></span>
 		    			</td>
 		    		</tr>
 		    		<?php }
@@ -171,58 +171,58 @@
 		    	<tr>
 		    		<td><?php echo $image . '/'; ?></td>
 		    		<?php $_writable = is_writable($image) ?>
-		    		<td><?php echo $_writable ? '<span class="good">Writable</span>' : '<span class="bad">Unwritable</span>'; ?></td>
+		    		<td><?php echo $_writable ? '<span class="good">در دسترس</span>' : '<span class="bad">عدم دسترسي</span>'; ?></td>
 		    	</tr>
 		    	<?php if (!$_writable) { ?>
 		    	<tr>
-		    		<td colspan="2"><span class="bad">Change directory and all children directories permissions to 777 or rwx-rwx-rwx:<br/> chmod -R 777 <?php echo $image . '/'; ?></span>
+		    		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777 <?php echo $image . '/'; ?></span>
 		    		</td>
 		    	</tr>
 		    	<?php } else { ?>
 		    	<?php if (!is_writable($image_thumbnails)) { ?>
 		    		<tr>
-		    			<td colspan="2"><span class="bad">Change directory permission to 777 or rwx-rwx-rwx:<br/> chmod -R 777 <?php echo $image_thumbnails . '/'; ?></span>
+		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777 <?php echo $image_thumbnails . '/'; ?></span>
 		    			</td>
 		    		</tr>
 		    		<?php }
 		    }?>
 		    	<tr>
 		    		<td><?php echo $download . '/'; ?></td>
-		    		<td><?php echo is_writable($download) ? '<span class="good">Writable</span>' : '<span class="bad">Unwritable</span>'; ?></td>
+		    		<td><?php echo is_writable($download) ? '<span class="good">در دسترس</span>' : '<span class="bad">عدم دسترسي</span>'; ?></td>
 		    	</tr>
 		    	<?php if (!is_writable($download)) { ?>
 		    	<tr>
-		    		<td colspan="2"><span class="bad">Change directory permission to 777 or rwx-rwx-rwx:<br/> chmod 777 <?php echo $download . '/'; ?></span>
+		    		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777 <?php echo $download . '/'; ?></span>
 		    		</td>
 		    	</tr>
 		    	<?php } ?>
 		    	<tr>
 		    		<td><?php echo $extensions . '/'; ?></td>
-		    		<td><?php echo is_writable($extensions) ? '<span class="good">Writable</span>' : '<span class="bad">Unwritable</span>'; ?></td>
+		    		<td><?php echo is_writable($extensions) ? '<span class="good">در دسترس</span>' : '<span class="bad">عدم دسترسي</span>'; ?></td>
 		    	</tr>
 		    	<?php if (!is_writable($extensions)) { ?>
 		    	<tr>
-		    		<td colspan="2"><span class="bad">Change directory and all children directories permission to 777 or rwx-rwx-rwx:<br/> chmod -R 777 <?php echo $extensions . '/'; ?></span>
+		    		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777  <?php echo $extensions . '/'; ?></span>
 		    		</td>
 		    	</tr>
 		    	<?php } ?>
 		    	<tr>
 		    		<td><?php echo $resources . '/'; ?></td>
-		    		<td><?php echo is_writable($resources) ? '<span class="good">Writable</span>' : '<span class="bad">Unwritable</span>'; ?></td>
+		    		<td><?php echo is_writable($resources) ? '<span class="good">در دسترس</span>' : '<span class="bad">عدم دسترسي</span>'; ?></td>
 		    	</tr>
 		    	<?php if (!is_writable($resources)) { ?>
 		    	<tr>
-		    		<td colspan="2"><span class="bad">Change directory and all children directories permission to 777 or rwx-rwx-rwx:<br/> chmod -R 777 <?php echo $resources . '/'; ?></span>
+		    		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777  <?php echo $resources . '/'; ?></span>
 		    		</td>
 		    	</tr>
 		    	<?php } ?>
 		    	<tr>
 		    		<td><?php echo $backup . '/'; ?></td>
-		    		<td><?php echo is_writable($backup) ? '<span class="good">Writable</span>' : '<span class="bad">Unwritable</span>'; ?></td>
+		    		<td><?php echo is_writable($backup) ? '<span class="good">در دسترس</span>' : '<span class="bad">عدم دسترسي</span>'; ?></td>
 		    	</tr>
 		    	<?php if (!is_writable($backup)) { ?>
 		    	<tr>
-		    		<td colspan="2"><span class="bad">Change directory and all children directories permission to 777 or rwx-rwx-rwx:<br/> chmod -R 777 <?php echo $backup . '/'; ?></span>
+		    		<td colspan="2"><span class="bad">دسترسي پوشه/فايل مورد نظر را جهت نصب بر روي 777 يا 0777 قرار دهيد<br/> permission 0777  <?php echo $backup . '/'; ?></span>
 		    		</td>
 		    	</tr>
 		    	<?php } ?>
@@ -244,20 +244,20 @@
 			<h4><i class="fa fa-info-circle fa-fw"></i> ویژگی های آبانته کارت</h4>
 			</div>
 			<div class="panel-body">
-				<h5 class="tip_heading">Editing text is made easy</h5>
-				<p>Edit any text in the admin with quick search and text edit feature.</p>
-				<h5 class="tip_heading">Multilingual and Auto-translation</h5>
-				<p>AbanteCart is multilingual and powered with automatic missing text population or translation</p>
-				<h5 class="tip_heading">Quick Save</h5>
-				<p>Editing is made easy with quick save feature. When change a filed quick save button will show</p>
-				<h5 class="tip_heading">Smart search</h5>
-				<p>Navigate administration faster with smart search locating data in all areas of application</p>
-				<h5 class="tip_heading">Media Manager</h5>
-				<p>Convenient interface to manage media files with resource library</p>
-				<h5 class="tip_heading">Flexible Layout</h5>
-				<p>Flexible and quick to edit multi-template layout manager</p>
-				<h5 class="tip_heading">Advanced Import/Export</h5>
-				<p>Fully featured Import/Export in CSV and XML formats</p>
+				<h5 class="tip_heading">ويرايش اسان متن ها</h5>
+				<p>در مديريت ابانته ميتواند به راحتي اقدام به ويرايش مطالب نماييد</p>
+				<h5 class="tip_heading">چند زبانه و ترجمه خودکار</h5>
+				<p>فروشگاه ساز ابانته با دارا بودن قابلت نصب چندزبان در محيط كاربري</p>
+				<h5 class="tip_heading">ذخيره سريع</h5>
+				<p>با اضافه شدن دكمه ذخيره سريع ميتوانيد در هنگام ويرايش اقدام به ذخيره سازي مطالب نماييد</p>
+				<h5 class="tip_heading">جستجوي هومشند</h5>
+				<p>در قسمت جستجو با واردكردن چند كلمه ليستي از گزينه هارا خواهيد داشت</p>
+				<h5 class="tip_heading">مديريت رسانه</h5>
+				<p>محيط کاربری مناسب برای مدیریت فایل های رسانه ای </p>
+				<h5 class="tip_heading">طرح بندی دلخواه</h5>
+				<p>ميتوانيد به اساني چيدمان قسمت هاي مختلف را تغيير دهيد</p>
+				<h5 class="tip_heading">وارد كردن و خروجي گرفتن</h5>
+				<p>در فروشگاه ابانته به اساني ميتوانيد  از مشتريان و محصولات ليست خروجي تهيه كنيد</p>
 			</div>
 					
 		</div>

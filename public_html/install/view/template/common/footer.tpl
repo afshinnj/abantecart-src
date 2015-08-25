@@ -1,5 +1,5 @@
   </div>
-  <footer><a onclick="window.open('http://www.abantecart.com');">Project Homepage</a>|<a onclick="window.open('http://www.abantecart.com/ecommerce-documentation');">Documentation</a>|<a onclick="window.open('http://marketplace.abantecart.com');">Extensions Marketplace</a>|<a onclick="window.open('http://forum.abantecart.com');">Support Forums</a></footer>
+  <footer><a onclick="window.open('http://www.abantecart.com');">سايت ابانته</a>|<a onclick="window.open('http://www.abantecart.com/ecommerce-documentation');">اموزش و راهكار ها</a>|<a onclick="window.open('http://marketplace.abantecart.com');">فروشگاه ماژول ها</a>|<a onclick="window.open('http://forum.abantecart.com');">انجمن پشتيباني  </a></footer>
 
    <center>
    <small>
