@@ -263,6 +263,7 @@ class ControllerPagesInstall extends AController {
 		$content .= "/**\n";
 		$content .= "	AbanteCart, Ideal OpenSource Ecommerce Solution\n";
 		$content .= "	http://www.AbanteCart.com\n";
+                $content .= "	http://www.AbanteCart.ir\n";
 		$content .= "	Copyright © 2011-'.date('Y').' Belavier Commerce LLC\n\n";
 		$content .= "	Released under the Open Software License (OSL 3.0)\n";
 		$content .= "*/\n";
@@ -315,11 +316,11 @@ class ControllerPagesInstall extends AController {
 	public function _load_demo_data() {
 		$reg = $this->_prepare_registry();
                 
+                $file = DIR_APP_SECTION . 'abantecart_sample_data.sql';
+                
 		$db = $reg->get('db');	
-		$db->query("SET NAMES 'utf8'");
-		$db->query("SET CHARACTER SET utf8");
 		
-		$file = DIR_APP_SECTION . 'abantecart_sample_data.sql';
+		//$db->query("SET CHARACTER SET utf8");
 	
 		if ($sql = file($file)) {
 			$query = '';
@@ -345,6 +346,7 @@ class ControllerPagesInstall extends AController {
 					}
 				}
 			}
+                        $db->query("SET NAMES 'utf8'");
 			$db->query("SET CHARACTER SET utf8");
 			$db->query("SET @@session.sql_mode = 'MYSQL40'");
 		}
@@ -401,8 +403,8 @@ class progressbar implements AProgressBar {
 
 	function get_max() {
 		define('IS_ADMIN', true);
-		$language = new ALanguageManager($this->registry, 'en');
-		$language_blocks = $language->getAllLanguageBlocks('english');
+		$language = new ALanguageManager($this->registry, 'fa');
+		$language_blocks = $language->getAllLanguageBlocks('parsian');
 		$language_blocks[ 'admin' ] = array_merge($language_blocks[ 'admin' ], $language_blocks[ 'extensions' ][ 'admin' ]);
 		$language_blocks[ 'storefront' ] = array_merge($language_blocks[ 'storefront' ], $language_blocks[ 'extensions' ][ 'storefront' ]);
 		return sizeof($language_blocks[ 'admin' ]) + sizeof($language_blocks[ 'storefront' ]);
