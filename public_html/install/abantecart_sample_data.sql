@@ -211,18 +211,18 @@ INSERT INTO `ac_custom_lists` VALUES (10,12,'manufacturer_id',16,0,'2015-06-12 0
 --
 -- Dumping data for table `customers`
 --
-INSERT INTO `ac_customers` VALUES (2,0,'افشین','نژادشیخ','afshin','afshin.nj@gmail.com','(602) 141-7191','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,1,1,1,1,'109.104.166.98','2013-08-31 14:25:37','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (3,0,'علی','معصومی','ali','masooumi@gmail.com','(602) 916-1822','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,2,1,1,1,'109.104.166.98','2013-08-31 14:39:08','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (4,0,'سجاد','دانش','sajad1441@yahoo.com','zeldaweiss@abantecart.com','(539) 838-9210','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,3,1,1,1,'109.104.166.138','2013-08-31 14:42:58','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (5,0,'حامد','بهداد','hamed@abantecart.com','gloriamacias@abantecart.com','(573) 500-2105','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,4,1,1,1,'109.104.166.98','2013-08-31 14:46:58','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (6,0,'مهناز','افشار','mahnaz@abantecart.com','bernardhorne@abantecart.com','(573) 500-2105','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,5,1,1,1,'109.104.166.138','2013-08-31 14:50:27','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (7,0,'مریم','محمدی','maryam@abantecart.com','jamescurtis@abantecart.com','(602) 916-1822','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,6,1,1,1,'109.104.166.138','2013-08-31 15:00:03','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (8,0,'رامبد','جوان','rambod@abantecart.com','brucerosarini@abantecart.com','(539) 838-9210','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,7,1,1,1,'109.104.166.98','2013-08-31 15:08:23','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (9,0,'جناب خان','بندری','jenabkhan@abantecart.com','carloscmpton@abantecart.com','(928) 205-0511','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,8,1,1,1,'109.104.166.98','2013-08-31 15:13:14','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (10,0,'اکبر','عبدی','akbar@abantecart.com','garrisonbaxter@abantecart.com','(803) 189-5001','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,9,1,1,1,'109.104.166.138','2013-09-01 12:51:47','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (11,0,'طناز','طباطبایی','tanaz@abantecart.com','anthonyblair@abantecart.com','(402) 456-6398','','05ec6352a8b997363e5c6483aeffeb50','a:0:{}',NULL,0,10,1,1,1,'171.98.12.12','2013-09-01 12:54:26','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (12,0,'استیو','جابز','Jobs@abantecart.com','allenwaters@abantecart.com','(417) 280-7406','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,11,1,1,1,'109.104.166.98','2013-09-01 13:12:56','2015-06-12 09:56:24');
-INSERT INTO `ac_customers` VALUES (13,0,'مهران','مدیری','mehran@abantecart','1@abantecart','55 555 5555 5555','','f73469b693cecf7fa70c3e39b6fde1f4','a:1:{s:3:\"97.\";i:1;}',NULL,0,12,1,1,1,'109.104.166.98','2013-09-08 15:28:20','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (13,0,'افشین','نژادشیخ','afshin','afshin.nj@gmail.com','(602) 141-7191','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,1,1,1,1,'109.104.166.98','2013-08-31 14:25:37','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (12,0,'علی','معصومی','ali','masooumi@gmail.com','(602) 916-1822','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,2,1,1,1,'109.104.166.98','2013-08-31 14:39:08','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (11,0,'سجاد','دانش','sajad1441@yahoo.com','zeldaweiss@abantecart.com','(539) 838-9210','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,3,1,1,1,'109.104.166.138','2013-08-31 14:42:58','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (10,0,'حامد','بهداد','hamed@abantecart.com','gloriamacias@abantecart.com','(573) 500-2105','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,4,1,1,1,'109.104.166.98','2013-08-31 14:46:58','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (9,0,'مهناز','افشار','mahnaz@abantecart.com','bernardhorne@abantecart.com','(573) 500-2105','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,5,1,1,1,'109.104.166.138','2013-08-31 14:50:27','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (8,0,'مریم','محمدی','maryam@abantecart.com','jamescurtis@abantecart.com','(602) 916-1822','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,6,1,1,1,'109.104.166.138','2013-08-31 15:00:03','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (7,0,'رامبد','جوان','rambod@abantecart.com','brucerosarini@abantecart.com','(539) 838-9210','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,7,1,1,1,'109.104.166.98','2013-08-31 15:08:23','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (6,0,'جناب خان','بندری','jenabkhan@abantecart.com','carloscmpton@abantecart.com','(928) 205-0511','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,8,1,1,1,'109.104.166.98','2013-08-31 15:13:14','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (5,0,'اکبر','عبدی','akbar@abantecart.com','garrisonbaxter@abantecart.com','(803) 189-5001','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,9,1,1,1,'109.104.166.138','2013-09-01 12:51:47','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (4,0,'طناز','طباطبایی','tanaz@abantecart.com','anthonyblair@abantecart.com','(402) 456-6398','','05ec6352a8b997363e5c6483aeffeb50','a:0:{}',NULL,0,10,1,1,1,'171.98.12.12','2013-09-01 12:54:26','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (3,0,'استیو','جابز','Jobs@abantecart.com','allenwaters@abantecart.com','(417) 280-7406','','6b006ba67f3c172e146991a2ad46d865','a:0:{}',NULL,0,11,1,1,1,'109.104.166.98','2013-09-01 13:12:56','2015-06-12 09:56:24');
+INSERT INTO `ac_customers` VALUES (2,0,'مهران','مدیری','mehran@abantecart','1@abantecart','55 555 5555 5555','','f73469b693cecf7fa70c3e39b6fde1f4','a:1:{s:3:\"97.\";i:1;}',NULL,0,12,1,1,1,'109.104.166.98','2013-09-08 15:28:20','2015-06-12 09:56:24');
 
 --
 -- Dumping data for table `download_descriptions`

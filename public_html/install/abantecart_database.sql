@@ -934,8 +934,8 @@ CREATE TABLE `ac_language_definitions` (
   `block` varchar(160) NOT NULL,
   `language_key` varchar(170) NOT NULL,
   `language_value` text NOT NULL COMMENT 'translatable',
-  `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_added` timestamp NOT NULL default '0000-00-00 00:00:00',
+  `date_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY  (`language_definition_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci AUTO_INCREMENT=1;
 CREATE UNIQUE INDEX `ac_lang_definition_idx`

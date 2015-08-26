@@ -3,7 +3,7 @@
 <div id="content" class="panel panel-default">
 
 	<div class="panel-heading col-xs-12">
-		<div class="primary_content_actions pull-left">
+		<div class="primary_content_actions pull-right">
 
 			<div class="btn-group">
 				<a class="btn btn-primary lock-on-click actionitem tooltips" title="<?php echo $manage_extensions->title; ?>" href="<?php echo $manage_extensions->href; ?>">

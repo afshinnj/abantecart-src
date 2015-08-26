@@ -3,7 +3,7 @@
 <div id="content" class="panel panel-default">
 
 	<div class="panel-heading col-xs-12">
-		<div class="primary_content_actions pull-left">
+		<div class="primary_content_actions pull-right">
 			<div class="btn-group mr10 toolbar">
 				<a id="insert_btn"
 				   class="actionitem btn btn-primary tooltips"

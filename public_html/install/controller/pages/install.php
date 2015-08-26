@@ -55,8 +55,7 @@ class ControllerPagesInstall extends AController {
 			$this->redirect(HTTP_SERVER . 'index.php?rt=install&runlevel=1');
 		}
 
-
-		$this->data[ 'error' ] = $this->error;
+                $this->data[ 'error' ] = $this->error;
 		$this->data[ 'action' ] = HTTP_SERVER . 'index.php?rt=install';
 
 		$fields = array( 'db_driver', 'db_host', 'db_user', 'db_password', 'db_name', 'db_prefix', 'username', 'password',
@@ -64,16 +63,16 @@ class ControllerPagesInstall extends AController {
 		);
 		$defaults = array( '', 'localhost', '', '', '', 'abc_', 'admin', '', '', '', '' );
 		$place_holder = array( 'Select Database Driver', 
-								'Enter Database Hostname', 
-								'Enter Database Username', 
-								'Enter Password, if any', 
-								'Enter Database Name', 
-								'Add prefix to database tables',
-								'Enter new admin username', 
-								'Enter Secret Admin Password', 
-								'Repeat the password', 
-								'Provide valid email of administrator', 
-								'Enter your secret admin key' 
+								'هاست پایگاه داده خود را وارد کنید', 
+								'نام کاربری پایگاه داده را وارد کنید', 
+								'رمز عبور پایگاه داده خود را وارد کنید', 
+								'نام پایگاه داده خود را وارد کنید', 
+								'پیشوند پایگاه داده را مشخص کنید',
+								'‌نام کاربری مدیر را وارد کنید', 
+								'رمز عبور مدیر را وارد کنید', 
+								'تکرار رمز عبور مدیر را وارد کنید', 
+								'ایمیل مدیر را وارد کنید', 
+								'کلید امنیتی مدیر را وارد کنید' 
 								);
 
 		foreach ($fields as $k => $field) {
@@ -138,45 +137,45 @@ class ControllerPagesInstall extends AController {
 
 	private function _validate() {
 		if (!$this->request->post[ 'admin_path' ]) {
-			$this->error[ 'admin_path' ] = 'Admin unique name is required!';
+			$this->error[ 'admin_path' ] = 'مدیریت نام منحصر به فرد مورد نیاز است!';
 		} else if (preg_match('/[^A-Za-z0-9_]/', $this->request->post[ 'admin_path' ])) {
-			$this->error[ 'admin_path' ] = 'Admin unique name contains non-alphanumeric characters!';
+			$this->error[ 'admin_path' ] = 'نام منحصر به فرد محیط مدیریت شامل شخصیت های غیر الفبایی!';
 		}
 
 		if (!$this->request->post[ 'db_driver' ]) {
-			$this->error[ 'db_driver' ] = 'Driver required!';
+			$this->error[ 'db_driver' ] = 'درایور را وارد کنید!';
 		}
 		if (!$this->request->post[ 'db_host' ]) {
-			$this->error[ 'db_host' ] = 'Host required!';
+			$this->error[ 'db_host' ] = 'هاست را وارد کنید!';
 		}
 
 		if (!$this->request->post[ 'db_user' ]) {
-			$this->error[ 'db_user' ] = 'User required!';
+			$this->error[ 'db_user' ] = 'نام کاربری را وارد کنید!';
 		}
 
 		if (!$this->request->post[ 'db_name' ]) {
-			$this->error[ 'db_name' ] = 'Database Name required!';
+			$this->error[ 'db_name' ] = 'نام پایگاه داده را وارد کنید!';
 		}
 
 		if (!$this->request->post[ 'username' ]) {
-			$this->error[ 'username' ] = 'Username required!';
+			$this->error[ 'username' ] = 'نام کاربری را وارد کنید!';
 		}
 
 		if (!$this->request->post[ 'password' ]) {
-			$this->error[ 'password' ] = 'Password required!';
+			$this->error[ 'password' ] = 'رمز عبور را وارد کنید!';
 		}
 		if ($this->request->post[ 'password' ] != $this->request->post[ 'password_confirm' ]) {
-			$this->error[ 'password_confirm' ] = 'Password does not match the confirm password!';
+			$this->error[ 'password_confirm' ] = 'پسورد با تکرار همخوانی ندارد!';
 		}
 
 		$pattern = '/^([a-z0-9])(([-a-z0-9._])*([a-z0-9]))*\@([a-z0-9])(([a-z0-9-])*([a-z0-9]))+(\.([a-z0-9])([-a-z0-9_-])?([a-z0-9])+)+$/i';
 
 		if (!preg_match($pattern, $this->request->post[ 'email' ])) {
-			$this->error[ 'email' ] = 'Invalid E-Mail!';
+			$this->error[ 'email' ] = 'ایمیل نامعتبر است!';
 		}
 
 		if (!empty($this->request->post[ 'db_prefix' ]) && preg_match('/[^A-Za-z0-9_]/', $this->request->post[ 'db_prefix' ])) {
-			$this->error[ 'db_prefix' ] = 'DB prefix contains non-alphanumeric characters!';
+			$this->error[ 'db_prefix' ] = 'پیشوند پایگاه داده از کاراکتر های غیر الفبایی تشکیل شده!';
 		}
 
 		if ($this->request->post[ 'db_driver' ]
@@ -197,7 +196,7 @@ class ControllerPagesInstall extends AController {
 		}
 
 		if (!is_writable(DIR_ABANTECART . 'system/config.php')) {
-			$this->error[ 'warning' ] = 'Error: Could not write to config.php please check you have set the correct permissions on: ' . DIR_ABANTECART . 'system/config.php!';
+			$this->error[ 'warning' ] = 'خطا: نمیتوانیم فایل config.php را ویرایش کنیم لطفا سطح دست رسی لازم را برای این کار ایجاد کنید: ' . DIR_ABANTECART . 'system/config.php!';
 		}
 
 		if (!$this->error) {
@@ -427,4 +426,6 @@ class progressbar implements AProgressBar {
 		//Load default language (1) English on install only.
 		return $language->definitionAutoLoad(1, 'all', 'all');
 	}
+        
+
 }

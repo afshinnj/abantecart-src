@@ -22,7 +22,7 @@
 		<div class="warning alert alert-error alert-danger"><?php echo $error['warning']; ?></div>
 		<?php } ?>
 
-		<label class="h5 heading">1. لطفا پایگاه داده جزئیات اتصال خود را وارد کنید.</label>
+		<label class="h5 heading">1. لطفا جزئیات پایگاه داده اتصال خود را وارد کنید.</label>
 
 		<div class="form-group <?php if (!empty($error['db_driver'])) { echo "has-error"; } ?>">
 			<label class="control-label col-sm-4 col-xs-12">نوع پايگاه داده:</label>
