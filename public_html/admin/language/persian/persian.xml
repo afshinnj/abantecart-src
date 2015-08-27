@@ -420,11 +420,12 @@
 	</definition>
 	<definition>
 		<key>error_permission_access</key>
-		<value><![CDATA[Warning: You do not have permission to access %s!]]></value>
+		<value><![CDATA[هشدار: شما اجازه دسترسی به اين قسمت را ندارد%s!]]></value>
 	</definition>
 	<definition>
 		<key>error_permission_modify</key>
-		<value><![CDATA[Warning: You do not have permission to modify %s!]]></value>
+		<value><![CDATA[
+هشدار: شما مجاز به تغییر نيستيد %s!]]></value>
 	</definition>
 	<definition>
 		<key>text_add</key>
@@ -444,19 +445,19 @@
 	</definition>
 	<definition>
 		<key>confirm_unmap_title</key>
-		<value><![CDATA[Confirm resource(s) Unlink]]></value>
+		<value><![CDATA[قطع ارتباط با منابع]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_unmap</key>
-		<value><![CDATA[Are you sure you want to unlink resource(s)?]]></value>
+		<value><![CDATA[آیا مطمئن هستید که می خواهید به قطع ارتباط منابع (بازدید کنندگان)؟]]></value>
 	</definition>
 	<definition>
 		<key>confirm_del_title</key>
-		<value><![CDATA[Confirm resource(s) Delete]]></value>
+		<value><![CDATA[حذف منابع (بازدید کنندگان)]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_del</key>
-		<value><![CDATA[Are you sure you want to delete resource(s)?]]></value>
+		<value><![CDATA[آیا مطمئن هستید که می خواهید حذف کنید منابع (بازدید کنندگان)؟]]></value>
 	</definition>
 	<definition>
 		<key>text_type_image</key>
@@ -532,15 +533,15 @@
 	</definition>
 	<definition>
 		<key>confirm_unlink_title</key>
-		<value><![CDATA[Confirm resource Unlink]]></value>
+		<value><![CDATA[قطع ارتباط با منابع]]></value>
 	</definition>
 	<definition>
 		<key>text_install_warning_subject</key>
-		<value><![CDATA[Security warning]]></value>
+		<value><![CDATA[هشدار امنيتي]]></value>
 	</definition>
 	<definition>
 		<key>text_install_warning</key>
-		<value><![CDATA[You still have install directory present in your AbanteCart installation directory. It is recommended you delete this directory.]]></value>
+		<value><![CDATA[پوشه نصب هنوز در هاست شما موجود مي باشد براي عملكرد دقيق فروشگاه اين پوشه حذف گردد]]></value>
 	</definition>
 	<definition>
 		<key>text_select_store</key>

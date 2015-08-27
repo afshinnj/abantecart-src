@@ -386,7 +386,7 @@
 	<definition>
 		<key>text_voice_no_mic_detected</key>
 		<value>
-			<![CDATA[میکروفن یافت نشد شد. اطمینان حاصل شود که یک میکروفون نصب شده است و که <a href="//support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892"> تنظیمات میکروفون</a> are configured correctly.]]></value>
+			<![CDATA[میکروفن یافت نشد شد. اطمینان حاصل شود که یک میکروفون نصب شده است و که <a href="//support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892"> تنظیمات میکروفون</a>به درستی پیکربندی شده.]]></value>
 	</definition>
 	<definition>
 		<key>text_voice_click_allow</key>

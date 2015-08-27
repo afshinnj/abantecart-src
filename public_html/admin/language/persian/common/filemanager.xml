@@ -38,7 +38,7 @@
   </definition>
   <definition>
     <key>entry_move</key>
-    <value><![CDATA[Move:]]></value>
+    <value><![CDATA[انتقال:]]></value>
   </definition>
   <definition>
     <key>entry_copy</key>
@@ -102,15 +102,15 @@
   </definition>
   <definition>
     <key>error_file_size</key>
-    <value><![CDATA[Warning: File to big please keep below 300kb and no more than 1000px height or width!]]></value>
+    <value><![CDATA[ هشدار: حجم فايل مورد نظر بايد 300كيلوبايت باشد و اندازه طول و عرض ان 1000 پيكسل باشد !]]></value>
   </definition>
   <definition>
     <key>error_uploaded</key>
-    <value><![CDATA[هشدار: فایل می تواند به دلیل نامعلومی نمی شود ارسال شده!]]></value>
+    <value><![CDATA[هشدار: امكان اپلود اين فايل وجود ندارد!]]></value>
   </definition>
   <definition>
     <key>error_permission</key>
-    <value><![CDATA[هشدار: اجازه ممنوع!]]></value>
+    <value><![CDATA[هشدار: عدم دسترسي!]]></value>
   </definition>
   <definition>
     <key>button_folder</key>
@@ -122,7 +122,7 @@
   </definition>
   <definition>
     <key>button_move</key>
-    <value><![CDATA[Move]]></value>
+    <value><![CDATA[انتقال]]></value>
   </definition>
   <definition>
     <key>button_copy</key>

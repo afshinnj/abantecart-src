@@ -62,7 +62,8 @@
 	</definition>
 	<definition>
 		<key>text_per_page</key>
-		<value><![CDATA[Per Page]]></value>
+<value><![CDATA[
+در هر صفحه]]></value>
 	</definition>
 	<definition>
 		<key>text_separator</key>
@@ -70,219 +71,226 @@
 	</definition>
 	<definition>
 		<key>button_continue</key>
-		<value><![CDATA[Continue]]></value>
+		<value><![CDATA[ادامه]]></value>
 	</definition>
 	<definition>
 		<key>button_back</key>
-		<value><![CDATA[Back]]></value>
+		<value><![CDATA[برگشت]]></value>
 	</definition>
 	<definition>
 		<key>button_add_to_cart</key>
-		<value><![CDATA[Add to Cart]]></value>
+		<value><![CDATA[افزودن به سبد]]></value>
 	</definition>
 	<definition>
 		<key>button_add_address</key>
-		<value><![CDATA[Add Address]]></value>
+		<value><![CDATA[افزودن ادرس]]></value>
 	</definition>
 	<definition>
 		<key>button_new_address</key>
-		<value><![CDATA[New Address]]></value>
+		<value><![CDATA[ادرس جديد]]></value>
 	</definition>
 	<definition>
 		<key>button_change_address</key>
-		<value><![CDATA[Change Address]]></value>
+		<value><![CDATA[تغییر آدرس]]></value>
 	</definition>
 	<definition>
 		<key>button_edit</key>
-		<value><![CDATA[Edit]]></value>
+		<value><![CDATA[ويرايش]]></value>
 	</definition>
 	<definition>
 		<key>button_delete</key>
-		<value><![CDATA[Delete]]></value>
+		<value><![CDATA[حذف كردن]]></value>
 	</definition>
 	<definition>
 		<key>button_reviews</key>
-		<value><![CDATA[Reviews]]></value>
+		<value><![CDATA[نقد و بررسي]]></value>
 	</definition>
 	<definition>
 		<key>button_write</key>
-		<value><![CDATA[Write Review]]></value>
+		<value><![CDATA[نوشتن نقد و بررسي]]></value>
 	</definition>
 	<definition>
 		<key>button_login</key>
-		<value><![CDATA[Login]]></value>
+		<value><![CDATA[ورود]]></value>
 	</definition>
 	<definition>
 		<key>button_update</key>
-		<value><![CDATA[Update]]></value>
+		<value><![CDATA[بروزرساني]]></value>
 	</definition>
 	<definition>
 		<key>button_wish</key>
-		<value><![CDATA[Wish]]></value>
+		<value><![CDATA[آرزو]]></value>
 	</definition>
 	<definition>
 		<key>button_print</key>
-		<value><![CDATA[Print]]></value>
+		<value><![CDATA[پرينت]]></value>
 	</definition>
 	<definition>
 		<key>button_shopping</key>
-		<value><![CDATA[Continue Shopping]]></value>
+		<value><![CDATA[ادامه خرید]]></value>
 	</definition>
 	<definition>
 		<key>button_checkout</key>
-		<value><![CDATA[Checkout]]></value>
+		<value><![CDATA[پرداخت]]></value>
 	</definition>
 	<definition>
 		<key>button_confirm</key>
-		<value><![CDATA[Confirm Order]]></value>
+		<value><![CDATA[سفارش]]></value>
 	</definition>
 	<definition>
 		<key>button_view</key>
-		<value><![CDATA[View]]></value>
+		<value><![CDATA[نمايش]]></value>
 	</definition>
 	<definition>
 		<key>button_search</key>
-		<value><![CDATA[Search]]></value>
+		<value><![CDATA[جستجو]]></value>
 	</definition>
 	<definition>
 		<key>button_go</key>
-		<value><![CDATA[Go]]></value>
+		<value><![CDATA[برو]]></value>
 	</definition>
 	<definition>
 		<key>button_coupon</key>
-		<value><![CDATA[Apply Coupon]]></value>
+		<value><![CDATA[
+درخواست کوپن]]></value>
 	</definition>
 	<definition>
 		<key>button_guest</key>
-		<value><![CDATA[Guest Checkout]]></value>
+		<value><![CDATA[پرداخت مهمان]]></value>
 	</definition>
 	<definition>
 		<key>notice_out_of_stock_ttl</key>
-		<value><![CDATA[Out of stock notice for: %s]]></value>
+		<value><![CDATA[توجه كنيد تمام شده: %s]]></value>
 	</definition>
 	<definition>
 		<key>notice_out_of_stock_body</key>
 		<value>
-			<![CDATA[Product "%s" has reached zero or negative stock count for main product or all options. <br> As a result of autodisable setting, product (%s) was auto disabled!]]></value>
+	<![CDATA[محصول "%s" صفر یا تعداد موجودي منفی برای محصول اصلی و یا تمام گزینه های رسیده. <br> به عنوان یک نتیجه از تنظیمات خودکار غیر فعال کردن، محصول (%s)خودکار غیر فعال شده!]]></value>
 	</definition>
 	<definition>
 		<key>no_payment_required</key>
-		<value><![CDATA[No Payment Required]]></value>
+		<value><![CDATA[بدون پرداخت مورد نیاز]]></value>
 	</definition>
 	<definition>
 		<key>gen_data_entry_error</key>
-		<value><![CDATA[Oops, there is an error with infomation provided!]]></value>
+		<value><![CDATA[خطا, یک خطا با کسب اطلاعات ارائه شده است!]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_asc</key>
-		<value><![CDATA[Name A - Z]]></value>
+		<value><![CDATA[نام الف - ي]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_desc</key>
-		<value><![CDATA[Name Z - A]]></value>
+		<value><![CDATA[نام ي - الف]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_price_asc</key>
-		<value><![CDATA[Price Low &gt; High]]></value>
+		<value><![CDATA[قیمت كم &gt; زياد]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_price_desc</key>
-		<value><![CDATA[Price High &gt; Low]]></value>
+		<value><![CDATA[قيمت زياد &gt; كم]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_asc</key>
-		<value><![CDATA[Rating Lowest]]></value>
+		<value><![CDATA[امتیاز صعودی]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_desc</key>
-		<value><![CDATA[Rating Highest]]></value>
+		<value><![CDATA[امتیاز
+بالاترین]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_asc</key>
-		<value><![CDATA[Date Old &gt; New]]></value>
+		<value><![CDATA[تاریخ قدیم &gt; جديد]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_desc</key>
-		<value><![CDATA[Date New &gt; Old]]></value>
+		<value><![CDATA[تاريخ جديد &gt; قديم]]></value>
 	</definition>
 	<definition>
 		<key>text_add_cart_confirm</key>
-		<value><![CDATA[Added to cart]]></value>
+		<value><![CDATA[افزودن به سبد]]></value>
 	</definition>
 	<definition>
 		<key>text_close</key>
-		<value><![CDATA[Close]]></value>
+		<value><![CDATA[بستن]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[Account Balance ]]></value>
+		<value><![CDATA[موجودی حساب ]]></value>
 	</definition>
 	<definition>
 		<key>text_balance_checkout</key>
-		<value><![CDATA[Account Balance: ]]></value>
+		<value><![CDATA[موجودی حساب: ]]></value>
 	</definition>
 	<definition>
 		<key>button_apply_balance</key>
-		<value><![CDATA[Apply to Order]]></value>
+		<value><![CDATA[درخواست برای سفارش]]></value>
 	</definition>
 	<definition>
 		<key>button_disapply_balance</key>
-		<value><![CDATA[Remove from Order]]></value>
+		<value><![CDATA[حذف از سفارش]]></value>
 	</definition>
 	<definition>
 		<key>text_applied_balance</key>
-		<value><![CDATA[applied to order]]></value>
+		<value><![CDATA[
+اعمال شده به سفارش]]></value>
 	</definition>
 	<definition>
 		<key>text_applied_balance_to_order</key>
-		<value><![CDATA[%s used for order #%s]]></value>
+		<value><![CDATA[%s مورد استفاده برای سفارش #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_maintenance_notice</key>
-		<value><![CDATA[Notice: Maintenance mode is on.]]></value>
+		<value><![CDATA[اطلاعيه: حالت تعمیر و نگهداری است.]]></value>
 	</definition>
 	<definition>
 		<key>text_browse</key>
-		<value><![CDATA[Select File]]></value>
+		<value><![CDATA[انتخاب فايل]]></value>
 	</definition>
 	<definition>
 		<key>button_cancel</key>
-		<value><![CDATA[Cancel]]></value>
+		<value><![CDATA[لغو كردن]]></value>
 	</definition>
 	<definition>
 		<key>button_reset</key>
-		<value><![CDATA[Reset]]></value>
+		<value><![CDATA[ريست كردن]]></value>
 	</definition>
 	<definition>
 		<key>button_submit</key>
-		<value><![CDATA[Submit]]></value>
+		<value><![CDATA[ارسال]]></value>
 	</definition>
 	<definition>
 		<key>button_save</key>
-		<value><![CDATA[Save]]></value>
+		<value><![CDATA[ذخيره]]></value>
 	</definition>
 	<definition>
 		<key>text_field_required</key>
-		<value><![CDATA[is required field!]]></value>
+		<value><![CDATA[
+فيلد مورد نیاز است!]]></value>
 	</definition>
 	<definition>
 		<key>error_captcha</key>
-		<value><![CDATA[Verification code does not match the image!]]></value>
+		<value><![CDATA[
+کد امنیتی تصویر مطابقت ندارد!]]></value>
     </definition>
 	<definition>
 		<key>entry_attached</key>
-		<value><![CDATA[Attached]]></value>
+		<value><![CDATA[فایل های پیوست شده]]></value>
     </definition>
 	<definition>
 		<key>text_call_to_order</key>
-		<value><![CDATA[Call To Order]]></value>
+		<value><![CDATA[جهت سفارش تماس بگيريد]]></value>
     </definition>
 	<definition>
 		<key>text_discount</key>
-		<value><![CDATA[Discount]]></value>
+		<value><![CDATA[
+تخفیف]]></value>
     </definition>
 	<definition>
 		<key>error_unknown</key>
-		<value><![CDATA[Unknown error encountered. Please try again!]]></value>
+		<value><![CDATA[
+خطای ناشناخته مواجه می شوند. لطفا دوباره تلاش کنید!]]></value>
     </definition>
 </definitions>
