@@ -3,7 +3,7 @@
 <div id="content" class="panel panel-default">
 
 	<div class="panel-heading col-xs-12">
-		<div class="primary_content_actions pull-left">
+		<div class="primary_content_actions pull-right">
 			<div class="btn-group mr10 toolbar">
 				<?php
 				if (!empty($search_form)) {
@@ -47,12 +47,20 @@
 	</div>
 
 </div>
-
+<script type="text/javascript" src="<?php echo $template_dir; ?>javascript/persian-datepicker/js/persian-date.js"></script>
+<script type="text/javascript" src="<?php echo $template_dir; ?>javascript/persian-datepicker/js/persian-datepicker-0.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>javascript/persian-datepicker/css/persian-datepicker-0.4.5.css" />
 <script type="text/javascript"><!--
 $(document).ready(function() {
 
 	$(function() {
-		var dates = $( "#report_sales_grid_search_date_start, #report_sales_grid_search_date_end" ).datepicker({
+            $("#report_sales_grid_search_date_start, #report_sales_grid_search_date_end").persianDatepicker({
+
+                format: 'DD/MM/YYYY'
+
+            });
+            
+            		/*var dates = $( "#report_sales_grid_search_date_start, #report_sales_grid_search_date_end" ).persianDatepicker({
 			defaultDate: "-1w",
 			dateFormat: '<?php echo $js_date_format?>',
 			changeMonth: false,
@@ -66,7 +74,7 @@ $(document).ready(function() {
 						selectedDate, instance.settings );
 				dates.not( this ).datepicker( "option", option, date );
 			}
-		});
+		});*/
 	});
 
 });

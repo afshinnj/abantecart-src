@@ -108,7 +108,8 @@ final class AMessage {
 						    SET `title` = '" . $this->db->escape($title) . "',
 						    `message` = '" . $this->db->escape($message) . "',
 						    `status` = '" . $this->db->escape($status) . "',						    
-						    `date_added` = '" . Jdate::now() . "'");
+						    `date_added` = '" . Jdate::now() . "',
+                                                    `date_modified` = '" . Jdate::now() . "'");
 		}
 	}
 
