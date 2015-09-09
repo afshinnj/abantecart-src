@@ -36,6 +36,7 @@
       </tr>
     </table>
   </div>
+ 
   <table class="address">
     <tr class="heading">
       <td width="50%"><b><?php echo $text_to; ?></b></td>

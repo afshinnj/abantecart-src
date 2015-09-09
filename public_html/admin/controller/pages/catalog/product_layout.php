@@ -48,7 +48,7 @@ class ControllerPagesCatalogProductLayout extends AController {
 
 		}
 
-		$this->data['help_url'] = $this->gen_help_url('product_layout');
+		$this->data['help_url'] = $this->gen_help_url('?p=62');
 		$this->data['product_description'] = $this->model_catalog_product->getProductDescriptions( $product_id );
 		$this->data['heading_title'] = $this->language->get('text_edit') . $this->language->get('text_product') . ' - ' . $this->data['product_description'][ $this->session->data['content_language_id'] ]['name'];
 

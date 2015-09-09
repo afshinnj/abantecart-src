@@ -113,7 +113,7 @@ class ControllerPagesCatalogProductImages extends AController {
 		    $this->data['embed_url'] = $this->html->getSecureURL('common/do_embed/product', '&product_id=' . $this->request->get['product_id']);
 	    }
 		$this->view->batchAssign( $this->data );
-		$this->view->assign('help_url', $this->gen_help_url('product_media') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=62') );
 		$this->addChild('pages/catalog/product_summary', 'summary_form', 'pages/catalog/product_summary.tpl');
 
 		$this->addChild('responses/common/resource_library/get_resources_html', 'resources_html', 'responses/common/resource_library_scripts.tpl');

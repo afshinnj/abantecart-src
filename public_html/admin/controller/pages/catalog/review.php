@@ -170,7 +170,7 @@ class ControllerPagesCatalogReview extends AController {
 
 		$this->document->setTitle( $this->language->get('heading_title') );
 		$this->view->assign( 'insert', $this->html->getSecureURL('catalog/review/insert') );
-		$this->view->assign('help_url', $this->gen_help_url('review_listing') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=64') );
 		$this->processTemplate('pages/catalog/review_list.tpl' );
 
         //update controller data
@@ -364,7 +364,7 @@ class ControllerPagesCatalogReview extends AController {
             'pack' => false,
 	    ));
 
-		$this->view->assign('help_url', $this->gen_help_url('review_edit') );
+		                 $this->view->assign('help_url', $this->gen_help_url('?p=64') );
 		$this->view->batchAssign( $this->data );
         $this->processTemplate('pages/catalog/review_form.tpl' );
 	}

@@ -57,6 +57,7 @@ class ControllerCommonANT extends AController {
 		//do connect without any http-redirects
 		$connect = new AConnect (true, true);
 		$result = $connect->getResponse($url);
+               
 		$this->session->data ['ant_messages'] = array(); // prevent requests in future at this session
 		// insert new messages in database
 		if ($result && is_array($result)) {

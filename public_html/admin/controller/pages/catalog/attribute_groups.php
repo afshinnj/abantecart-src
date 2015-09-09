@@ -104,7 +104,7 @@ class ControllerPagesCatalogAttributeGroups extends AController {
 
 		$this->view->assign( 'insert', $this->html->getSecureURL('catalog/attribute_groups/insert') );
 		$this->view->assign('form_language_switch', $this->html->getContentLanguageSwitcher());
-		$this->view->assign('help_url', $this->gen_help_url('global_attribute_groups_listing') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=54') );
 
 		$this->processTemplate('pages/catalog/attribute_groups_list.tpl' );
 
@@ -254,7 +254,7 @@ class ControllerPagesCatalogAttributeGroups extends AController {
 		$this->view->batchAssign( $this->data );
 		$this->view->assign('form_language_switch', $this->html->getContentLanguageSwitcher());
 		$this->view->assign('language_id', $this->session->data['content_language_id']);
-		$this->view->assign('help_url', $this->gen_help_url('global_attribute_groups_edit') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=54') );
         $this->processTemplate('pages/catalog/attribute_groups_form.tpl' );
   	}
 

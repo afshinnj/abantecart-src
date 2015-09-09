@@ -38,7 +38,7 @@ class ControllerPagesCatalogManufacturerLayout extends AController {
 		$this->loadModel('catalog/manufacturer');
 		$manufacturer_info = $this->model_catalog_manufacturer->getManufacturer( $manufacturer_id );
 
-		$this->data['help_url'] = $this->gen_help_url('manufacturer_layout');
+		$this->data['help_url'] = $this->gen_help_url('?p=60');
 
 		if (has_value($manufacturer_id) && $this->request->is_GET()) {
 			if (!$manufacturer_info) {

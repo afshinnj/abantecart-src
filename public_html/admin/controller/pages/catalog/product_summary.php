@@ -50,7 +50,7 @@ class ControllerPagesCatalogProductSummary extends AController {
 		$this->data['product']['orders'] = $this->model_sale_order->getOrderTotalWithProduct($product_info['product_id']);
 		$this->data['product']['orders_url'] = $this->html->getSecureURL('sale/order', '&product_id='.$product_info['product_id']);
 
-		$this->view->assign('help_url', $this->gen_help_url('product_summary') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=62') );
         $this->view->batchAssign( $this->data );
 		$this->processTemplate('pages/catalog/product_summary.tpl' );
 

@@ -121,7 +121,7 @@ class ControllerPagesCatalogManufacturer extends AController {
 
 		$this->document->setTitle( $this->language->get('heading_title') );
 		$this->view->assign( 'insert', $this->html->getSecureURL('catalog/manufacturer/insert') );
-		$this->view->assign('help_url', $this->gen_help_url('manufacturer_listing') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=58') );
 		$this->view->assign('form_store_switch', $this->html->getStoreSwitcher());
 
 		$this->processTemplate('pages/catalog/manufacturer_list.tpl' );
@@ -281,7 +281,7 @@ class ControllerPagesCatalogManufacturer extends AController {
 			'value' => $this->data['name'],
 			'required' => true,
 			'style' => 'large-field',
-			'help_url' => $this->gen_help_url('name'),
+			'help_url' => $this->gen_help_url('?p=58'),
 		));
 		$this->data['form']['fields']['general']['manufacturer_store'] = $form->getFieldHtml(array(
 			'type' => 'checkboxgroup',
@@ -289,7 +289,7 @@ class ControllerPagesCatalogManufacturer extends AController {
 			'value' => $this->data['manufacturer_store'],
 			'options' => $stores,
 			'style' => 'chosen',
-			'help_url' => $this->gen_help_url('manufacturer_store'),
+			'help_url' => $this->gen_help_url('?p=58'),
 		));
 
 		$this->data['keyword_button'] = $form->getFieldHtml(array(
@@ -306,7 +306,7 @@ class ControllerPagesCatalogManufacturer extends AController {
 				'type' => 'input',
 				'name' => 'keyword',
 				'value' => $this->data['keyword'],
-				'help_url' => $this->gen_help_url('seo_keyword'),
+				'help_url' => $this->gen_help_url('?p=58'),
 				'attr' => ' gen-value="' . SEOEncode($this->data['category_description']['name']) . '" '
 		));
 
@@ -317,7 +317,7 @@ class ControllerPagesCatalogManufacturer extends AController {
 			'style' => 'small-field'
 		));
 
-		$this->view->assign('help_url', $this->gen_help_url('manufacturer_edit') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=58') );
 		$this->view->batchAssign( $this->data );
 
         $this->addChild('responses/common/resource_library/get_resources_html', 'resources_html', 'responses/common/resource_library_scripts.tpl');

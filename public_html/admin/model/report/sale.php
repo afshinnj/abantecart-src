@@ -68,12 +68,12 @@ class ModelReportSale extends Model {
 		if (isset($filter['date_start'])) {
 			$date_start = dateDisplay2ISO($filter['date_start'],$this->language->get('date_format_short'));
 		} else {
-			$date_start = date('Y-m-d', strtotime('-7 day'));
+			$date_start = Jdate::toJalali(); //date('1394-06-03', strtotime('-7 day'));
 		}
 		if (isset($filter['date_end'])) {
 			$date_end = dateDisplay2ISO($filter['date_end'],$this->language->get('date_format_short'));
 		} else {
-			$date_end = date('Y-m-d', time());
+			$date_end = Jdate::date();//date('Y-m-d', time());
 		}
 		$sql .= " AND (DATE_FORMAT(date_added,'%Y-%m-%d') >= DATE_FORMAT('" . $this->db->escape($date_start) . "','%Y-%m-%d') 
 				  AND DATE_FORMAT(date_added,'%Y-%m-%d') <= DATE_FORMAT('" . $this->db->escape($date_end) . "','%Y-%m-%d') )";
@@ -176,12 +176,12 @@ class ModelReportSale extends Model {
 		if (isset($filter['date_start'])) {
 			$date_start = dateDisplay2ISO($filter['date_start'],$this->language->get('date_format_short'));
 		} else {
-			$date_start = date('Y-m-d', strtotime('-7 day'));
+			$date_start = Jdate::toJalali();
 		}
 		if (isset($filter['date_end'])) {
 			$date_end = dateDisplay2ISO($filter['date_end'],$this->language->get('date_format_short'));
 		} else {
-			$date_end = date('Y-m-d', time());
+			$date_end = Jdate::date();
 		}
 		$sql .= " AND (DATE_FORMAT(o.date_added,'%Y-%m-%d') >= DATE_FORMAT('" . $this->db->escape($date_start) . "','%Y-%m-%d') 
 				  AND DATE_FORMAT(o.date_added,'%Y-%m-%d') <= DATE_FORMAT('" . $this->db->escape($date_end) . "','%Y-%m-%d') )";
@@ -280,12 +280,12 @@ class ModelReportSale extends Model {
 		if (isset($filter['date_start'])) {
 			$date_start = dateDisplay2ISO($filter['date_start'],$this->language->get('date_format_short'));
 		} else {
-			$date_start = date('Y-m-d', strtotime('-7 day'));
+			$date_start = Jdate::toJalali();
 		}
 		if (isset($filter['date_end'])) {
 			$date_end = dateDisplay2ISO($filter['date_end'],$this->language->get('date_format_short'));
 		} else {
-			$date_end = date('Y-m-d', time());
+			$date_end = Jdate::date();
 		}
 		$sql .= " AND (DATE_FORMAT(o.date_added,'%Y-%m-%d') >= DATE_FORMAT('" . $this->db->escape($date_start) . "','%Y-%m-%d') 
 				  AND DATE_FORMAT(o.date_added,'%Y-%m-%d') <= DATE_FORMAT('" . $this->db->escape($date_end) . "','%Y-%m-%d') )";
@@ -366,12 +366,12 @@ class ModelReportSale extends Model {
 		if (isset($filter['date_start'])) {
 			$date_start = dateDisplay2ISO($filter['date_start'],$this->language->get('date_format_short'));
 		} else {
-			$date_start = date('Y-m-d', strtotime('-7 day'));
+			$date_start = Jdate::toJalali();
 		}
 		if (isset($filter['date_end'])) {
 			$date_end = dateDisplay2ISO($filter['date_end'],$this->language->get('date_format_short'));
 		} else {
-			$date_end = date('Y-m-d', time());
+			$date_end = Jdate::date();
 		}
 		$sql .= " AND (DATE_FORMAT(o.date_added,'%Y-%m-%d') >= DATE_FORMAT('" . $this->db->escape($date_start) . "','%Y-%m-%d') 
 				  AND DATE_FORMAT(o.date_added,'%Y-%m-%d') <= DATE_FORMAT('" . $this->db->escape($date_end) . "','%Y-%m-%d') )";

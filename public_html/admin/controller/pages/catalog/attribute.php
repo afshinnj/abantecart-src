@@ -136,7 +136,7 @@ class ControllerPagesCatalogAttribute extends AController {
 		$this->view->assign('inserts', $this->data['tabs']);
 
 		$this->view->assign('form_language_switch', $this->html->getContentLanguageSwitcher());
-		$this->view->assign('help_url', $this->gen_help_url('global_attributes_listing'));
+		$this->view->assign('help_url', $this->gen_help_url('?p=54'));
 
 		$this->processTemplate('pages/catalog/attribute_list.tpl');
 
@@ -390,7 +390,7 @@ class ControllerPagesCatalogAttribute extends AController {
 		$this->data['form_language_switch'] = $this->html->getContentLanguageSwitcher();
 
 		$this->data['text_parent_note'] = $this->language->get('text_parent_note');
-		$this->data['help_url'] = $this->gen_help_url('global_attributes_edit');
+		$this->data['help_url'] = $this->gen_help_url('?p=54');
 
 		$this->view->batchAssign($this->data);
 		$this->processTemplate('pages/catalog/attribute_form.tpl');

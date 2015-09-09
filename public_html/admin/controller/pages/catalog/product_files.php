@@ -191,7 +191,7 @@ class ControllerPagesCatalogProductFiles extends AController {
 		}
 
 		$this->addChild('pages/catalog/product_summary', 'summary_form', 'pages/catalog/product_summary.tpl');
-		$this->view->assign('help_url', $this->gen_help_url('product_files'));
+		$this->view->assign('help_url', $this->gen_help_url('?p=62'));
 		$this->view->assign('form_language_switch', $this->html->getContentLanguageSwitcher());
 		$this->view->batchAssign($this->data);
 		$this->processTemplate('pages/catalog/product_files.tpl');

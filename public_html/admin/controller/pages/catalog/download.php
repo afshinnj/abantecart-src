@@ -94,7 +94,7 @@ class ControllerPagesCatalogDownload extends AController {
         $grid = $this->dispatch('common/listing_grid', array( $grid_settings ) );
 		$this->data['listing_grid'] = $grid->dispatchGetOutput();
 
-		$this->data['help_url'] = $this->gen_help_url('download_listing');
+		$this->data['help_url'] = $this->gen_help_url('?p=56');
 
 		$this->document->setTitle( $this->language->get('heading_title') );
 

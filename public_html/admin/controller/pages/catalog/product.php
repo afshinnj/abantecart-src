@@ -249,7 +249,7 @@ class ControllerPagesCatalogProduct extends AController {
 		$this->view->assign('form_store_switch', $this->html->getStoreSwitcher());
 
 		$this->view->assign( 'insert', $this->html->getSecureURL('catalog/product/insert') );
-		$this->view->assign('help_url', $this->gen_help_url('product_listing') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=62') );
 		$this->processTemplate('pages/catalog/product_list.tpl' );
 
           //update controller data
@@ -572,15 +572,15 @@ class ControllerPagesCatalogProduct extends AController {
 		    'type' => 'checkbox',
 		    'name' => 'status',
 		    'value' => $this->data['status'],
-			'style'  => 'btn_switch btn-group-sm',
-	        'help_url' => $this->gen_help_url('status'),
+                                                                  'style'  => 'btn_switch btn-group-sm',
+	        'help_url' => $this->gen_help_url('?p=62'),
 	    ));
         $this->data['form']['fields']['general']['featured'] = $form->getFieldHtml(array(
 		    'type' => 'checkbox',
 		    'name' => 'featured',
 		    'value' => $this->data['featured'],
 			'style'  => 'btn_switch btn-group-sm',
-	        'help_url' => $this->gen_help_url('featured'),
+	        'help_url' => $this->gen_help_url('?p=62'),
 	    ));
 
         $this->data['form']['fields']['general']['name'] = $form->getFieldHtml(array(
@@ -588,7 +588,7 @@ class ControllerPagesCatalogProduct extends AController {
 			'name' => 'product_description[name]',
 			'value' => $this->data['product_description']['name'],
 			'required' => true,
-	        'help_url' => $this->gen_help_url('name'),
+	        'help_url' => $this->gen_help_url('?p=62'),
 		));
         $this->data['form']['fields']['general']['description'] = $form->getFieldHtml(array(
 			'type' => 'textarea',
@@ -599,7 +599,7 @@ class ControllerPagesCatalogProduct extends AController {
 			'type' => 'textarea',
 			'name' => 'product_description[meta_keywords]',
 			'value' => $this->data['product_description']['meta_keywords'],
-	        'help_url' => $this->gen_help_url('meta_keywords'),
+	        'help_url' => $this->gen_help_url('?p=62'),
 		));
         $this->data['form']['fields']['general']['meta_description'] = $form->getFieldHtml(array(
 			'type' => 'textarea',
@@ -654,7 +654,7 @@ class ControllerPagesCatalogProduct extends AController {
 				    'name' => 'call_to_order',
 				    'value' => $this->data['call_to_order'],
 					'style'  => 'btn_switch btn-group-sm',
-			        'help_url' => $this->gen_help_url('call_to_order')
+			        'help_url' => $this->gen_help_url('?p=62')
 		));
 
         $this->data['form']['fields']['data']['price'] = $form->getFieldHtml(array(
@@ -674,7 +674,7 @@ class ControllerPagesCatalogProduct extends AController {
 			'name' => 'tax_class_id',
 			'value' => $this->data['tax_class_id'],
             'options' => $this->data['tax_classes'],
-	        'help_url' => $this->gen_help_url('tax_class'),
+	        'help_url' => $this->gen_help_url('?p=62'),
 	        'style' => 'medium-field'
 		));
         $this->data['form']['fields']['data']['subtract'] = $form->getFieldHtml(array(
@@ -685,7 +685,7 @@ class ControllerPagesCatalogProduct extends AController {
                 1 => $this->language->get('text_yes'),
                 0 => $this->language->get('text_no'),
             ),
-	        'help_url' => $this->gen_help_url('subtract'),
+	        'help_url' => $this->gen_help_url('?p=62'),
 	        'style' => 'medium-field'
 		));
         $this->data['form']['fields']['data']['quantity'] = $form->getFieldHtml(array(
@@ -718,7 +718,7 @@ class ControllerPagesCatalogProduct extends AController {
 			'type' => 'input',
 			'name' => 'sku',
 			'value' => $this->data['sku'],
-	        'help_url' => $this->gen_help_url('sku'),
+	        'help_url' => $this->gen_help_url('?p=62'),
 		));
         $this->data['form']['fields']['data']['location'] = $form->getFieldHtml(array(
 			'type' => 'input',
@@ -740,7 +740,7 @@ class ControllerPagesCatalogProduct extends AController {
 					'type' => 'input',
 					'name' => 'keyword',
 					'value' => $this->data['keyword'],
-			        'help_url' => $this->gen_help_url('seo_keyword'),
+			        'help_url' => $this->gen_help_url('?p=62'),
 					'attr' => ' gen-value="'.SEOEncode($this->data['product_description']['name']).'" '
 				));
         $this->data['form']['fields']['data']['date_available'] = $form->getFieldHtml(array(
@@ -860,7 +860,7 @@ class ControllerPagesCatalogProduct extends AController {
 	    $this->data['form_language_switch'] = $this->html->getContentLanguageSwitcher();
 	    $this->data['language_id'] = $this->session->data['content_language_id'];
 	    $this->data['language_code'] = $this->session->data['language'];
-	    $this->data['help_url'] = $this->gen_help_url('product_edit');
+	    $this->data['help_url'] = $this->gen_help_url('?p=62');
 	    $this->data['rl'] = $this->html->getSecureURL('common/resource_library', '&object_name=&object_id&type=image&mode=url');
 
 	    $this->view->batchAssign( $this->data );

@@ -150,7 +150,7 @@ class ControllerPagesCatalogProductPromotions extends AController {
 
         $this->addChild('pages/catalog/product_summary', 'summary_form', 'pages/catalog/product_summary.tpl');
 
-		$this->view->assign('help_url', $this->gen_help_url('product_promotions') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=62') );
 	    if($this->config->get('config_embed_status')){
 		    $this->data['embed_url'] = $this->html->getSecureURL('common/do_embed/product', '&product_id=' . $this->request->get['product_id']);
 	    }

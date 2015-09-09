@@ -246,7 +246,7 @@ class ControllerPagesCatalogProductOptions extends AController {
 	    }
 		$this->view->assign('resources_scripts', $resources_scripts->dispatchGetOutput());
 
-		$this->view->assign('help_url', $this->gen_help_url('product_options') );
+		$this->view->assign('help_url', $this->gen_help_url('?p=62') );
         $this->view->assign('form_language_switch', $this->html->getContentLanguageSwitcher());
         $this->view->batchAssign( $this->data );
 		$this->processTemplate('pages/catalog/product_options.tpl' );

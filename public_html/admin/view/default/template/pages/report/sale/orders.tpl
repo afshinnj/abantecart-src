@@ -59,23 +59,6 @@ $(document).ready(function() {
                 format: 'DD/MM/YYYY'
 
             });
-            
-            		/*var dates = $( "#report_sales_grid_search_date_start, #report_sales_grid_search_date_end" ).persianDatepicker({
-			defaultDate: "-1w",
-			dateFormat: '<?php echo $js_date_format?>',
-			changeMonth: false,
-			numberOfMonths: 1,
-			onSelect: function( selectedDate ) {
-				var option = this.id == "report_sales_grid_search_date_start" ? "minDate" : "maxDate",
-					instance = $( this ).data( "datepicker" ),
-					date = $.datepicker.parseDate(
-						instance.settings.dateFormat ||
-						$.datepicker._defaults.dateFormat,
-						selectedDate, instance.settings );
-				dates.not( this ).datepicker( "option", option, date );
-			}
-		});*/
-	});
-
+           });    
 });
 //--></script>

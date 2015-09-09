@@ -33,7 +33,8 @@ class ModelCatalogReview extends Model{
 							  text = '" . $this->db->escape(strip_tags($data['text'])) . "',
 							  rating = '" . (int)$data['rating'] . "',
 							  status = '" . (int)$data['status'] . "',
-							  date_added = '". Jdate::now() ."'");
+							  date_added = '". Jdate::now() ."',
+                                                          date_modified = '". Jdate::now() ."'");
 		$this->cache->delete('product.reviews.totals');
 		$this->cache->delete('product.all_info');
 		return $this->db->getLastId();

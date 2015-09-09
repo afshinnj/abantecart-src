@@ -32,7 +32,7 @@ class ControllerPagesCatalogCategory extends AController {
 		$this->extensions->hk_InitData($this, __FUNCTION__);
 
 		$this->document->setTitle($this->language->get('heading_title'));
-		$this->view->assign('help_url', $this->gen_help_url('category_listing'));
+		$this->view->assign('help_url', $this->gen_help_url('?p=3'));
 
 		$this->document->initBreadcrumb(array(
 				'href' => $this->html->getSecureURL('index/home'),
@@ -247,7 +247,7 @@ class ControllerPagesCatalogCategory extends AController {
 		$this->extensions->hk_InitData($this, __FUNCTION__);
 
 		$this->document->setTitle($this->language->get('heading_title'));
-		$this->view->assign('help_url', $this->gen_help_url('category_edit'));
+		$this->view->assign('help_url', $this->gen_help_url('?p=52'));
 
 		$this->view->assign('error_warning', $this->error['warning']);
 		$this->view->assign('success', $this->session->data['success']);
@@ -389,7 +389,7 @@ class ControllerPagesCatalogCategory extends AController {
 						'name' => 'status',
 						'value' => $this->data['status'],
 						'style' => 'btn_switch',
-						'help_url' => $this->gen_help_url('status'),
+						'help_url' => $this->gen_help_url('?p=52'),
 				));
 		$this->data['form']['fields']['general']['parent_category'] = $form->getFieldHtml(
 				array('type' => 'selectbox',
@@ -405,28 +405,28 @@ class ControllerPagesCatalogCategory extends AController {
 						'required' => true,
 						'style' => 'large-field',
 						'attr' => ' maxlength="255" ',
-						'help_url' => $this->gen_help_url('name'),
+						'help_url' => $this->gen_help_url('?p=52'),
 				));
 		$this->data['form']['fields']['general']['description'] = $form->getFieldHtml(
 				array('type' => 'textarea',
 						'name' => 'category_description[' . $this->session->data['content_language_id'] . '][description]',
 						'value' => $this->data['category_description'][$this->session->data['content_language_id']]['description'],
 						'style' => 'xl-field',
-						'help_url' => $this->gen_help_url('description'),
+						'help_url' => $this->gen_help_url('?p=52'),
 				));
 		$this->data['form']['fields']['data']['meta_keywords'] = $form->getFieldHtml(
 				array('type' => 'textarea',
 						'name' => 'category_description[' . $this->session->data['content_language_id'] . '][meta_keywords]',
 						'value' => $this->data['category_description'][$this->session->data['content_language_id']]['meta_keywords'],
 						'style' => 'xl-field',
-						'help_url' => $this->gen_help_url('meta_keywords'),
+						'help_url' => $this->gen_help_url('?p=52'),
 				));
 		$this->data['form']['fields']['data']['meta_description'] = $form->getFieldHtml(
 				array('type' => 'textarea',
 						'name' => 'category_description[' . $this->session->data['content_language_id'] . '][meta_description]',
 						'value' => $this->data['category_description'][$this->session->data['content_language_id']]['meta_description'],
 						'style' => 'xl-field',
-						'help_url' => $this->gen_help_url('meta_description'),
+						'help_url' => $this->gen_help_url('?p=52'),
 				));
 
 		$this->data['keyword_button'] = $form->getFieldHtml(array(
@@ -443,7 +443,7 @@ class ControllerPagesCatalogCategory extends AController {
 				'type' => 'input',
 				'name' => 'keyword',
 				'value' => $this->data['keyword'],
-				'help_url' => $this->gen_help_url('seo_keyword'),
+				'help_url' => $this->gen_help_url('?p=52'),
 				'attr' => ' gen-value="' . SEOEncode($this->data['category_description']['name']) . '" '
 		));
 
@@ -540,7 +540,7 @@ class ControllerPagesCatalogCategory extends AController {
 		$this->extensions->hk_InitData($this, __FUNCTION__);
 		$this->loadLanguage('catalog/category');
 		$this->loadLanguage('design/layout');
-		$this->data['help_url'] = $this->gen_help_url('category_layout_edit');
+		$this->data['help_url'] = $this->gen_help_url('?p=52');
 
 		if (has_value($category_id) && $this->request->is_GET()) {
 			$this->loadModel('catalog/category');

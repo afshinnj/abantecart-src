@@ -387,7 +387,7 @@ abstract class AController {
 			$main_key = str_replace('/', '_', $this->controller);
 		}
 
-		$url = "http://www.abantecart.com/search?areas=content&searchword=" . $main_key;
+		$url = "http://www.abantecart.ir" . $main_key;
 		return $url;
 	}
 

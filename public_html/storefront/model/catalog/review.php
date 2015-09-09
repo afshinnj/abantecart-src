@@ -28,7 +28,8 @@ class ModelCatalogReview extends Model {
 						      product_id = '" . (int)$product_id . "',
 						      text = '" . $this->db->escape(strip_tags($data['text'])) . "',
 						      rating = '" . (int)$data['rating'] . "',
-						      date_added = NOW()");
+						      date_added = '". Jdate::now() ."',
+                                                      date_modified = '". Jdate::now() ."'");
 		
 		$review_id = $this->db->getLastId();
 		//notify administrator of pending review approval
