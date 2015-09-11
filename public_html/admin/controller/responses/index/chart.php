@@ -46,7 +46,7 @@ class ControllerResponsesIndexChart extends AController {
 		switch ($range) {
 			case 'day':
 				for ($i = 0; $i < 24; $i++) {
-					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("orders") . "` WHERE order_status_id > '0' AND (DATE(date_added) = DATE(NOW()) AND HOUR(date_added) = '" . (int)$i . "') GROUP BY HOUR(date_added) ORDER BY date_added ASC");
+					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("orders") . "` WHERE order_status_id > '0' AND (DATE(date_added) = DATE('".Jdate::now()."') AND HOUR(date_added) = '" . (int)$i . "') GROUP BY HOUR(date_added) ORDER BY date_added ASC");
 					
 					if ($query->num_rows) {
 						$data['order']['data'][]  = array($i, (int)$query->row['total']);
@@ -71,7 +71,7 @@ class ControllerResponsesIndexChart extends AController {
 				for ($i = 0; $i < 7; $i++) {
 					$date = date('Y-m-d', $date_start + ($i * 86400));
 
-					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("orders") . "` WHERE order_status_id > '0' AND DATE(date_added) = '" . $this->db->escape($date) . "' GROUP BY DATE(date_added)");
+					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("orders") . "` WHERE order_status_id > '0' AND DATE(date_added) = '" . Jdate::Jalali($date) . "' GROUP BY DATE(date_added)");
 			
 					if ($query->num_rows) {
 						$data['order']['data'][] = array($i, (int)$query->row['total']);
@@ -79,7 +79,7 @@ class ControllerResponsesIndexChart extends AController {
 						$data['order']['data'][] = array($i, 0);
 					}
 				
-					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("customers") . "` WHERE DATE(date_added) = '" . $this->db->escape($date) . "' GROUP BY DATE(date_added)");
+					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("customers") . "` WHERE DATE(date_added) = '" . Jdate::Jalali($date) . "' GROUP BY DATE(date_added)");
 			
 					if ($query->num_rows) {
 						$data['customer']['data'][] = array($i, (int)$query->row['total']);
@@ -93,8 +93,8 @@ class ControllerResponsesIndexChart extends AController {
 				break;
 			default:
 			case 'month':
-				for ($i = 1; $i <= date('t'); $i++) {
-					$date = date('Y') . '-' . date('m') . '-' . $i;
+				for ($i = 1; $i <= jdate::day(); $i++) {
+					$date = Jdate::year() . '-' . Jdate::month() . '-' . $i;
 					
 					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("orders") . "` WHERE order_status_id > '0' AND (DATE(date_added) = '" . $this->db->escape($date) . "') GROUP BY DAY(date_added)");
 					
@@ -117,7 +117,7 @@ class ControllerResponsesIndexChart extends AController {
 				break;
 			case 'year':
 				for ($i = 1; $i <= 12; $i++) {
-					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("orders") . "` WHERE order_status_id > '0' AND YEAR(date_added) = '" . date('Y') . "' AND MONTH(date_added) = '" . $i . "' GROUP BY MONTH(date_added)");
+					$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . $this->db->table("orders") . "` WHERE order_status_id > '0' AND YEAR(date_added) = '" . Jdate::year() . "' AND MONTH(date_added) = '" . $i . "' GROUP BY MONTH(date_added)");
 					
 					if ($query->num_rows) {
 						$data['order']['data'][] = array($i, (int)$query->row['total']);

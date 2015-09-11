@@ -48,26 +48,18 @@
 
 </div>
 
+<script type="text/javascript" src="<?php echo $template_dir; ?>javascript/persian-datepicker/js/persian-date.js"></script>
+<script type="text/javascript" src="<?php echo $template_dir; ?>javascript/persian-datepicker/js/persian-datepicker-0.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>javascript/persian-datepicker/css/persian-datepicker-0.4.5.css" />
 <script type="text/javascript"><!--
 $(document).ready(function() {
 
 	$(function() {
-		var dates = $( "#report_coupons_grid_search_date_start, #report_coupons_grid_search_date_end" ).datepicker({
-			defaultDate: "-1w",
-			dateFormat: '<?php echo $js_date_format?>',
-			changeMonth: false,
-			numberOfMonths: 1,
-			onSelect: function( selectedDate ) {
-				var option = this.id == "report_coupons_grid_search_date_start" ? "minDate" : "maxDate",
-					instance = $( this ).data( "datepicker" ),
-					date = $.datepicker.parseDate(
-						instance.settings.dateFormat ||
-						$.datepicker._defaults.dateFormat,
-						selectedDate, instance.settings );
-				dates.not( this ).datepicker( "option", option, date );
-			}
-		});
-	});
+            $("#report_coupons_grid_search_date_start, #report_coupons_grid_search_date_end").persianDatepicker({
 
+                format: 'DD/MM/YYYY'
+
+            });
+           });    
 });
 //--></script>
